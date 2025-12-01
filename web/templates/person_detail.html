@@ -66,12 +66,12 @@ async function loadDetections() {
             <div><span class="text-slate-400">Время:</span> ${formatTime(data.detections[0]?.timestamp || 0)} - ${formatTime(data.detections[data.detections.length-1]?.timestamp || 0)}</div>
         `;
 
-        // Detections grid
+        // Detections grid (using context crop with +25% padding)
         detectionsGrid.innerHTML = data.detections.map(d => `
             <a href="/player/${video}?t=${d.timestamp}"
                class="block hover:opacity-80 transition"
                title="${formatTime(d.timestamp)} | ${d.emotion || ''} | ${d.age || '?'} лет">
-                <img src="/api/thumbnail/${d.id}"
+                <img src="/api/thumbnail/${d.id}?context=true"
                      class="w-full aspect-square object-cover rounded"
                      alt="Face"
                      loading="lazy">

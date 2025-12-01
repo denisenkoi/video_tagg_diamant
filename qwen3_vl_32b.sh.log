@@ -1,120 +1,0 @@
-🚀 Starting Qwen3-VL-32B-Instruct-AWQ model...
-   Model: Qwen3-VL-32B-Instruct-AWQ
-   Served as: Qwen/Qwen3-32B-AWQ
-   Host: 0.0.0.0:11434
-   Time: Mon Dec  1 00:27:28 MSK 2025
-📦 Activating conda environment 'vllm'...
-✅ Conda environment activated
-🔥 Launching sglang server...
-2025-12-01 00:27:32.928977: I tensorflow/core/util/port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
-2025-12-01 00:27:32.964655: I tensorflow/core/platform/cpu_feature_guard.cc:210] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
-To enable the following instructions: AVX2 AVX_VNNI FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
-2025-12-01 00:27:33.912060: I tensorflow/core/util/port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
-INFO 12-01 00:27:36 [__init__.py:216] Automatically detected platform cuda.
-[2025-12-01 00:27:37] INFO awq.py:276: The model is convertible to awq_marlin during runtime. Using awq_marlin kernel.
-[2025-12-01 00:27:37] WARNING server_args.py:1213: Attention backend not explicitly specified. Use flashinfer backend by default.
-[2025-12-01 00:27:38] server_args=ServerArgs(model_path='QuantTrio/Qwen3-VL-32B-Instruct-AWQ', tokenizer_path='QuantTrio/Qwen3-VL-32B-Instruct-AWQ', tokenizer_mode='auto', tokenizer_worker_num=1, skip_tokenizer_init=False, load_format='auto', model_loader_extra_config='{}', trust_remote_code=True, context_length=8000, is_embedding=False, enable_multimodal=None, revision=None, model_impl='auto', host='0.0.0.0', port=11434, grpc_mode=False, skip_server_warmup=False, warmups=None, nccl_port=None, checkpoint_engine_wait_weights_before_ready=False, dtype='auto', quantization=None, quantization_param_path=None, kv_cache_dtype='fp8_e5m2', enable_fp32_lm_head=False, modelopt_quant=None, modelopt_checkpoint_restore_path=None, modelopt_checkpoint_save_path=None, modelopt_export_path=None, quantize_and_serve=False, mem_fraction_static=0.75, max_running_requests=2, max_queued_requests=None, max_total_tokens=None, chunked_prefill_size=2048, max_prefill_tokens=16384, schedule_policy='fcfs', enable_priority_scheduling=False, abort_on_priority_when_disabled=False, schedule_low_priority_values_first=False, priority_scheduling_preemption_threshold=10, schedule_conservativeness=1.0, page_size=1, hybrid_kvcache_ratio=None, swa_full_tokens_ratio=0.8, disable_hybrid_swa_memory=False, radix_eviction_policy='lru', device='cuda', tp_size=1, pp_size=1, pp_max_micro_batch_size=None, stream_interval=1, stream_output=False, random_seed=769651400, constrained_json_whitespace_pattern=None, constrained_json_disable_any_whitespace=False, watchdog_timeout=300, dist_timeout=None, download_dir=None, base_gpu_id=0, gpu_id_step=1, sleep_on_idle=False, log_level='info', log_level_http=None, log_requests=False, log_requests_level=2, crash_dump_folder=None, show_time_cost=False, enable_metrics=False, enable_metrics_for_all_schedulers=False, tokenizer_metrics_custom_labels_header='x-custom-labels', tokenizer_metrics_allowed_custom_labels=None, bucket_time_to_first_token=None, bucket_inter_token_latency=None, bucket_e2e_request_latency=None, collect_tokens_histogram=False, prompt_tokens_buckets=None, generation_tokens_buckets=None, gc_warning_threshold_secs=0.0, decode_log_interval=40, enable_request_time_stats_logging=False, kv_events_config=None, enable_trace=False, otlp_traces_endpoint='localhost:4317', export_metrics_to_file=False, export_metrics_to_file_dir=None, api_key=None, served_model_name='Qwen/Qwen3-32B-AWQ', weight_version='default', chat_template=None, completion_template=None, file_storage_path='sglang_storage', enable_cache_report=False, reasoning_parser=None, tool_call_parser=None, tool_server=None, sampling_defaults='model', dp_size=1, load_balance_method='round_robin', load_watch_interval=0.1, prefill_round_robin_balance=False, dist_init_addr=None, nnodes=1, node_rank=0, json_model_override_args='{}', preferred_sampling_params=None, enable_lora=None, max_lora_rank=None, lora_target_modules=None, lora_paths=None, max_loaded_loras=None, max_loras_per_batch=8, lora_eviction_policy='lru', lora_backend='csgmv', max_lora_chunk_size=16, attention_backend='flashinfer', decode_attention_backend=None, prefill_attention_backend=None, sampling_backend='flashinfer', grammar_backend='xgrammar', mm_attention_backend=None, nsa_prefill_backend='flashmla_sparse', nsa_decode_backend='fa3', speculative_algorithm=None, speculative_draft_model_path=None, speculative_draft_model_revision=None, speculative_draft_load_format=None, speculative_num_steps=None, speculative_eagle_topk=None, speculative_num_draft_tokens=None, speculative_accept_threshold_single=1.0, speculative_accept_threshold_acc=1.0, speculative_token_map=None, speculative_attention_mode='prefill', speculative_moe_runner_backend=None, speculative_ngram_min_match_window_size=1, speculative_ngram_max_match_window_size=12, speculative_ngram_min_bfs_breadth=1, speculative_ngram_max_bfs_breadth=10, speculative_ngram_match_type='BFS', speculative_ngram_branch_length=18, speculative_ngram_capacity=10000000, ep_size=1, moe_a2a_backend='none', moe_runner_backend='auto', flashinfer_mxfp4_moe_precision='default', enable_flashinfer_allreduce_fusion=False, deepep_mode='auto', ep_num_redundant_experts=0, ep_dispatch_algorithm='static', init_expert_location='trivial', enable_eplb=False, eplb_algorithm='auto', eplb_rebalance_num_iterations=1000, eplb_rebalance_layers_per_chunk=None, eplb_min_rebalancing_utilization_threshold=1.0, expert_distribution_recorder_mode=None, expert_distribution_recorder_buffer_size=1000, enable_expert_distribution_metrics=False, deepep_config=None, moe_dense_tp_size=None, elastic_ep_backend=None, mooncake_ib_device=None, max_mamba_cache_size=None, mamba_ssm_dtype='float32', mamba_full_memory_ratio=0.9, enable_hierarchical_cache=False, hicache_ratio=2.0, hicache_size=0, hicache_write_policy='write_through', hicache_io_backend='kernel', hicache_mem_layout='layer_first', hicache_storage_backend=None, hicache_storage_prefetch_policy='best_effort', hicache_storage_backend_extra_config=None, enable_lmcache=False, kt_weight_path=None, kt_method='AMXINT4', kt_cpuinfer=None, kt_threadpool_count=2, kt_num_gpu_experts=None, kt_max_deferred_experts_per_token=None, enable_double_sparsity=False, ds_channel_config_path=None, ds_heavy_channel_num=32, ds_heavy_token_num=256, ds_heavy_channel_type='qk', ds_sparse_decode_threshold=4096, cpu_offload_gb=0, offload_group_size=-1, offload_num_in_group=1, offload_prefetch_step=1, offload_mode='cpu', multi_item_scoring_delimiter=None, disable_radix_cache=False, cuda_graph_max_bs=24, cuda_graph_bs=[1, 2, 4, 8, 12, 16, 24], disable_cuda_graph=False, disable_cuda_graph_padding=False, enable_profile_cuda_graph=False, enable_cudagraph_gc=False, enable_layerwise_nvtx_marker=False, enable_nccl_nvls=False, enable_symm_mem=False, disable_flashinfer_cutlass_moe_fp4_allgather=False, enable_tokenizer_batch_encode=False, disable_tokenizer_batch_decode=False, disable_outlines_disk_cache=False, disable_custom_all_reduce=False, enable_mscclpp=False, enable_torch_symm_mem=False, disable_overlap_schedule=False, enable_mixed_chunk=False, enable_dp_attention=False, enable_dp_lm_head=False, enable_two_batch_overlap=False, enable_single_batch_overlap=False, tbo_token_distribution_threshold=0.48, enable_torch_compile=False, enable_piecewise_cuda_graph=False, torch_compile_max_bs=32, piecewise_cuda_graph_max_tokens=4096, piecewise_cuda_graph_tokens=[4, 8, 12, 16, 20, 24, 28, 32, 48, 64, 80, 96, 112, 128, 144, 160, 176, 192, 208, 224, 240, 256, 288, 320, 352, 384, 416, 448, 480, 512, 640, 768, 896, 1024, 1152, 1280, 1408, 1536, 1664, 1792, 1920, 2048, 2176, 2304, 2432, 2560, 2688, 2816, 2944, 3072, 3200, 3328, 3456, 3584, 3712, 3840, 3968, 4096], piecewise_cuda_graph_compiler='eager', torchao_config='', enable_nan_detection=False, enable_p2p_check=False, triton_attention_reduce_in_fp32=False, triton_attention_num_kv_splits=8, triton_attention_split_tile_size=None, num_continuous_decode_steps=1, delete_ckpt_after_loading=False, enable_memory_saver=False, enable_weights_cpu_backup=False, enable_draft_weights_cpu_backup=False, allow_auto_truncate=False, enable_custom_logit_processor=False, flashinfer_mla_disable_ragged=False, disable_shared_experts_fusion=False, disable_chunked_prefix_cache=False, disable_fast_image_processor=False, keep_mm_feature_on_device=False, enable_return_hidden_states=False, scheduler_recv_interval=1, numa_node=None, enable_deterministic_inference=False, rl_on_policy_target=None, enable_attn_tp_input_scattered=False, enable_dynamic_batch_tokenizer=False, dynamic_batch_tokenizer_batch_size=32, dynamic_batch_tokenizer_batch_timeout=0.002, debug_tensor_dump_output_folder=None, debug_tensor_dump_layers=None, debug_tensor_dump_input_file=None, debug_tensor_dump_inject=False, disaggregation_mode='null', disaggregation_transfer_backend='mooncake', disaggregation_bootstrap_port=8998, disaggregation_decode_tp=None, disaggregation_decode_dp=None, disaggregation_prefill_pp=1, disaggregation_ib_device=None, disaggregation_decode_enable_offload_kvcache=False, num_reserved_decode_tokens=512, disaggregation_decode_polling_interval=1, custom_weight_loader=[], weight_loader_disable_mmap=False, remote_instance_weight_loader_seed_instance_ip=None, remote_instance_weight_loader_seed_instance_service_port=None, remote_instance_weight_loader_send_weights_group_ports=None, enable_pdmux=False, pdmux_config_path=None, sm_group_num=8, mm_max_concurrent_calls=32, mm_per_request_timeout=10.0, enable_broadcast_mm_inputs_process=False, decrypted_config_file=None, decrypted_draft_config_file=None)
-[2025-12-01 00:27:38] The model is convertible to awq_marlin during runtime. Using awq_marlin kernel.
-2025-12-01 00:27:41.983242: I tensorflow/core/util/port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
-2025-12-01 00:27:41.983242: I tensorflow/core/util/port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
-2025-12-01 00:27:42.022000: I tensorflow/core/platform/cpu_feature_guard.cc:210] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
-To enable the following instructions: AVX2 AVX_VNNI FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
-2025-12-01 00:27:42.023096: I tensorflow/core/platform/cpu_feature_guard.cc:210] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
-To enable the following instructions: AVX2 AVX_VNNI FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
-2025-12-01 00:27:42.984725: I tensorflow/core/util/port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
-2025-12-01 00:27:42.989242: I tensorflow/core/util/port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
-INFO 12-01 00:27:44 [__init__.py:216] Automatically detected platform cuda.
-INFO 12-01 00:27:44 [__init__.py:216] Automatically detected platform cuda.
-[2025-12-01 00:27:45] Using default HuggingFace chat template with detected content format: openai
-'(ReadTimeoutError("HTTPSConnectionPool(host='huggingface.co', port=443): Read timed out. (read timeout=10)"), '(Request ID: 25fb0de7-6cd4-4e88-a911-1497e19e2a28)')' thrown while requesting HEAD https://huggingface.co/QuantTrio/Qwen3-VL-32B-Instruct-AWQ/resolve/main/config.json
-[2025-12-01 00:27:55] '(ReadTimeoutError("HTTPSConnectionPool(host='huggingface.co', port=443): Read timed out. (read timeout=10)"), '(Request ID: 25fb0de7-6cd4-4e88-a911-1497e19e2a28)')' thrown while requesting HEAD https://huggingface.co/QuantTrio/Qwen3-VL-32B-Instruct-AWQ/resolve/main/config.json
-Retrying in 1s [Retry 1/5].
-[2025-12-01 00:27:55] Retrying in 1s [Retry 1/5].
-[2025-12-01 00:27:57] The model is convertible to awq_marlin during runtime. Using awq_marlin kernel.
-[2025-12-01 00:28:03] The model is convertible to awq_marlin during runtime. Using awq_marlin kernel.
-[2025-12-01 00:28:03] Init torch distributed begin.
-[Gloo] Rank 0 is connected to 0 peer ranks. Expected number of connected peer ranks is : 0
-[Gloo] Rank 0 is connected to 0 peer ranks. Expected number of connected peer ranks is : 0
-[Gloo] Rank 0 is connected to 0 peer ranks. Expected number of connected peer ranks is : 0
-[Gloo] Rank 0 is connected to 0 peer ranks. Expected number of connected peer ranks is : 0
-[2025-12-01 00:28:03] Init torch distributed ends. mem usage=0.00 GB
-[2025-12-01 00:28:03] MOE_RUNNER_BACKEND is not initialized, the backend will be automatically selected
-[2025-12-01 00:28:04] Load weight begin. avail mem=30.12 GB
-[2025-12-01 00:28:04] Multimodal attention backend not set. Use triton_attn.
-[2025-12-01 00:28:04] Using triton_attn as multimodal attention backend.
-[2025-12-01 00:28:05] Using model weights format ['*.safetensors']
-Loading safetensors checkpoint shards:   0% Completed | 0/7 [00:00<?, ?it/s]
-Loading safetensors checkpoint shards:  14% Completed | 1/7 [00:00<00:02,  2.25it/s]
-Loading safetensors checkpoint shards:  29% Completed | 2/7 [00:00<00:02,  2.22it/s]
-Loading safetensors checkpoint shards:  43% Completed | 3/7 [00:01<00:01,  2.12it/s]
-Loading safetensors checkpoint shards:  57% Completed | 4/7 [00:03<00:03,  1.27s/it]
-Loading safetensors checkpoint shards:  71% Completed | 5/7 [00:04<00:02,  1.03s/it]
-Loading safetensors checkpoint shards:  86% Completed | 6/7 [00:05<00:00,  1.15it/s]
-Loading safetensors checkpoint shards: 100% Completed | 7/7 [00:06<00:00,  1.16s/it]
-Loading safetensors checkpoint shards: 100% Completed | 7/7 [00:06<00:00,  1.03it/s]
-
-[2025-12-01 00:28:14] Load weight end. type=Qwen3VLForConditionalGeneration, dtype=torch.bfloat16, avail mem=10.49 GB, mem usage=19.63 GB.
-[2025-12-01 00:28:14] Using KV cache dtype: torch.float8_e5m2
-[2025-12-01 00:28:14] KV Cache is allocated. #tokens: 24262, K size: 1.48 GB, V size: 1.48 GB
-[2025-12-01 00:28:14] Memory pool end. avail mem=6.02 GB
-[2025-12-01 00:28:14] Capture cuda graph begin. This can take up to several minutes. avail mem=5.55 GB
-[2025-12-01 00:28:14] Capture cuda graph bs [1, 2]
-  0%|          | 0/2 [00:00<?, ?it/s]Capturing batches (bs=2 avail_mem=5.55 GB):   0%|          | 0/2 [00:00<?, ?it/s]Capturing batches (bs=2 avail_mem=5.55 GB):  50%|█████     | 1/2 [00:01<00:01,  1.82s/it]Capturing batches (bs=1 avail_mem=5.55 GB):  50%|█████     | 1/2 [00:01<00:01,  1.82s/it]Capturing batches (bs=1 avail_mem=5.55 GB): 100%|██████████| 2/2 [00:02<00:00,  1.19s/it]Capturing batches (bs=1 avail_mem=5.55 GB): 100%|██████████| 2/2 [00:02<00:00,  1.29s/it]
-[2025-12-01 00:28:17] Capture cuda graph end. Time elapsed: 3.05 s. mem usage=0.01 GB. avail mem=5.54 GB.
-[2025-12-01 00:28:22] max_total_num_tokens=24262, chunked_prefill_size=2048, max_prefill_tokens=16384, max_running_requests=2, context_len=8000, available_gpu_mem=5.54 GB
-[2025-12-01 00:28:22] INFO:     Started server process [23944]
-[2025-12-01 00:28:22] INFO:     Waiting for application startup.
-[2025-12-01 00:28:22] Using default chat sampling params from model generation config: {'repetition_penalty': 1.0, 'temperature': 0.7, 'top_k': 20, 'top_p': 0.8}
-[2025-12-01 00:28:22] Using default chat sampling params from model generation config: {'repetition_penalty': 1.0, 'temperature': 0.7, 'top_k': 20, 'top_p': 0.8}
-[2025-12-01 00:28:22] INFO:     Application startup complete.
-[2025-12-01 00:28:22] INFO:     Uvicorn running on http://0.0.0.0:11434 (Press CTRL+C to quit)
-[2025-12-01 00:28:23] INFO:     127.0.0.1:56724 - "GET /get_model_info HTTP/1.1" 200 OK
-[2025-12-01 00:28:23] Start of co-locate warmup ...
-[2025-12-01 00:28:24] Prefill batch, #new-seq: 1, #new-token: 78, #cached-token: 0, token usage: 0.00, #running-req: 0, #queue-req: 0, 
-[2025-12-01 00:28:24] INFO:     127.0.0.1:56732 - "POST /v1/chat/completions HTTP/1.1" 200 OK
-[2025-12-01 00:28:24] The server is fired up and ready to roll!
-[2025-12-01 00:29:01] INFO:     127.0.0.1:41618 - "GET /v1/models HTTP/1.1" 200 OK
-[2025-12-01 00:30:01] INFO:     127.0.0.1:35780 - "GET /v1/models HTTP/1.1" 200 OK
-[2025-12-01 00:31:01] INFO:     127.0.0.1:53742 - "GET /v1/models HTTP/1.1" 200 OK
-[2025-12-01 00:32:01] INFO:     127.0.0.1:43894 - "GET /v1/models HTTP/1.1" 200 OK
-[2025-12-01 00:33:01] INFO:     127.0.0.1:34908 - "GET /v1/models HTTP/1.1" 200 OK
-[2025-12-01 00:34:01] INFO:     127.0.0.1:38608 - "GET /v1/models HTTP/1.1" 200 OK
-[2025-12-01 00:35:01] INFO:     127.0.0.1:53518 - "GET /v1/models HTTP/1.1" 200 OK
-[2025-12-01 00:36:01] INFO:     127.0.0.1:60516 - "GET /v1/models HTTP/1.1" 200 OK
-[2025-12-01 00:37:01] INFO:     127.0.0.1:58618 - "GET /v1/models HTTP/1.1" 200 OK
-[2025-12-01 00:38:01] INFO:     127.0.0.1:43426 - "GET /v1/models HTTP/1.1" 200 OK
-[2025-12-01 00:39:01] INFO:     127.0.0.1:59494 - "GET /v1/models HTTP/1.1" 200 OK
-[2025-12-01 00:40:02] INFO:     127.0.0.1:35986 - "GET /v1/models HTTP/1.1" 200 OK
-[2025-12-01 00:41:01] INFO:     127.0.0.1:42800 - "GET /v1/models HTTP/1.1" 200 OK
-[2025-12-01 00:42:01] INFO:     127.0.0.1:33198 - "GET /v1/models HTTP/1.1" 200 OK
-[2025-12-01 00:43:01] INFO:     127.0.0.1:44336 - "GET /v1/models HTTP/1.1" 200 OK
-[2025-12-01 00:44:01] INFO:     127.0.0.1:38228 - "GET /v1/models HTTP/1.1" 200 OK
-[2025-12-01 00:45:01] INFO:     127.0.0.1:39162 - "GET /v1/models HTTP/1.1" 200 OK
-[2025-12-01 00:46:01] INFO:     127.0.0.1:36938 - "GET /v1/models HTTP/1.1" 200 OK
-[2025-12-01 00:47:01] INFO:     127.0.0.1:47884 - "GET /v1/models HTTP/1.1" 200 OK
-[2025-12-01 00:48:01] INFO:     127.0.0.1:39400 - "GET /v1/models HTTP/1.1" 200 OK
-[2025-12-01 00:49:01] INFO:     127.0.0.1:43374 - "GET /v1/models HTTP/1.1" 200 OK
-[2025-12-01 00:50:01] INFO:     127.0.0.1:38162 - "GET /v1/models HTTP/1.1" 200 OK
-[2025-12-01 00:51:01] INFO:     127.0.0.1:52064 - "GET /v1/models HTTP/1.1" 200 OK
-[2025-12-01 00:52:01] INFO:     127.0.0.1:50456 - "GET /v1/models HTTP/1.1" 200 OK
-[2025-12-01 00:53:01] INFO:     127.0.0.1:51320 - "GET /v1/models HTTP/1.1" 200 OK
-[2025-12-01 00:54:01] INFO:     127.0.0.1:51436 - "GET /v1/models HTTP/1.1" 200 OK
-[2025-12-01 00:55:01] INFO:     127.0.0.1:39386 - "GET /v1/models HTTP/1.1" 200 OK
-[2025-12-01 00:56:01] INFO:     127.0.0.1:54742 - "GET /v1/models HTTP/1.1" 200 OK
-[2025-12-01 00:57:02] INFO:     127.0.0.1:60524 - "GET /v1/models HTTP/1.1" 200 OK
-[2025-12-01 00:58:01] INFO:     127.0.0.1:34814 - "GET /v1/models HTTP/1.1" 200 OK
-[2025-12-01 00:59:01] INFO:     127.0.0.1:60124 - "GET /v1/models HTTP/1.1" 200 OK
-[2025-12-01 01:00:01] INFO:     127.0.0.1:60040 - "GET /v1/models HTTP/1.1" 200 OK
-[2025-12-01 01:01:01] INFO:     127.0.0.1:47196 - "GET /v1/models HTTP/1.1" 200 OK
-[2025-12-01 01:02:01] INFO:     127.0.0.1:47624 - "GET /v1/models HTTP/1.1" 200 OK
-[2025-12-01 01:03:01] INFO:     127.0.0.1:48632 - "GET /v1/models HTTP/1.1" 200 OK
-[2025-12-01 01:04:01] INFO:     127.0.0.1:43476 - "GET /v1/models HTTP/1.1" 200 OK
-[2025-12-01 01:05:01] INFO:     127.0.0.1:59964 - "GET /v1/models HTTP/1.1" 200 OK
-[2025-12-01 01:06:01] INFO:     127.0.0.1:41104 - "GET /v1/models HTTP/1.1" 200 OK
-[2025-12-01 01:07:01] INFO:     127.0.0.1:45172 - "GET /v1/models HTTP/1.1" 200 OK
-[2025-12-01 01:08:01] INFO:     127.0.0.1:55784 - "GET /v1/models HTTP/1.1" 200 OK
-[2025-12-01 01:09:01] INFO:     127.0.0.1:33232 - "GET /v1/models HTTP/1.1" 200 OK
-[2025-12-01 01:10:01] INFO:     127.0.0.1:47866 - "GET /v1/models HTTP/1.1" 200 OK
-[2025-12-01 01:11:01] INFO:     127.0.0.1:41580 - "GET /v1/models HTTP/1.1" 200 OK
-[2025-12-01 01:12:01] INFO:     127.0.0.1:44076 - "GET /v1/models HTTP/1.1" 200 OK
-[2025-12-01 01:13:02] INFO:     127.0.0.1:42764 - "GET /v1/models HTTP/1.1" 200 OK

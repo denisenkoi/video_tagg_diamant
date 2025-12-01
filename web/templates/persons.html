@@ -80,12 +80,12 @@ async function loadPersons() {
 
             statsEl.textContent = `${data.total} лиц (показано ${data.count})`;
 
-            // Grid of individual faces
+            // Grid of individual faces (using context crop with +25% padding)
             personsGrid.innerHTML = data.faces.map(f => `
                 <a href="/player/${video}?t=${f.timestamp}"
                    class="card p-2 hover:bg-slate-700 transition block"
                    title="${f.gender || '?'}, ${f.age || '?'} лет, score: ${f.det_score || '?'}">
-                    <img src="/api/thumbnail/${f.id}"
+                    <img src="/api/thumbnail/${f.id}?context=true"
                          class="w-full aspect-square object-cover rounded mb-1"
                          alt="Face"
                          loading="lazy">
@@ -111,7 +111,7 @@ async function loadPersons() {
                    class="card p-4 hover:bg-slate-700 transition block">
                     <div class="flex flex-wrap gap-1 mb-3 justify-center">
                         ${p.detection_ids.slice(0, 4).map(id => `
-                            <img src="/api/thumbnail/${id}"
+                            <img src="/api/thumbnail/${id}?context=true"
                                  class="face-thumb"
                                  alt="Face"
                                  loading="lazy">

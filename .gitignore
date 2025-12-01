@@ -1,16 +1,31 @@
-/agent_sessions
-/run_logs
-/debug_prompts
-/flutter_chats
-/history
-/video
-/voice_messages
-/tags
-/tasks
-/task_confirmations
-/task_queue
-/workflow_inbox
-/workflow_logs
-/__pycache__
-/.idea
-/session_archives
+# === RUNTIME DATA ===
+/agent_sessions/
+/session_archives/
+/run_logs/
+/debug_prompts/
+/flutter_chats/
+/history/
+/workflow_inbox/
+/workflow_logs/
+/tasks/
+/task_confirmations/
+/task_queue/
+
+# === MEDIA ===
+/video/
+/voice_messages/
+/tags/
+
+# === LOGS ===
+*.log
+*.pid
+
+# === PYCACHE ===
+**/__pycache__/
+*.pyc
+
+# === IDE ===
+/.idea/
+
+# === DOCS RUNTIME ===
+/docs/worksheet.md

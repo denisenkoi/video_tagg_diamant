@@ -105,18 +105,34 @@ async def get_person_detections(
 
 
 @router.get("/thumbnail/{detection_id}")
-async def get_thumbnail(detection_id: int):
+async def get_thumbnail(detection_id: int, context: bool = False):
     """
-    Get face thumbnail image
+    Get face thumbnail image.
+    If context=true, returns extended crop (+25% padding), else tight crop.
     """
     db = get_db()
-    thumbnail = db.get_face_thumbnail(detection_id)
+    db._ensure_connection()
+
+    if context:
+        # Get context crop (extended)
+        with db.conn.cursor() as cur:
+            cur.execute(
+                "SELECT face_crop_context FROM face_detections WHERE id = %s",
+                (detection_id,)
+            )
+            row = cur.fetchone()
+            thumbnail = row[0] if row and row[0] else None
+            # Fallback to tight crop if context not available
+            if not thumbnail:
+                thumbnail = db.get_face_thumbnail(detection_id)
+    else:
+        thumbnail = db.get_face_thumbnail(detection_id)
 
     if not thumbnail:
         raise HTTPException(404, "Thumbnail not found")
 
     return Response(
-        content=thumbnail,
+        content=bytes(thumbnail) if isinstance(thumbnail, memoryview) else thumbnail,
         media_type="image/jpeg",
         headers={"Cache-Control": "max-age=86400"}  # Cache 24h
     )
