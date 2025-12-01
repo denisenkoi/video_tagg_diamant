@@ -1,0 +1,547 @@
+{
+  "video_path": "video/news.mp4",
+  "video_name": "news",
+  "total_segments": 60,
+  "segments_info": [
+    {
+      "index": 0,
+      "start": 0.0,
+      "end": 50.0,
+      "duration": 50.0,
+      "frame_count": 6,
+      "has_transcript": true,
+      "transcript_preview": "Сау сұр! Енді саған үміткер болып отырмыз. Бір таңызтықта болсақ. Дұрстап, адемілеп, саддаулеп сияқт"
+    },
+    {
+      "index": 1,
+      "start": 35.0,
+      "end": 85.0,
+      "duration": 50.0,
+      "frame_count": 6,
+      "has_transcript": true,
+      "transcript_preview": "Бірге-бірекрет тамақшы отырп қаған жерлеріміз бар. Сөйтіп, содан келі, таңызай келі. Жалпы өте керем"
+    },
+    {
+      "index": 2,
+      "start": 70.0,
+      "end": 120.0,
+      "duration": 50.0,
+      "frame_count": 6,
+      "has_transcript": true,
+      "transcript_preview": "менің әліметтік желіме. Енді Данияр бауырым, мен саған жаным ашығандықтан айтыватырым бәріне. Осыған"
+    },
+    {
+      "index": 3,
+      "start": 105.0,
+      "end": 155.0,
+      "duration": 50.0,
+      "frame_count": 6,
+      "has_transcript": true,
+      "transcript_preview": "Ятын-ятын. Мен қайдың көде сиялмай отырмын. Енді Данияр Бауырымды бір жағынан мен селайм, ағыркенде "
+    },
+    {
+      "index": 4,
+      "start": 140.0,
+      "end": 190.0,
+      "duration": 50.0,
+      "frame_count": 6,
+      "has_transcript": true,
+      "transcript_preview": "Жақсы ерасыл, біз не мәселекен кейінтіңдаймыз. Біздің уақытымыз енді таяп қалды. Құрметті көрермен е"
+    },
+    {
+      "index": 5,
+      "start": 175.0,
+      "end": 225.0,
+      "duration": 50.0,
+      "frame_count": 6,
+      "has_transcript": true,
+      "transcript_preview": "ҚАЗАРАН ҚАЗАРАН"
+    },
+    {
+      "index": 6,
+      "start": 210.0,
+      "end": 260.0,
+      "duration": 50.0,
+      "frame_count": 6,
+      "has_transcript": true,
+      "transcript_preview": "Айналайым баладан сатып алған базардан Қаранарқта сәбелер жүз мүңнен 2 миллион тенгеге дейін сатылып"
+    },
+    {
+      "index": 7,
+      "start": 245.0,
+      "end": 295.0,
+      "duration": 50.0,
+      "frame_count": 6,
+      "has_transcript": true,
+      "transcript_preview": "24 жыл жазамен іс бітпейтін сыңайлы. Нүкеніфтер бешінбаев қығарсы қол жинап жүр. Түрмеге ғамалғаныме"
+    },
+    {
+      "index": 8,
+      "start": 280.0,
+      "end": 330.0,
+      "duration": 50.0,
+      "frame_count": 6,
+      "has_transcript": true,
+      "transcript_preview": "Құрметмендер асыл тұқымды жылқы туралы заңды мақылдады. Құрметмендер асыл тұқымды жылқы туралы заңды"
+    },
+    {
+      "index": 9,
+      "start": 315.0,
+      "end": 365.0,
+      "duration": 50.0,
+      "frame_count": 6,
+      "has_transcript": true,
+      "transcript_preview": "Қазақтап қалға емдедік. Қанчай емгетті, мұсалай кесіде тұрысты."
+    },
+    {
+      "index": 10,
+      "start": 350.0,
+      "end": 400.0,
+      "duration": 50.0,
+      "frame_count": 6,
+      "has_transcript": true,
+      "transcript_preview": "Айтыңша жүктіліктің 32-ншаптасында ауруханаға жатыпты. Тек серген дәргерлер баланың өміріне қауіптің"
+    },
+    {
+      "index": 11,
+      "start": 385.0,
+      "end": 435.0,
+      "duration": 50.0,
+      "frame_count": 6,
+      "has_transcript": true,
+      "transcript_preview": "Онынан 11-і ғаранын түнде сонда жау деп. Жеділ жүрдім қызметкерлер баланың шетінеп кеткені растаған "
+    },
+    {
+      "index": 12,
+      "start": 420.0,
+      "end": 470.0,
+      "duration": 50.0,
+      "frame_count": 6,
+      "has_transcript": true,
+      "transcript_preview": "Баланың өз ертіңізе, баланың өзіңізе қалатып тет. Кеген скорияға да, милицияға да, справкаға да өтін"
+    },
+    {
+      "index": 13,
+      "start": 455.0,
+      "end": 505.0,
+      "duration": 50.0,
+      "frame_count": 6,
+      "has_transcript": true,
+      "transcript_preview": "Құртымсыз біз балаға анықтама берелмейміз. Ал жангерлер бала өмірге келгенінің кейін бірақ тағадейін"
+    },
+    {
+      "index": 14,
+      "start": 490.0,
+      "end": 540.0,
+      "duration": 50.0,
+      "frame_count": 6,
+      "has_transcript": true,
+      "transcript_preview": "Жақындары сот медициналық сараптама жасау үшін жерленген мүлдіршінің денесін қайта қазып аламады бал"
+    },
+    {
+      "index": 15,
+      "start": 525.0,
+      "end": 575.0,
+      "duration": 50.0,
+      "frame_count": 6,
+      "has_transcript": true,
+      "transcript_preview": "камераға түсірбалықты. Жетғат түнде жұрттың зәресінің шұрған күдікті сұталды, қаруы тәркеленді. Енді"
+    },
+    {
+      "index": 16,
+      "start": 560.0,
+      "end": 610.0,
+      "duration": 50.0,
+      "frame_count": 6,
+      "has_transcript": true,
+      "transcript_preview": "Медицина ғызметкерлеріне ауызына келген айтып айғайшу ұшығарған. Қазір бұл үсі полицияның бақылауынд"
+    },
+    {
+      "index": 17,
+      "start": 595.0,
+      "end": 645.0,
+      "duration": 50.0,
+      "frame_count": 6,
+      "has_transcript": true,
+      "transcript_preview": "Қарайтын қарайтын қарайтын. Қарайтын қарайтын."
+    },
+    {
+      "index": 18,
+      "start": 630.0,
+      "end": 680.0,
+      "duration": 50.0,
+      "frame_count": 6,
+      "has_transcript": true,
+      "transcript_preview": "Саңсыз емденген күрсеттерге мониторингті әрге жүргіземіз. Онда жадайла тіркелсе біз міндетті түрде қ"
+    },
+    {
+      "index": 19,
+      "start": 665.0,
+      "end": 715.0,
+      "duration": 50.0,
+      "frame_count": 6,
+      "has_transcript": true,
+      "transcript_preview": "өртті бірден ауыздықтау мүмкін болмады дейді. Өйткені, төтенші жағдай қызметкерлері кейшігіп келіпті"
+    },
+    {
+      "index": 20,
+      "start": 700.0,
+      "end": 750.0,
+      "duration": 50.0,
+      "frame_count": 6,
+      "has_transcript": true,
+      "transcript_preview": "Су кележатыр. Бұл жол ресейденемес. Қытайдан. Аспан асты елінен кеткен су қарт ертіске ғуяттеп күтіл"
+    },
+    {
+      "index": 21,
+      "start": 735.0,
+      "end": 785.0,
+      "duration": 50.0,
+      "frame_count": 6,
+      "has_transcript": true,
+      "transcript_preview": "Қатырқ бойған нысандар шын мәнінде адам тұрғысыз өкен."
+    },
+    {
+      "index": 22,
+      "start": 770.0,
+      "end": 820.0,
+      "duration": 50.0,
+      "frame_count": 6,
+      "has_transcript": true,
+      "transcript_preview": "Құрлысы толық бітпеген пәтерлерді тұрғындарға Астана қаласы әкімдігі табыстаған, сатып алып құғынсыз"
+    },
+    {
+      "index": 23,
+      "start": 805.0,
+      "end": 855.0,
+      "duration": 50.0,
+      "frame_count": 6,
+      "has_transcript": true,
+      "transcript_preview": "Су жоқ, мұнаның енді ашып көртеттен бе, көртетпен бе? Мұны, сүріп алымыз енді. Любом сұл үче, не ола"
+    },
+    {
+      "index": 24,
+      "start": 840.0,
+      "end": 890.0,
+      "duration": 50.0,
+      "frame_count": 6,
+      "has_transcript": true,
+      "transcript_preview": "Құл ғойыңыз келісім шартқа сөзсінің ғана барасыз деп байтықан. Бәрі күшті, бәрі ападемі, просто кере"
+    },
+    {
+      "index": 25,
+      "start": 875.0,
+      "end": 925.0,
+      "duration": 50.0,
+      "frame_count": 6,
+      "has_transcript": true,
+      "transcript_preview": "Құқығымсыз өлістірген екен, арадағы бір жарым жылда бостырған бірнеше пәтердің сантехникасы мен ради"
+    },
+    {
+      "index": 26,
+      "start": 910.0,
+      "end": 960.0,
+      "duration": 50.0,
+      "frame_count": 6,
+      "has_transcript": true,
+      "transcript_preview": "Қазға тарты келген көп қабатты үйлердің құрылысы үш жыл бұрын басталған. 2023 жылдың көзінде қолданы"
+    },
+    {
+      "index": 27,
+      "start": 945.0,
+      "end": 995.0,
+      "duration": 50.0,
+      "frame_count": 6,
+      "has_transcript": true,
+      "transcript_preview": "Қара жұмыс шүтігілі бригадерлерінің өзі мердігерді ұстай алмай жүр. 300 адам 30 миллион тенге алашақ"
+    },
+    {
+      "index": 28,
+      "start": 980.0,
+      "end": 1030.0,
+      "duration": 50.0,
+      "frame_count": 6,
+      "has_transcript": true,
+      "transcript_preview": "Қазауы бар, үшке жұмыстар бар, әртүрлі жұмыстар қоқ бүжерде. Кәпелі бар, бүжерде жаңыз менемес өшерд"
+    },
+    {
+      "index": 29,
+      "start": 1015.0,
+      "end": 1065.0,
+      "duration": 50.0,
+      "frame_count": 6,
+      "has_transcript": true,
+      "transcript_preview": "Құрлысты уақытында тапсырмағанына да көніп, шеке тұрған жұмысты пісіруын кітуге елсіпті. Құрлысты ұш"
+    },
+    {
+      "index": 30,
+      "start": 1050.0,
+      "end": 1100.0,
+      "duration": 50.0,
+      "frame_count": 6,
+      "has_transcript": true,
+      "transcript_preview": "жүргізетін кампания женіпті. Бірақ бартырлығыне шағын жауапкершілігі шектеулі серптестігін балаша жұ"
+    },
+    {
+      "index": 31,
+      "start": 1085.0,
+      "end": 1135.0,
+      "duration": 50.0,
+      "frame_count": 6,
+      "has_transcript": true,
+      "transcript_preview": "Сотқа түліңбі деп басығатып отыр. Недесе де үрлердің текетресінің ортада шыбын жанын түйіп отырған қ"
+    },
+    {
+      "index": 32,
+      "start": 1120.0,
+      "end": 1170.0,
+      "duration": 50.0,
+      "frame_count": 6,
+      "has_transcript": true,
+      "transcript_preview": "ҚАЗАХСТАН Барлық 500 үйдіңді сапасы жақсы болады. Барлық 500 үйдің шаршы метр 80 шаршы метрді құрайд"
+    },
+    {
+      "index": 33,
+      "start": 1155.0,
+      "end": 1205.0,
+      "duration": 50.0,
+      "frame_count": 6,
+      "has_transcript": true,
+      "transcript_preview": "Үйлердің орнасыққан ұчасқалер 10 сотықты құрайды. Барлық 500 үйдің аумағында отың көмір салатын қора"
+    },
+    {
+      "index": 34,
+      "start": 1190.0,
+      "end": 1240.0,
+      "duration": 50.0,
+      "frame_count": 6,
+      "has_transcript": true,
+      "transcript_preview": "Күші азайған терскеге күнгейден 14 130 адам көшкен. Оларға женгілдікпен баспана алуға мүмкіндік жаса"
+    },
+    {
+      "index": 35,
+      "start": 1225.0,
+      "end": 1275.0,
+      "duration": 50.0,
+      "frame_count": 6,
+      "has_transcript": true,
+      "transcript_preview": "Қаз жоқ, бәрін жүргіз қойған, мұнау майшам мүне. Жарық жоқ мүнеке. Ақтыуенің үргесіндегі парасат ала"
+    },
+    {
+      "index": 36,
+      "start": 1260.0,
+      "end": 1310.0,
+      "duration": 50.0,
+      "frame_count": 6,
+      "has_transcript": true,
+      "transcript_preview": "Үйнің шатырын жауып, есктердесін қойып, енді қашан қонстойын тойлар екеміздер жүргенде, біраз адам ғ"
+    },
+    {
+      "index": 37,
+      "start": 1295.0,
+      "end": 1345.0,
+      "duration": 50.0,
+      "frame_count": 6,
+      "has_transcript": true,
+      "transcript_preview": "Ақпай Султан Бұрат Амартақ Ажанық, Евразия біріншарнасы Ақтөбеден."
+    },
+    {
+      "index": 38,
+      "start": 1330.0,
+      "end": 1380.0,
+      "duration": 50.0,
+      "frame_count": 6,
+      "has_transcript": true,
+      "transcript_preview": "13 миллиардтенге ғажет, оны республикалық бүзетің есемден жасамақшы, ал ауысылды осы жылдың аяғына д"
+    },
+    {
+      "index": 39,
+      "start": 1365.0,
+      "end": 1415.0,
+      "duration": 50.0,
+      "frame_count": 6,
+      "has_transcript": true,
+      "transcript_preview": "Тарман Шан Мугаратнам арнай шақырған болатын. Түркі үйіміне мүшелдерге тағы бір женілдік жасалыт. Бұ"
+    },
+    {
+      "index": 40,
+      "start": 1400.0,
+      "end": 1450.0,
+      "duration": 50.0,
+      "frame_count": 6,
+      "has_transcript": true,
+      "transcript_preview": "Қазақтың айырлар азайып бара жатыр дейді. Бір топ депутат жетғазынаның бірінен айырлатын түріміз бар"
+    },
+    {
+      "index": 41,
+      "start": 1435.0,
+      "end": 1485.0,
+      "duration": 50.0,
+      "frame_count": 6,
+      "has_transcript": true,
+      "transcript_preview": "Сюжет көрек. Елімізде 44 мұнан астам қосынай жылқы тұқымы тіркелген болатын. Яғни барлық асыл тұқым "
+    },
+    {
+      "index": 42,
+      "start": 1470.0,
+      "end": 1520.0,
+      "duration": 50.0,
+      "frame_count": 6,
+      "has_transcript": true,
+      "transcript_preview": "Яғни барлық асыл тұқын жылқылардың жалпы санының 10 пайызы. Алайда бүгінде осы жылқы тұқынының ресми"
+    },
+    {
+      "index": 43,
+      "start": 1505.0,
+      "end": 1555.0,
+      "duration": 50.0,
+      "frame_count": 6,
+      "has_transcript": true,
+      "transcript_preview": "фермерлерге тұм аз екен. Тек-текетен тақып бар жүрісі мен сұлылуға кімді болса да тәнтететін жылқлар"
+    },
+    {
+      "index": 44,
+      "start": 1540.0,
+      "end": 1590.0,
+      "duration": 50.0,
+      "frame_count": 6,
+      "has_transcript": true,
+      "transcript_preview": "сұборында аяқтан тұрғызып жерен қасқалардың тұқымын көбейті үшін қомақты қаражатпен бірнеше жыл уақы"
+    },
+    {
+      "index": 45,
+      "start": 1575.0,
+      "end": 1625.0,
+      "duration": 50.0,
+      "frame_count": 6,
+      "has_transcript": true,
+      "transcript_preview": "Бұл әлем қалымдары жолға көрілмек, фермерлер бұл тұқымды әлемге танытып, оны асылдандыруды бірінші м"
+    },
+    {
+      "index": 46,
+      "start": 1610.0,
+      "end": 1660.0,
+      "duration": 50.0,
+      "frame_count": 6,
+      "has_transcript": true,
+      "transcript_preview": "Қазақстан ғалған еді. Әлемге 6 нордатымен танымалы жошылысы 13-ші қасырдағы Шыңғызған империясының 4"
+    },
+    {
+      "index": 47,
+      "start": 1645.0,
+      "end": 1695.0,
+      "duration": 50.0,
+      "frame_count": 6,
+      "has_transcript": true,
+      "transcript_preview": "Селбетімізді бұрынғы мұрағымызды, байлығымызды жоғатан шықыз. Әлемгі әйгілі жаттықтырушы Астана төрі"
+    },
+    {
+      "index": 48,
+      "start": 1680.0,
+      "end": 1730.0,
+      "duration": 50.0,
+      "frame_count": 6,
+      "has_transcript": true,
+      "transcript_preview": "Қазағында ұлтарды басы қозып, өзбекистанда өтетін әлем чемпионатына жолдам алған. Мемлекет башысының"
+    },
+    {
+      "index": 49,
+      "start": 1715.0,
+      "end": 1765.0,
+      "duration": 50.0,
+      "frame_count": 6,
+      "has_transcript": true,
+      "transcript_preview": "Ағаш егілген және де осы экологиялық акциясында ел ордамыздағы барлық су қоймалары, ел ордамыздың ба"
+    },
+    {
+      "index": 50,
+      "start": 1750.0,
+      "end": 1800.0,
+      "duration": 50.0,
+      "frame_count": 6,
+      "has_transcript": true,
+      "transcript_preview": "Женің паздардың есімдері әр дүйсенбі қайрылтан Қазақстан бағдарламасында жарияланы ботырады. Бүгінге"
+    },
+    {
+      "index": 51,
+      "start": 1785.0,
+      "end": 1835.0,
+      "duration": 50.0,
+      "frame_count": 6,
+      "has_transcript": true,
+      "transcript_preview": "О, пицца қалайсың бі? Жоқ, бұл айс. Бұл жүрді алайсың бұл керек. Хей, солайма! Солайма! Бізге түсінд"
+    },
+    {
+      "index": 52,
+      "start": 1820.0,
+      "end": 1870.0,
+      "duration": 50.0,
+      "frame_count": 6,
+      "has_transcript": true,
+      "transcript_preview": "Казақстанға бұл үшін өте үшін көп түрліністер. 5G роутер, 5G роутер."
+    },
+    {
+      "index": 53,
+      "start": 1855.0,
+      "end": 1905.0,
+      "duration": 50.0,
+      "frame_count": 6,
+      "has_transcript": true,
+      "transcript_preview": "Невея Люминос бұрындықтан қалай-қалай қалай қалай. ҚАРАғАНДЫР"
+    },
+    {
+      "index": 54,
+      "start": 1890.0,
+      "end": 1940.0,
+      "duration": 50.0,
+      "frame_count": 6,
+      "has_transcript": true,
+      "transcript_preview": "ҚАРАғАНДЫР Солстық қақпасып тарап ауылда 12 градусын өлден жоғары шауын шашым болуы мүмкін. Астықты "
+    },
+    {
+      "index": 55,
+      "start": 1925.0,
+      "end": 1975.0,
+      "duration": 50.0,
+      "frame_count": 6,
+      "has_transcript": true,
+      "transcript_preview": "Астықты өлке қостанайда жаңбір жауат плюс 15 Батырлары елі Ақтубеде ауа температурасы плюс 22 кеде е"
+    },
+    {
+      "index": 56,
+      "start": 1960.0,
+      "end": 2010.0,
+      "duration": 50.0,
+      "frame_count": 6,
+      "has_transcript": true,
+      "transcript_preview": "Жарайлар сардаласында 28 градусын өлден жоғары қызлорда да көшпелі бұлт шығады. Қасеті Түркістанда п"
+    },
+    {
+      "index": 57,
+      "start": 1995.0,
+      "end": 2045.0,
+      "duration": 50.0,
+      "frame_count": 6,
+      "has_transcript": true,
+      "transcript_preview": "Симометр бағаны плюс жерма бірді көрттет, өз кемен де жауын шашында. Арайл алматыда аздаған жаңбір к"
+    },
+    {
+      "index": 58,
+      "start": 2030.0,
+      "end": 2077.48,
+      "duration": 47.48000000000002,
+      "frame_count": 6,
+      "has_transcript": true,
+      "transcript_preview": "36 жылдан кейінгі кездесу болжамды ана мен тастанды қыз. ҚАНЫЛАТЫН ҚАНЫЛАТЫН ҚАНЫЛАТЫН 1988 жылы екі"
+    },
+    {
+      "index": 59,
+      "start": 2065.0,
+      "end": 2077.48,
+      "duration": 12.480000000000018,
+      "frame_count": 6,
+      "has_transcript": true,
+      "transcript_preview": "Қашывай емес, басқа адам деп айды аспанға шығарды. Мен 1988 жылы екінші сәуірде қызым Абдулина Мария"
+    }
+  ]
+}

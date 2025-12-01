@@ -1,0 +1,303 @@
+PROJECT ANALYSIS
+==================================================
+
+MODULES MAP:
+
+[1] anpr_detector.py - ANPR Детектор - РЕАЛЬНАЯ боевая версия для распознавания номерных знаков (30.4 KB, 726 lines)
+[2] anpr_processor.py - ANPR (Automatic Number Plate Recognition) module for license plate detection and recognition. (24.7 KB, 644 lines)
+[3] anpr_walker.py - ANPR Walker - Recursive image processor with unified ANPR system (41.9 KB, 1000 lines)
+[4] audio_extractor.py - Audio Extractor - Вспомогательный модуль для извлечения аудио сегментов (2.7 KB, 89 lines)
+[5] audio_transcriber.py - transcribe audio track from video using whisper (4.8 KB, 140 lines)
+[6] chunked_video_analyzer.py - Chunked Video Analyzer - Прототип v2 (17.2 KB, 437 lines)
+[7] config_manager.py - Module: unknown (6.2 KB, 161 lines)
+[8] db_manager.py - PostgreSQL Database Manager for Video Tagging (17.3 KB, 513 lines)
+[9] db_manager_chromadb_backup.py - ChromaDB Manager for Video Tagging (16.8 KB, 480 lines)
+[10] db_manager_postgres.py - PostgreSQL Database Manager for Video Tagging (17.3 KB, 513 lines)
+[11] debug_vllm.py - Debug VLLM - отладка конкретных проблемных сегментов (2.7 KB, 82 lines)
+[12] face_processor.py - Face detection and clustering module using direct TensorFlow models for high performance. (22.4 KB, 607 lines)
+[13] frame_extractor.py - Module: unknown (5.3 KB, 172 lines)
+[14] hunyuan_translator.py - Hunyuan-MT-7B Translation Client (5.2 KB, 152 lines)
+[15] load_data_to_chroma.py - Load Phase 2 VLLM analysis data into ChromaDB (6.6 KB, 202 lines)
+[16] main.py - Module: unknown (16.8 KB, 434 lines)
+[17] object_detector.py - Module: unknown (8.9 KB, 251 lines)
+[18] pdf_generator.py - PDF Generator for ANPR Violation Reports (21.2 KB, 516 lines)
+[19] performance_analyzer.py - Performance Analyzer - анализ производительности Phase 2 (10.2 KB, 222 lines)
+[20] phase1_whisper_frames.py - Phase 1: Whisper Transcription + Frame Extraction (14.1 KB, 369 lines)
+[21] phase2_vllm_analysis.py - Phase 2: VLLM Analysis (67.8 KB, 1357 lines)
+[22] plate_detector.py - Plate Detector Module - YOLO-based detection for vehicles and license plates (9.0 KB, 261 lines)
+[23] plate_recognizer.py - Plate Recognizer Module - OCR and plate structure detection (31.9 KB, 704 lines)
+[24] pose_detector.py - Human pose detection and gesture analysis module using MediaPipe Pose. (18.4 KB, 471 lines)
+[25] progress_monitor.py - Progress Monitor - утилита для мониторинга прогресса Phase 2 (2.6 KB, 69 lines)
+[26] result_exporter.py - Module: unknown (3.5 KB, 94 lines)
+[27] run_vllm_analysis.py - VLLM Video Analysis Module - Отдельный модуль для анализа видео через Vision-Language модель (6.7 KB, 188 lines)
+[28] scene_analyzer.py - Module: unknown (14.6 KB, 352 lines)
+[29] test_search.py - Test ChromaDB search functionality (3.8 KB, 135 lines)
+[30] translator.py - Translation module using local LLM via text-generation-webui API. (10.7 KB, 321 lines)
+[31] unified_anpr_system.py - Unified ANPR System - Main orchestrator module (31.8 KB, 765 lines)
+[32] vehicle_compcars_analyzer.py - CompCars-based vehicle analysis module for detailed make/model classification. (19.5 KB, 481 lines)
+[33] vehicle_yolo_detector.py - YOLO-based vehicle detection module for video processing pipeline. (13.6 KB, 360 lines)
+[34] video_transcriber.py - Video Transcription Module - Отдельный модуль для транскрипции видео через Whisper (10.1 KB, 292 lines)
+[35] vllm_client.py - VLLM Client for video frame analysis using Qwen 2.5 VL model (10.9 KB, 276 lines)
+[36] vllm_scene_director.py - VLLM Scene Director - "Режиссер" для умной нарезки видео на сцены (22.3 KB, 516 lines)
+
+Project totals: 570.2 KB, 14352 lines
+
+FUNCTION CALL STRUCTURE:
+
+Entry Point: [2] anpr_processor.py
+[2] main()
+  └─ [2] initialize_anpr_models()
+  └─ [2] process_single_video_anpr()
+
+Entry Point: [3] anpr_walker.py
+[3] main()
+  └─ [3] run()
+
+Entry Point: [6] chunked_video_analyzer.py
+[6] main()
+  └─ [6] initialize_models()
+  └─ [6] process_video()
+  └─ [6] export_results()
+  └─ [4] cleanup_temp_files()
+
+Entry Point: [8] db_manager.py
+
+Entry Point: [9] db_manager_chromadb_backup.py
+
+Entry Point: [10] db_manager_postgres.py
+
+Entry Point: [11] debug_vllm.py
+[11] debug_segment()
+
+Entry Point: [14] hunyuan_translator.py
+[14] test_hunyuan_translator()
+  └─ [14] test_connection()
+  └─ [14] translate_to_russian()
+
+Entry Point: [15] load_data_to_chroma.py
+[15] main()
+  └─ [15] load_video_to_chroma()
+
+Entry Point: [16] main.py
+[16] main()
+  └─ [6] load_config()
+  └─ [16] setup_output_directories()
+  └─ [28] initialize_clip_model()
+  └─ [17] initialize_yolo_model()
+  └─ [16] process_single_video()
+
+Entry Point: [19] performance_analyzer.py
+[19] main()
+  └─ [19] generate_report()
+
+Entry Point: [20] phase1_whisper_frames.py
+[20] main()
+  └─ [20] load_videos_config()
+  └─ [20] initialize_whisper()
+  └─ [20] process_video_phase1()
+
+Entry Point: [21] phase2_vllm_analysis.py
+[21] main()
+  └─ [21] test_model_control()
+  └─ [21] process_phase2_analysis()
+
+Entry Point: [24] pose_detector.py
+[24] main()
+  └─ [24] initialize_pose_model()
+  └─ [24] process_single_video_poses()
+
+Entry Point: [25] progress_monitor.py
+[25] monitor_progress()
+
+Entry Point: [27] run_vllm_analysis.py
+[27] main()
+  └─ [27] process_single_video_vllm()
+
+Entry Point: [29] test_search.py
+[29] main()
+  └─ [29] print_result()
+  └─ [29] format_time() (×2)
+
+Entry Point: [31] unified_anpr_system.py
+[31] main()
+  └─ [31] analyze_frame()
+  └─ [6] process_video()
+
+Entry Point: [32] vehicle_compcars_analyzer.py
+[32] main()
+  └─ [32] initialize_compcars_models()
+  └─ [32] process_single_video_compcars()
+
+Entry Point: [33] vehicle_yolo_detector.py
+[33] main()
+  └─ [33] initialize_yolo_vehicle_model()
+  └─ [33] process_single_video_yolo_vehicles()
+
+Entry Point: [34] video_transcriber.py
+[34] main()
+  └─ [34] process_single_video_transcription()
+
+Entry Point: [35] vllm_client.py
+[35] analyze_video_frames_vllm()
+  └─ [14] test_connection()
+  └─ [35] prepare_context_for_frame()
+  └─ [31] analyze_frame()
+[35] prepare_context_for_frame()
+
+Entry Point: [36] vllm_scene_director.py
+[36] main()
+  └─ [36] process_video_segmentation()
+  └─ [36] export_segmentation_results()
+
+Module: [1] anpr_detector.py
+
+Module: [4] audio_extractor.py
+[4] check_ffmpeg_available()
+[4] cleanup_temp_files()
+[4] extract_audio_segment()
+
+Module: [5] audio_transcriber.py
+[5] extract_audio_from_video()
+[5] format_timestamp()
+[5] initialize_whisper_model()
+[5] process_transcription_segments()
+  └─ [5] format_timestamp() (×4)
+[5] transcribe_audio()
+[5] transcribe_video_file()
+  └─ [7] get_processing_params()
+  └─ [7] get_video_path()
+  └─ [7] get_audio_dir()
+  └─ [5] extract_audio_from_video()
+  └─ [5] initialize_whisper_model()
+  └─ [5] transcribe_audio()
+  └─ [5] process_transcription_segments()
+
+Module: [7] config_manager.py
+[7] get_audio_dir()
+[7] get_output_dir()
+[7] get_processing_params()
+[7] get_video_info()
+  └─ [7] get_video_path()
+[7] get_video_path()
+[7] load_config()
+[7] set_video_path()
+
+Module: [12] face_processor.py
+[12] cluster_faces_to_persons()
+  └─ [12] is_same_person()
+[12] detect_faces()
+  └─ [12] detect_faces_single_frame()
+[12] detect_faces_batch()
+  └─ [7] get_processing_params()
+  └─ [12] initialize_face_models()
+  └─ [12] detect_faces_single_frame()
+  └─ [12] process_faces_batch_tf()
+  └─ [12] cluster_faces_to_persons()
+  └─ [12] group_faces_by_timestamp()
+[12] detect_faces_single_frame()
+[12] group_faces_by_timestamp()
+[12] initialize_face_models()
+[12] is_same_person()
+[12] preprocess_face_for_tf()
+[12] process_faces_batch_tf()
+  └─ [12] process_faces_with_deepface()
+  └─ [12] process_faces_with_tf_models()
+[12] process_faces_with_deepface()
+[12] process_faces_with_tf_models()
+  └─ [12] preprocess_face_for_tf()
+
+Module: [13] frame_extractor.py
+[13] extract_frames()
+[13] extract_frames_with_timestamps()
+  └─ [13] seconds_to_timestamp()
+[13] frames_to_timestamps()
+  └─ [13] seconds_to_timestamp()
+[13] get_video_info()
+[13] process_video_frames()
+  └─ [7] get_video_path()
+  └─ [13] extract_frames()
+  └─ [6] get_video_info()
+  └─ [13] frames_to_timestamps()
+[13] seconds_to_timestamp()
+
+Module: [17] object_detector.py
+[17] detect_objects()
+  └─ [17] process_yolo_results_single()
+[17] detect_objects_batch()
+  └─ [7] get_processing_params()
+  └─ [17] process_yolo_results_single()
+  └─ [17] group_objects_by_timestamp()
+[17] get_object_center()
+[17] group_objects_by_timestamp()
+[17] initialize_yolo_model()
+[17] process_yolo_results_single()
+  └─ [17] get_object_center()
+
+Module: [18] pdf_generator.py
+
+Module: [22] plate_detector.py
+
+Module: [23] plate_recognizer.py
+[23] fix_kg_text()
+[23] is_above()
+
+Module: [26] result_exporter.py
+[26] create_output_filename()
+  └─ [7] get_output_dir()
+[26] export_face_timeline_csv()
+[26] export_faces_csv()
+[26] export_objects_csv()
+[26] export_scenes_csv()
+[26] export_transcription_csv()
+
+Module: [28] scene_analyzer.py
+[28] analyze_scene()
+  └─ [28] get_scene_description()
+[28] detect_scene_changes()
+  └─ [28] initialize_clip_model()
+  └─ [7] get_processing_params()
+  └─ [28] get_scene_description()
+[28] get_fallback_scene_description()
+[28] get_scene_description()
+  └─ [28] simplify_scene_name()
+  └─ [28] get_fallback_scene_description()
+[28] initialize_clip_model()
+[28] simplify_scene_name()
+
+Module: [30] translator.py
+[30] call_llm_api()
+  └─ [API] POST (dynamic URL)
+[30] group_segments_into_chunks()
+[30] parse_translated_line()
+[30] parse_translated_response()
+  └─ [30] parse_translated_line()
+[30] save_translation_debug_info()
+[30] translate_chunk()
+  └─ [30] call_llm_api()
+  └─ [30] parse_translated_response()
+[30] translate_transcription_segments()
+  └─ [7] get_processing_params()
+  └─ [30] group_segments_into_chunks()
+  └─ [30] translate_chunk()
+
+PROJECT SUMMARY:
+
+Total Modules: 36
+Total Functions: 152
+Total Classes: 21
+Total Methods: 187
+Entry Points: 23
+Project Size: 570.2 KB (14352 lines)
+
+MOST CONNECTED FUNCTIONS:
+
+[16] process_single_video() - 14 connections
+[26] create_output_filename() - 13 connections
+[7] get_processing_params() - 13 connections
+[7] set_video_path() - 10 connections
+[23] fix_kg_text() - 9 connections
+[7] get_video_path() - 9 connections
+[21] test_model_control() - 8 connections
+[13] extract_frames_with_timestamps() - 8 connections
+[5] transcribe_video_file() - 8 connections
+[12] detect_faces_batch() - 7 connections

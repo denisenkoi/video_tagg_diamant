@@ -1,0 +1,25 @@
+{
+  "videos": [
+    {
+      "name": "news",
+      "path": "video/news.mp4",
+      "language": "kk",
+      "description": "News video in Kazakh",
+      "force": true
+    },
+    {
+      "name": "SovKz",
+      "path": "video/SovKz.mp4",
+      "language": "ru",
+      "description": "Soviet Kazakhstan video in Russian",
+      "force": true
+    },
+    {
+      "name": "AlmaAta",
+      "path": "video/AlmaAta.mp4",
+      "language": "ru",
+      "description": "Alma-Ata video in Russian",
+      "force": true
+    }
+  ]
+}

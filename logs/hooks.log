@@ -1,0 +1,1785 @@
+2025-11-20 14:29:55 [INFO] subsystem_hooks: ✅ Project matched: Video_tagging (user: 158301565, chat: 158301565)
+2025-11-20 14:29:55 [INFO] subsystem_hooks: 🎯 Creating trigger for project: Video_tagging
+2025-11-20 14:29:55 [INFO] subsystem_hooks:    Project dir: /mnt/e/Projects/Quantum/Video_tagging_db
+2025-11-20 14:29:55 [INFO] subsystem_hooks:    User: 158301565, Chat: 158301565
+2025-11-20 14:29:55 [INFO] subsystem_hooks:    Trigger dir: /mnt/e/Projects/Quantum/Video_tagging_db/workflow_inbox
+2025-11-20 14:29:55 [INFO] subsystem_hooks: 📋 No project_mode.json found, using default: development
+2025-11-20 14:29:55 [INFO] subsystem_hooks: 🔍 Extracting dialog context...
+2025-11-20 14:29:55 [INFO] subsystem_hooks:    transcript_path: /home/vano/.claude/projects/-mnt-e-Projects-Quantum-Video-tagging-db/14e8e706-4611-4028-b7db-fce58b14f3e9.jsonl
+2025-11-20 14:29:55 [INFO] subsystem_hooks:    session_id: 14e8e706-4611-4028-b7db-fce58b14f3e9
+2025-11-20 14:29:55 [INFO] subsystem_hooks:    tool_name: Bash
+2025-11-20 14:29:55 [INFO] subsystem_hooks: 📂 Finding actual transcript for session: 14e8e706-4611-4028-b7db-fce58b14f3e9
+2025-11-20 14:29:57 [INFO] subsystem_hooks: 📂 Using transcript file: /home/vano/.claude/projects/-mnt-e-Projects-Quantum-Video-tagging-db/14e8e706-4611-4028-b7db-fce58b14f3e9.jsonl
+2025-11-20 14:29:57 [INFO] subsystem_hooks: 📊 Read 90 lines from transcript
+2025-11-20 14:29:57 [INFO] subsystem_hooks: 📝 Найдено 87 сообщений диалога (из 4 смен ролей)
+2025-11-20 14:29:57 [INFO] subsystem_hooks: 🎯 Найдено 2 команд пользователя
+2025-11-20 14:29:57 [INFO] subsystem_hooks: ✅ Dialog context extracted: 27379 chars
+2025-11-20 14:29:57 [INFO] subsystem_hooks: ✅ Trigger created: tool_control_pending_1763638195.json
+2025-11-20 14:31:44 [INFO] subsystem_hooks: ✅ Project matched: Video_tagging (user: 158301565, chat: 158301565)
+2025-11-20 14:31:44 [INFO] subsystem_hooks: 🎯 Creating trigger for project: Video_tagging
+2025-11-20 14:31:44 [INFO] subsystem_hooks:    Project dir: /mnt/e/Projects/Quantum/Video_tagging_db
+2025-11-20 14:31:44 [INFO] subsystem_hooks:    User: 158301565, Chat: 158301565
+2025-11-20 14:31:44 [INFO] subsystem_hooks:    Trigger dir: /mnt/e/Projects/Quantum/Video_tagging_db/workflow_inbox
+2025-11-20 14:31:44 [INFO] subsystem_hooks: 📋 No project_mode.json found, using default: development
+2025-11-20 14:31:44 [INFO] subsystem_hooks: 🔍 Extracting dialog context...
+2025-11-20 14:31:44 [INFO] subsystem_hooks:    transcript_path: /home/vano/.claude/projects/-mnt-e-Projects-Quantum-Video-tagging-db/14e8e706-4611-4028-b7db-fce58b14f3e9.jsonl
+2025-11-20 14:31:44 [INFO] subsystem_hooks:    session_id: 14e8e706-4611-4028-b7db-fce58b14f3e9
+2025-11-20 14:31:44 [INFO] subsystem_hooks:    tool_name: Write
+2025-11-20 14:31:44 [INFO] subsystem_hooks: 📂 Finding actual transcript for session: 14e8e706-4611-4028-b7db-fce58b14f3e9
+2025-11-20 14:31:46 [INFO] subsystem_hooks: 📂 Using transcript file: /home/vano/.claude/projects/-mnt-e-Projects-Quantum-Video-tagging-db/14e8e706-4611-4028-b7db-fce58b14f3e9.jsonl
+2025-11-20 14:31:46 [INFO] subsystem_hooks: 📊 Read 92 lines from transcript
+2025-11-20 14:31:46 [INFO] subsystem_hooks: 📝 Найдено 89 сообщений диалога (из 4 смен ролей)
+2025-11-20 14:31:46 [INFO] subsystem_hooks: 🎯 Найдено 2 команд пользователя
+2025-11-20 14:31:46 [INFO] subsystem_hooks: ✅ Dialog context extracted: 45937 chars
+2025-11-20 14:31:46 [INFO] subsystem_hooks: ✅ Trigger created: tool_control_pending_1763638304.json
+2025-11-20 14:32:48 [INFO] subsystem_hooks: ✅ Project matched: Video_tagging (user: 158301565, chat: 158301565)
+2025-11-20 14:32:48 [INFO] subsystem_hooks: 🎯 Creating trigger for project: Video_tagging
+2025-11-20 14:32:48 [INFO] subsystem_hooks:    Project dir: /mnt/e/Projects/Quantum/Video_tagging_db
+2025-11-20 14:32:48 [INFO] subsystem_hooks:    User: 158301565, Chat: 158301565
+2025-11-20 14:32:48 [INFO] subsystem_hooks:    Trigger dir: /mnt/e/Projects/Quantum/Video_tagging_db/workflow_inbox
+2025-11-20 14:32:48 [INFO] subsystem_hooks: 📋 No project_mode.json found, using default: development
+2025-11-20 14:32:48 [INFO] subsystem_hooks: 🔍 Extracting dialog context...
+2025-11-20 14:32:48 [INFO] subsystem_hooks:    transcript_path: /home/vano/.claude/projects/-mnt-e-Projects-Quantum-Video-tagging-db/14e8e706-4611-4028-b7db-fce58b14f3e9.jsonl
+2025-11-20 14:32:48 [INFO] subsystem_hooks:    session_id: 14e8e706-4611-4028-b7db-fce58b14f3e9
+2025-11-20 14:32:48 [INFO] subsystem_hooks:    tool_name: Bash
+2025-11-20 14:32:48 [INFO] subsystem_hooks: 📂 Finding actual transcript for session: 14e8e706-4611-4028-b7db-fce58b14f3e9
+2025-11-20 14:32:50 [INFO] subsystem_hooks: 📂 Using transcript file: /home/vano/.claude/projects/-mnt-e-Projects-Quantum-Video-tagging-db/14e8e706-4611-4028-b7db-fce58b14f3e9.jsonl
+2025-11-20 14:32:50 [INFO] subsystem_hooks: 📊 Read 99 lines from transcript
+2025-11-20 14:32:50 [INFO] subsystem_hooks: 📝 Найдено 95 сообщений диалога (из 4 смен ролей)
+2025-11-20 14:32:50 [INFO] subsystem_hooks: 🎯 Найдено 2 команд пользователя
+2025-11-20 14:32:50 [INFO] subsystem_hooks: ✅ Dialog context extracted: 46573 chars
+2025-11-20 14:32:50 [INFO] subsystem_hooks: ✅ Trigger created: tool_control_pending_1763638368.json
+2025-11-20 14:41:19 [INFO] subsystem_hooks: ✅ Project matched: Video_tagging (user: 158301565, chat: 158301565)
+2025-11-20 14:41:19 [INFO] subsystem_hooks: 🎯 Creating trigger for project: Video_tagging
+2025-11-20 14:41:19 [INFO] subsystem_hooks:    Project dir: /mnt/e/Projects/Quantum/Video_tagging_db
+2025-11-20 14:41:19 [INFO] subsystem_hooks:    User: 158301565, Chat: 158301565
+2025-11-20 14:41:19 [INFO] subsystem_hooks:    Trigger dir: /mnt/e/Projects/Quantum/Video_tagging_db/workflow_inbox
+2025-11-20 14:41:19 [INFO] subsystem_hooks: 📋 No project_mode.json found, using default: development
+2025-11-20 14:41:19 [INFO] subsystem_hooks: 🔍 Extracting dialog context...
+2025-11-20 14:41:19 [INFO] subsystem_hooks:    transcript_path: /home/vano/.claude/projects/-mnt-e-Projects-Quantum-Video-tagging-db/14e8e706-4611-4028-b7db-fce58b14f3e9.jsonl
+2025-11-20 14:41:19 [INFO] subsystem_hooks:    session_id: 14e8e706-4611-4028-b7db-fce58b14f3e9
+2025-11-20 14:41:19 [INFO] subsystem_hooks:    tool_name: Write
+2025-11-20 14:41:19 [INFO] subsystem_hooks: 📂 Finding actual transcript for session: 14e8e706-4611-4028-b7db-fce58b14f3e9
+2025-11-20 14:41:21 [INFO] subsystem_hooks: 📂 Using transcript file: /home/vano/.claude/projects/-mnt-e-Projects-Quantum-Video-tagging-db/14e8e706-4611-4028-b7db-fce58b14f3e9.jsonl
+2025-11-20 14:41:21 [INFO] subsystem_hooks: 📊 Read 113 lines from transcript
+2025-11-20 14:41:21 [INFO] subsystem_hooks: 📝 Найдено 104 сообщений диалога (из 8 смен ролей)
+2025-11-20 14:41:21 [INFO] subsystem_hooks: 🎯 Найдено 4 команд пользователя
+2025-11-20 14:41:21 [INFO] subsystem_hooks: ✅ Dialog context extracted: 54765 chars
+2025-11-20 14:41:21 [INFO] subsystem_hooks: ✅ Trigger created: tool_control_pending_1763638879.json
+2025-11-20 15:41:11 [INFO] subsystem_hooks: ✅ Project matched: Video_tagging (user: 158301565, chat: 158301565)
+2025-11-20 15:41:11 [INFO] subsystem_hooks: 🎯 Creating trigger for project: Video_tagging
+2025-11-20 15:41:11 [INFO] subsystem_hooks:    Project dir: /mnt/e/Projects/Quantum/Video_tagging_db
+2025-11-20 15:41:11 [INFO] subsystem_hooks:    User: 158301565, Chat: 158301565
+2025-11-20 15:41:11 [INFO] subsystem_hooks:    Trigger dir: /mnt/e/Projects/Quantum/Video_tagging_db/workflow_inbox
+2025-11-20 15:41:11 [INFO] subsystem_hooks: 📋 No project_mode.json found, using default: development
+2025-11-20 15:41:11 [INFO] subsystem_hooks: 🔍 Extracting dialog context...
+2025-11-20 15:41:11 [INFO] subsystem_hooks:    transcript_path: /home/vano/.claude/projects/-mnt-e-Projects-Quantum-Video-tagging-db/14e8e706-4611-4028-b7db-fce58b14f3e9.jsonl
+2025-11-20 15:41:11 [INFO] subsystem_hooks:    session_id: 14e8e706-4611-4028-b7db-fce58b14f3e9
+2025-11-20 15:41:11 [INFO] subsystem_hooks:    tool_name: Write
+2025-11-20 15:41:11 [INFO] subsystem_hooks: 📂 Finding actual transcript for session: 14e8e706-4611-4028-b7db-fce58b14f3e9
+2025-11-20 15:41:13 [INFO] subsystem_hooks: 📂 Using transcript file: /home/vano/.claude/projects/-mnt-e-Projects-Quantum-Video-tagging-db/14e8e706-4611-4028-b7db-fce58b14f3e9.jsonl
+2025-11-20 15:41:13 [INFO] subsystem_hooks: 📊 Read 143 lines from transcript
+2025-11-20 15:41:13 [INFO] subsystem_hooks: 📝 Найдено 22 сообщений диалога (из 8 смен ролей)
+2025-11-20 15:41:13 [INFO] subsystem_hooks: 🎯 Найдено 6 команд пользователя
+2025-11-20 15:41:13 [INFO] subsystem_hooks: ✅ Dialog context extracted: 28304 chars
+2025-11-20 15:41:13 [INFO] subsystem_hooks: ✅ Trigger created: tool_control_pending_1763642471.json
+2025-11-20 15:43:00 [INFO] subsystem_hooks: ✅ Project matched: Video_tagging (user: 158301565, chat: 158301565)
+2025-11-20 15:43:00 [INFO] subsystem_hooks: 🎯 Creating trigger for project: Video_tagging
+2025-11-20 15:43:00 [INFO] subsystem_hooks:    Project dir: /mnt/e/Projects/Quantum/Video_tagging_db
+2025-11-20 15:43:00 [INFO] subsystem_hooks:    User: 158301565, Chat: 158301565
+2025-11-20 15:43:00 [INFO] subsystem_hooks:    Trigger dir: /mnt/e/Projects/Quantum/Video_tagging_db/workflow_inbox
+2025-11-20 15:43:00 [INFO] subsystem_hooks: 📋 No project_mode.json found, using default: development
+2025-11-20 15:43:00 [INFO] subsystem_hooks: 🔍 Extracting dialog context...
+2025-11-20 15:43:00 [INFO] subsystem_hooks:    transcript_path: /home/vano/.claude/projects/-mnt-e-Projects-Quantum-Video-tagging-db/14e8e706-4611-4028-b7db-fce58b14f3e9.jsonl
+2025-11-20 15:43:00 [INFO] subsystem_hooks:    session_id: 14e8e706-4611-4028-b7db-fce58b14f3e9
+2025-11-20 15:43:00 [INFO] subsystem_hooks:    tool_name: Write
+2025-11-20 15:43:00 [INFO] subsystem_hooks: 📂 Finding actual transcript for session: 14e8e706-4611-4028-b7db-fce58b14f3e9
+2025-11-20 15:43:02 [INFO] subsystem_hooks: 📂 Using transcript file: /home/vano/.claude/projects/-mnt-e-Projects-Quantum-Video-tagging-db/14e8e706-4611-4028-b7db-fce58b14f3e9.jsonl
+2025-11-20 15:43:02 [INFO] subsystem_hooks: 📊 Read 146 lines from transcript
+2025-11-20 15:43:02 [INFO] subsystem_hooks: 📝 Найдено 24 сообщений диалога (из 8 смен ролей)
+2025-11-20 15:43:02 [INFO] subsystem_hooks: 🎯 Найдено 6 команд пользователя
+2025-11-20 15:43:02 [INFO] subsystem_hooks: ✅ Dialog context extracted: 33404 chars
+2025-11-20 15:43:02 [INFO] subsystem_hooks: ✅ Trigger created: tool_control_pending_1763642580.json
+2025-11-20 15:44:54 [INFO] subsystem_hooks: ✅ Project matched: Video_tagging (user: 158301565, chat: 158301565)
+2025-11-20 15:44:54 [INFO] subsystem_hooks: 🎯 Creating trigger for project: Video_tagging
+2025-11-20 15:44:54 [INFO] subsystem_hooks:    Project dir: /mnt/e/Projects/Quantum/Video_tagging_db
+2025-11-20 15:44:54 [INFO] subsystem_hooks:    User: 158301565, Chat: 158301565
+2025-11-20 15:44:54 [INFO] subsystem_hooks:    Trigger dir: /mnt/e/Projects/Quantum/Video_tagging_db/workflow_inbox
+2025-11-20 15:44:54 [INFO] subsystem_hooks: 📋 No project_mode.json found, using default: development
+2025-11-20 15:44:54 [INFO] subsystem_hooks: 🔍 Extracting dialog context...
+2025-11-20 15:44:54 [INFO] subsystem_hooks:    transcript_path: /home/vano/.claude/projects/-mnt-e-Projects-Quantum-Video-tagging-db/14e8e706-4611-4028-b7db-fce58b14f3e9.jsonl
+2025-11-20 15:44:54 [INFO] subsystem_hooks:    session_id: 14e8e706-4611-4028-b7db-fce58b14f3e9
+2025-11-20 15:44:54 [INFO] subsystem_hooks:    tool_name: Write
+2025-11-20 15:44:54 [INFO] subsystem_hooks: 📂 Finding actual transcript for session: 14e8e706-4611-4028-b7db-fce58b14f3e9
+2025-11-20 15:44:56 [INFO] subsystem_hooks: 📂 Using transcript file: /home/vano/.claude/projects/-mnt-e-Projects-Quantum-Video-tagging-db/14e8e706-4611-4028-b7db-fce58b14f3e9.jsonl
+2025-11-20 15:44:56 [INFO] subsystem_hooks: 📊 Read 150 lines from transcript
+2025-11-20 15:44:56 [INFO] subsystem_hooks: 📝 Найдено 27 сообщений диалога (из 8 смен ролей)
+2025-11-20 15:44:56 [INFO] subsystem_hooks: 🎯 Найдено 6 команд пользователя
+2025-11-20 15:44:56 [INFO] subsystem_hooks: ✅ Dialog context extracted: 37723 chars
+2025-11-20 15:44:56 [INFO] subsystem_hooks: ✅ Trigger created: tool_control_pending_1763642694.json
+2025-11-20 15:45:18 [INFO] subsystem_hooks: ✅ Project matched: Video_tagging (user: 158301565, chat: 158301565)
+2025-11-20 15:45:18 [INFO] subsystem_hooks: 🎯 Creating trigger for project: Video_tagging
+2025-11-20 15:45:18 [INFO] subsystem_hooks:    Project dir: /mnt/e/Projects/Quantum/Video_tagging_db
+2025-11-20 15:45:18 [INFO] subsystem_hooks:    User: 158301565, Chat: 158301565
+2025-11-20 15:45:18 [INFO] subsystem_hooks:    Trigger dir: /mnt/e/Projects/Quantum/Video_tagging_db/workflow_inbox
+2025-11-20 15:45:18 [INFO] subsystem_hooks: 📋 No project_mode.json found, using default: development
+2025-11-20 15:45:18 [INFO] subsystem_hooks: 🔍 Extracting dialog context...
+2025-11-20 15:45:18 [INFO] subsystem_hooks:    transcript_path: /home/vano/.claude/projects/-mnt-e-Projects-Quantum-Video-tagging-db/14e8e706-4611-4028-b7db-fce58b14f3e9.jsonl
+2025-11-20 15:45:18 [INFO] subsystem_hooks:    session_id: 14e8e706-4611-4028-b7db-fce58b14f3e9
+2025-11-20 15:45:18 [INFO] subsystem_hooks:    tool_name: Write
+2025-11-20 15:45:18 [INFO] subsystem_hooks: 📂 Finding actual transcript for session: 14e8e706-4611-4028-b7db-fce58b14f3e9
+2025-11-20 15:45:20 [INFO] subsystem_hooks: 📂 Using transcript file: /home/vano/.claude/projects/-mnt-e-Projects-Quantum-Video-tagging-db/14e8e706-4611-4028-b7db-fce58b14f3e9.jsonl
+2025-11-20 15:45:20 [INFO] subsystem_hooks: 📊 Read 154 lines from transcript
+2025-11-20 15:45:20 [INFO] subsystem_hooks: 📝 Найдено 30 сообщений диалога (из 8 смен ролей)
+2025-11-20 15:45:20 [INFO] subsystem_hooks: 🎯 Найдено 6 команд пользователя
+2025-11-20 15:45:20 [INFO] subsystem_hooks: ✅ Dialog context extracted: 38197 chars
+2025-11-20 15:45:20 [INFO] subsystem_hooks: ✅ Trigger created: tool_control_pending_1763642718.json
+2025-11-20 15:49:50 [INFO] subsystem_hooks: ✅ Project matched: Video_tagging (user: 158301565, chat: 158301565)
+2025-11-20 15:49:50 [INFO] subsystem_hooks: 🎯 Creating trigger for project: Video_tagging
+2025-11-20 15:49:50 [INFO] subsystem_hooks:    Project dir: /mnt/e/Projects/Quantum/Video_tagging_db
+2025-11-20 15:49:50 [INFO] subsystem_hooks:    User: 158301565, Chat: 158301565
+2025-11-20 15:49:50 [INFO] subsystem_hooks:    Trigger dir: /mnt/e/Projects/Quantum/Video_tagging_db/workflow_inbox
+2025-11-20 15:49:50 [INFO] subsystem_hooks: 📋 No project_mode.json found, using default: development
+2025-11-20 15:49:50 [INFO] subsystem_hooks: 🔍 Extracting dialog context...
+2025-11-20 15:49:50 [INFO] subsystem_hooks:    transcript_path: /home/vano/.claude/projects/-mnt-e-Projects-Quantum-Video-tagging-db/14e8e706-4611-4028-b7db-fce58b14f3e9.jsonl
+2025-11-20 15:49:50 [INFO] subsystem_hooks:    session_id: 14e8e706-4611-4028-b7db-fce58b14f3e9
+2025-11-20 15:49:50 [INFO] subsystem_hooks:    tool_name: Bash
+2025-11-20 15:49:50 [INFO] subsystem_hooks: 📂 Finding actual transcript for session: 14e8e706-4611-4028-b7db-fce58b14f3e9
+2025-11-20 15:49:52 [INFO] subsystem_hooks: 📂 Using transcript file: /home/vano/.claude/projects/-mnt-e-Projects-Quantum-Video-tagging-db/14e8e706-4611-4028-b7db-fce58b14f3e9.jsonl
+2025-11-20 15:49:52 [INFO] subsystem_hooks: 📊 Read 169 lines from transcript
+2025-11-20 15:49:52 [INFO] subsystem_hooks: 📝 Найдено 35 сообщений диалога (из 8 смен ролей)
+2025-11-20 15:49:52 [INFO] subsystem_hooks: 🎯 Найдено 6 команд пользователя
+2025-11-20 15:49:52 [INFO] subsystem_hooks: ✅ Dialog context extracted: 35800 chars
+2025-11-20 15:49:52 [INFO] subsystem_hooks: ✅ Trigger created: tool_control_pending_1763642990.json
+2025-11-20 15:50:37 [INFO] subsystem_hooks: ✅ Project matched: Video_tagging (user: 158301565, chat: 158301565)
+2025-11-20 15:50:37 [INFO] subsystem_hooks: 🎯 Creating trigger for project: Video_tagging
+2025-11-20 15:50:37 [INFO] subsystem_hooks:    Project dir: /mnt/e/Projects/Quantum/Video_tagging_db
+2025-11-20 15:50:37 [INFO] subsystem_hooks:    User: 158301565, Chat: 158301565
+2025-11-20 15:50:37 [INFO] subsystem_hooks:    Trigger dir: /mnt/e/Projects/Quantum/Video_tagging_db/workflow_inbox
+2025-11-20 15:50:37 [INFO] subsystem_hooks: 📋 No project_mode.json found, using default: development
+2025-11-20 15:50:37 [INFO] subsystem_hooks: 🔍 Extracting dialog context...
+2025-11-20 15:50:37 [INFO] subsystem_hooks:    transcript_path: /home/vano/.claude/projects/-mnt-e-Projects-Quantum-Video-tagging-db/14e8e706-4611-4028-b7db-fce58b14f3e9.jsonl
+2025-11-20 15:50:37 [INFO] subsystem_hooks:    session_id: 14e8e706-4611-4028-b7db-fce58b14f3e9
+2025-11-20 15:50:37 [INFO] subsystem_hooks:    tool_name: Bash
+2025-11-20 15:50:37 [INFO] subsystem_hooks: 📂 Finding actual transcript for session: 14e8e706-4611-4028-b7db-fce58b14f3e9
+2025-11-20 15:50:39 [INFO] subsystem_hooks: 📂 Using transcript file: /home/vano/.claude/projects/-mnt-e-Projects-Quantum-Video-tagging-db/14e8e706-4611-4028-b7db-fce58b14f3e9.jsonl
+2025-11-20 15:50:39 [INFO] subsystem_hooks: 📊 Read 170 lines from transcript
+2025-11-20 15:50:39 [INFO] subsystem_hooks: 📝 Найдено 36 сообщений диалога (из 8 смен ролей)
+2025-11-20 15:50:39 [INFO] subsystem_hooks: 🎯 Найдено 6 команд пользователя
+2025-11-20 15:50:39 [INFO] subsystem_hooks: ✅ Dialog context extracted: 35826 chars
+2025-11-20 15:50:39 [INFO] subsystem_hooks: ✅ Trigger created: tool_control_pending_1763643037.json
+2025-11-20 21:33:59 [INFO] subsystem_hooks: ✅ Project matched: Video_tagging (user: 158301565, chat: 158301565)
+2025-11-20 21:33:59 [INFO] subsystem_hooks: 🎯 Creating trigger for project: Video_tagging
+2025-11-20 21:33:59 [INFO] subsystem_hooks:    Project dir: /mnt/e/Projects/Quantum/Video_tagging_db
+2025-11-20 21:33:59 [INFO] subsystem_hooks:    User: 158301565, Chat: 158301565
+2025-11-20 21:33:59 [INFO] subsystem_hooks:    Trigger dir: /mnt/e/Projects/Quantum/Video_tagging_db/workflow_inbox
+2025-11-20 21:33:59 [INFO] subsystem_hooks: 📋 No project_mode.json found, using default: development
+2025-11-20 21:33:59 [INFO] subsystem_hooks: 🔍 Extracting dialog context...
+2025-11-20 21:33:59 [INFO] subsystem_hooks:    transcript_path: /home/vano/.claude/projects/-mnt-e-Projects-Quantum-Video-tagging-db/14e8e706-4611-4028-b7db-fce58b14f3e9.jsonl
+2025-11-20 21:33:59 [INFO] subsystem_hooks:    session_id: 14e8e706-4611-4028-b7db-fce58b14f3e9
+2025-11-20 21:33:59 [INFO] subsystem_hooks:    tool_name: Edit
+2025-11-20 21:33:59 [INFO] subsystem_hooks: 📂 Finding actual transcript for session: 14e8e706-4611-4028-b7db-fce58b14f3e9
+2025-11-20 21:34:01 [INFO] subsystem_hooks: 📂 Using transcript file: /home/vano/.claude/projects/-mnt-e-Projects-Quantum-Video-tagging-db/14e8e706-4611-4028-b7db-fce58b14f3e9.jsonl
+2025-11-20 21:34:01 [INFO] subsystem_hooks: 📊 Read 232 lines from transcript
+2025-11-20 21:34:01 [INFO] subsystem_hooks: 📝 Найдено 46 сообщений диалога (из 8 смен ролей)
+2025-11-20 21:34:01 [INFO] subsystem_hooks: 🎯 Найдено 6 команд пользователя
+2025-11-20 21:34:01 [INFO] subsystem_hooks: ✅ Dialog context extracted: 42239 chars
+2025-11-20 21:34:01 [INFO] subsystem_hooks: ✅ Trigger created: tool_control_pending_1763663639.json
+2025-11-20 21:37:02 [INFO] subsystem_hooks: ✅ Project matched: Video_tagging (user: 158301565, chat: 158301565)
+2025-11-20 21:37:02 [INFO] subsystem_hooks: 🎯 Creating trigger for project: Video_tagging
+2025-11-20 21:37:02 [INFO] subsystem_hooks:    Project dir: /mnt/e/Projects/Quantum/Video_tagging_db
+2025-11-20 21:37:02 [INFO] subsystem_hooks:    User: 158301565, Chat: 158301565
+2025-11-20 21:37:02 [INFO] subsystem_hooks:    Trigger dir: /mnt/e/Projects/Quantum/Video_tagging_db/workflow_inbox
+2025-11-20 21:37:02 [INFO] subsystem_hooks: 📋 No project_mode.json found, using default: development
+2025-11-20 21:37:02 [INFO] subsystem_hooks: 🔍 Extracting dialog context...
+2025-11-20 21:37:02 [INFO] subsystem_hooks:    transcript_path: /home/vano/.claude/projects/-mnt-e-Projects-Quantum-Video-tagging-db/14e8e706-4611-4028-b7db-fce58b14f3e9.jsonl
+2025-11-20 21:37:02 [INFO] subsystem_hooks:    session_id: 14e8e706-4611-4028-b7db-fce58b14f3e9
+2025-11-20 21:37:02 [INFO] subsystem_hooks:    tool_name: Edit
+2025-11-20 21:37:02 [INFO] subsystem_hooks: 📂 Finding actual transcript for session: 14e8e706-4611-4028-b7db-fce58b14f3e9
+2025-11-20 21:37:04 [INFO] subsystem_hooks: 📂 Using transcript file: /home/vano/.claude/projects/-mnt-e-Projects-Quantum-Video-tagging-db/14e8e706-4611-4028-b7db-fce58b14f3e9.jsonl
+2025-11-20 21:37:04 [INFO] subsystem_hooks: 📊 Read 234 lines from transcript
+2025-11-20 21:37:04 [INFO] subsystem_hooks: 📝 Найдено 47 сообщений диалога (из 8 смен ролей)
+2025-11-20 21:37:04 [INFO] subsystem_hooks: 🎯 Найдено 6 команд пользователя
+2025-11-20 21:37:04 [INFO] subsystem_hooks: ✅ Dialog context extracted: 43378 chars
+2025-11-20 21:37:04 [INFO] subsystem_hooks: ✅ Trigger created: tool_control_pending_1763663822.json
+2025-11-20 21:40:04 [INFO] subsystem_hooks: ✅ Project matched: Video_tagging (user: 158301565, chat: 158301565)
+2025-11-20 21:40:04 [INFO] subsystem_hooks: 🎯 Creating trigger for project: Video_tagging
+2025-11-20 21:40:04 [INFO] subsystem_hooks:    Project dir: /mnt/e/Projects/Quantum/Video_tagging_db
+2025-11-20 21:40:04 [INFO] subsystem_hooks:    User: 158301565, Chat: 158301565
+2025-11-20 21:40:04 [INFO] subsystem_hooks:    Trigger dir: /mnt/e/Projects/Quantum/Video_tagging_db/workflow_inbox
+2025-11-20 21:40:04 [INFO] subsystem_hooks: 📋 No project_mode.json found, using default: development
+2025-11-20 21:40:04 [INFO] subsystem_hooks: 🔍 Extracting dialog context...
+2025-11-20 21:40:04 [INFO] subsystem_hooks:    transcript_path: /home/vano/.claude/projects/-mnt-e-Projects-Quantum-Video-tagging-db/14e8e706-4611-4028-b7db-fce58b14f3e9.jsonl
+2025-11-20 21:40:04 [INFO] subsystem_hooks:    session_id: 14e8e706-4611-4028-b7db-fce58b14f3e9
+2025-11-20 21:40:04 [INFO] subsystem_hooks:    tool_name: Edit
+2025-11-20 21:40:04 [INFO] subsystem_hooks: 📂 Finding actual transcript for session: 14e8e706-4611-4028-b7db-fce58b14f3e9
+2025-11-20 21:40:06 [INFO] subsystem_hooks: 📂 Using transcript file: /home/vano/.claude/projects/-mnt-e-Projects-Quantum-Video-tagging-db/14e8e706-4611-4028-b7db-fce58b14f3e9.jsonl
+2025-11-20 21:40:06 [INFO] subsystem_hooks: 📊 Read 235 lines from transcript
+2025-11-20 21:40:06 [INFO] subsystem_hooks: 📝 Найдено 48 сообщений диалога (из 8 смен ролей)
+2025-11-20 21:40:06 [INFO] subsystem_hooks: 🎯 Найдено 6 команд пользователя
+2025-11-20 21:40:06 [INFO] subsystem_hooks: ✅ Dialog context extracted: 44332 chars
+2025-11-20 21:40:06 [INFO] subsystem_hooks: ✅ Trigger created: tool_control_pending_1763664004.json
+2025-11-20 21:44:49 [INFO] subsystem_hooks: ✅ Project matched: Video_tagging (user: 158301565, chat: 158301565)
+2025-11-20 21:44:49 [INFO] subsystem_hooks: 🎯 Creating trigger for project: Video_tagging
+2025-11-20 21:44:49 [INFO] subsystem_hooks:    Project dir: /mnt/e/Projects/Quantum/Video_tagging_db
+2025-11-20 21:44:49 [INFO] subsystem_hooks:    User: 158301565, Chat: 158301565
+2025-11-20 21:44:49 [INFO] subsystem_hooks:    Trigger dir: /mnt/e/Projects/Quantum/Video_tagging_db/workflow_inbox
+2025-11-20 21:44:49 [INFO] subsystem_hooks: 📋 No project_mode.json found, using default: development
+2025-11-20 21:44:49 [INFO] subsystem_hooks: 🔍 Extracting dialog context...
+2025-11-20 21:44:49 [INFO] subsystem_hooks:    transcript_path: /home/vano/.claude/projects/-mnt-e-Projects-Quantum-Video-tagging-db/14e8e706-4611-4028-b7db-fce58b14f3e9.jsonl
+2025-11-20 21:44:49 [INFO] subsystem_hooks:    session_id: 14e8e706-4611-4028-b7db-fce58b14f3e9
+2025-11-20 21:44:49 [INFO] subsystem_hooks:    tool_name: Bash
+2025-11-20 21:44:49 [INFO] subsystem_hooks: 📂 Finding actual transcript for session: 14e8e706-4611-4028-b7db-fce58b14f3e9
+2025-11-20 21:44:51 [INFO] subsystem_hooks: 📂 Using transcript file: /home/vano/.claude/projects/-mnt-e-Projects-Quantum-Video-tagging-db/14e8e706-4611-4028-b7db-fce58b14f3e9.jsonl
+2025-11-20 21:44:51 [INFO] subsystem_hooks: 📊 Read 244 lines from transcript
+2025-11-20 21:44:51 [INFO] subsystem_hooks: 📝 Найдено 33 сообщений диалога (из 8 смен ролей)
+2025-11-20 21:44:51 [INFO] subsystem_hooks: 🎯 Найдено 6 команд пользователя
+2025-11-20 21:44:51 [INFO] subsystem_hooks: ✅ Dialog context extracted: 15588 chars
+2025-11-20 21:44:51 [INFO] subsystem_hooks: ✅ Trigger created: tool_control_pending_1763664289.json
+2025-11-20 21:45:34 [INFO] subsystem_hooks: ✅ Project matched: Video_tagging (user: 158301565, chat: 158301565)
+2025-11-20 21:45:34 [INFO] subsystem_hooks: 🎯 Creating trigger for project: Video_tagging
+2025-11-20 21:45:34 [INFO] subsystem_hooks:    Project dir: /mnt/e/Projects/Quantum/Video_tagging_db
+2025-11-20 21:45:34 [INFO] subsystem_hooks:    User: 158301565, Chat: 158301565
+2025-11-20 21:45:34 [INFO] subsystem_hooks:    Trigger dir: /mnt/e/Projects/Quantum/Video_tagging_db/workflow_inbox
+2025-11-20 21:45:34 [INFO] subsystem_hooks: 📋 No project_mode.json found, using default: development
+2025-11-20 21:45:34 [INFO] subsystem_hooks: 🔍 Extracting dialog context...
+2025-11-20 21:45:34 [INFO] subsystem_hooks:    transcript_path: /home/vano/.claude/projects/-mnt-e-Projects-Quantum-Video-tagging-db/14e8e706-4611-4028-b7db-fce58b14f3e9.jsonl
+2025-11-20 21:45:34 [INFO] subsystem_hooks:    session_id: 14e8e706-4611-4028-b7db-fce58b14f3e9
+2025-11-20 21:45:34 [INFO] subsystem_hooks:    tool_name: Edit
+2025-11-20 21:45:34 [INFO] subsystem_hooks: 📂 Finding actual transcript for session: 14e8e706-4611-4028-b7db-fce58b14f3e9
+2025-11-20 21:45:36 [INFO] subsystem_hooks: 📂 Using transcript file: /home/vano/.claude/projects/-mnt-e-Projects-Quantum-Video-tagging-db/14e8e706-4611-4028-b7db-fce58b14f3e9.jsonl
+2025-11-20 21:45:36 [INFO] subsystem_hooks: 📊 Read 255 lines from transcript
+2025-11-20 21:45:36 [INFO] subsystem_hooks: 📝 Найдено 38 сообщений диалога (из 8 смен ролей)
+2025-11-20 21:45:36 [INFO] subsystem_hooks: 🎯 Найдено 6 команд пользователя
+2025-11-20 21:45:36 [INFO] subsystem_hooks: ✅ Dialog context extracted: 18558 chars
+2025-11-20 21:45:36 [INFO] subsystem_hooks: ✅ Trigger created: tool_control_pending_1763664334.json
+2025-11-20 21:48:36 [INFO] subsystem_hooks: ✅ Project matched: Video_tagging (user: 158301565, chat: 158301565)
+2025-11-20 21:48:36 [INFO] subsystem_hooks: 🎯 Creating trigger for project: Video_tagging
+2025-11-20 21:48:36 [INFO] subsystem_hooks:    Project dir: /mnt/e/Projects/Quantum/Video_tagging_db
+2025-11-20 21:48:36 [INFO] subsystem_hooks:    User: 158301565, Chat: 158301565
+2025-11-20 21:48:36 [INFO] subsystem_hooks:    Trigger dir: /mnt/e/Projects/Quantum/Video_tagging_db/workflow_inbox
+2025-11-20 21:48:36 [INFO] subsystem_hooks: 📋 No project_mode.json found, using default: development
+2025-11-20 21:48:36 [INFO] subsystem_hooks: 🔍 Extracting dialog context...
+2025-11-20 21:48:36 [INFO] subsystem_hooks:    transcript_path: /home/vano/.claude/projects/-mnt-e-Projects-Quantum-Video-tagging-db/14e8e706-4611-4028-b7db-fce58b14f3e9.jsonl
+2025-11-20 21:48:36 [INFO] subsystem_hooks:    session_id: 14e8e706-4611-4028-b7db-fce58b14f3e9
+2025-11-20 21:48:36 [INFO] subsystem_hooks:    tool_name: Edit
+2025-11-20 21:48:36 [INFO] subsystem_hooks: 📂 Finding actual transcript for session: 14e8e706-4611-4028-b7db-fce58b14f3e9
+2025-11-20 21:48:38 [INFO] subsystem_hooks: 📂 Using transcript file: /home/vano/.claude/projects/-mnt-e-Projects-Quantum-Video-tagging-db/14e8e706-4611-4028-b7db-fce58b14f3e9.jsonl
+2025-11-20 21:48:38 [INFO] subsystem_hooks: 📊 Read 256 lines from transcript
+2025-11-20 21:48:38 [INFO] subsystem_hooks: 📝 Найдено 39 сообщений диалога (из 8 смен ролей)
+2025-11-20 21:48:38 [INFO] subsystem_hooks: 🎯 Найдено 6 команд пользователя
+2025-11-20 21:48:38 [INFO] subsystem_hooks: ✅ Dialog context extracted: 19505 chars
+2025-11-20 21:48:38 [INFO] subsystem_hooks: ✅ Trigger created: tool_control_pending_1763664516.json
+2025-11-20 22:13:29 [INFO] subsystem_hooks: ✅ Project matched: Video_tagging (user: 158301565, chat: 158301565)
+2025-11-20 22:13:29 [INFO] subsystem_hooks: 🎯 Creating trigger for project: Video_tagging
+2025-11-20 22:13:29 [INFO] subsystem_hooks:    Project dir: /mnt/e/Projects/Quantum/Video_tagging_db
+2025-11-20 22:13:29 [INFO] subsystem_hooks:    User: 158301565, Chat: 158301565
+2025-11-20 22:13:29 [INFO] subsystem_hooks:    Trigger dir: /mnt/e/Projects/Quantum/Video_tagging_db/workflow_inbox
+2025-11-20 22:13:29 [INFO] subsystem_hooks: 📋 No project_mode.json found, using default: development
+2025-11-20 22:13:29 [INFO] subsystem_hooks: 🔍 Extracting dialog context...
+2025-11-20 22:13:29 [INFO] subsystem_hooks:    transcript_path: /home/vano/.claude/projects/-mnt-e-Projects-Quantum-Video-tagging-db/14e8e706-4611-4028-b7db-fce58b14f3e9.jsonl
+2025-11-20 22:13:29 [INFO] subsystem_hooks:    session_id: 14e8e706-4611-4028-b7db-fce58b14f3e9
+2025-11-20 22:13:29 [INFO] subsystem_hooks:    tool_name: Write
+2025-11-20 22:13:29 [INFO] subsystem_hooks: 📂 Finding actual transcript for session: 14e8e706-4611-4028-b7db-fce58b14f3e9
+2025-11-20 22:13:31 [INFO] subsystem_hooks: 📂 Using transcript file: /home/vano/.claude/projects/-mnt-e-Projects-Quantum-Video-tagging-db/14e8e706-4611-4028-b7db-fce58b14f3e9.jsonl
+2025-11-20 22:13:31 [INFO] subsystem_hooks: 📊 Read 266 lines from transcript
+2025-11-20 22:13:31 [INFO] subsystem_hooks: 📝 Найдено 41 сообщений диалога (из 8 смен ролей)
+2025-11-20 22:13:31 [INFO] subsystem_hooks: 🎯 Найдено 6 команд пользователя
+2025-11-20 22:13:31 [INFO] subsystem_hooks: ✅ Dialog context extracted: 22842 chars
+2025-11-20 22:13:31 [INFO] subsystem_hooks: ✅ Trigger created: tool_control_pending_1763666009.json
+2025-11-20 22:16:21 [INFO] subsystem_hooks: ✅ Project matched: Video_tagging (user: 158301565, chat: 158301565)
+2025-11-20 22:16:21 [INFO] subsystem_hooks: 🎯 Creating trigger for project: Video_tagging
+2025-11-20 22:16:21 [INFO] subsystem_hooks:    Project dir: /mnt/e/Projects/Quantum/Video_tagging_db
+2025-11-20 22:16:21 [INFO] subsystem_hooks:    User: 158301565, Chat: 158301565
+2025-11-20 22:16:21 [INFO] subsystem_hooks:    Trigger dir: /mnt/e/Projects/Quantum/Video_tagging_db/workflow_inbox
+2025-11-20 22:16:21 [INFO] subsystem_hooks: 📋 No project_mode.json found, using default: development
+2025-11-20 22:16:21 [INFO] subsystem_hooks: 🔍 Extracting dialog context...
+2025-11-20 22:16:21 [INFO] subsystem_hooks:    transcript_path: /home/vano/.claude/projects/-mnt-e-Projects-Quantum-Video-tagging-db/14e8e706-4611-4028-b7db-fce58b14f3e9.jsonl
+2025-11-20 22:16:21 [INFO] subsystem_hooks:    session_id: 14e8e706-4611-4028-b7db-fce58b14f3e9
+2025-11-20 22:16:21 [INFO] subsystem_hooks:    tool_name: Edit
+2025-11-20 22:16:21 [INFO] subsystem_hooks: 📂 Finding actual transcript for session: 14e8e706-4611-4028-b7db-fce58b14f3e9
+2025-11-20 22:16:23 [INFO] subsystem_hooks: 📂 Using transcript file: /home/vano/.claude/projects/-mnt-e-Projects-Quantum-Video-tagging-db/14e8e706-4611-4028-b7db-fce58b14f3e9.jsonl
+2025-11-20 22:16:23 [INFO] subsystem_hooks: 📊 Read 278 lines from transcript
+2025-11-20 22:16:23 [INFO] subsystem_hooks: 📝 Найдено 42 сообщений диалога (из 8 смен ролей)
+2025-11-20 22:16:23 [INFO] subsystem_hooks: 🎯 Найдено 6 команд пользователя
+2025-11-20 22:16:23 [INFO] subsystem_hooks: ✅ Dialog context extracted: 24823 chars
+2025-11-20 22:16:23 [INFO] subsystem_hooks: ✅ Trigger created: tool_control_pending_1763666181.json
+2025-11-20 22:16:50 [INFO] subsystem_hooks: ✅ Project matched: Video_tagging (user: 158301565, chat: 158301565)
+2025-11-20 22:16:50 [INFO] subsystem_hooks: 🎯 Creating trigger for project: Video_tagging
+2025-11-20 22:16:50 [INFO] subsystem_hooks:    Project dir: /mnt/e/Projects/Quantum/Video_tagging_db
+2025-11-20 22:16:50 [INFO] subsystem_hooks:    User: 158301565, Chat: 158301565
+2025-11-20 22:16:50 [INFO] subsystem_hooks:    Trigger dir: /mnt/e/Projects/Quantum/Video_tagging_db/workflow_inbox
+2025-11-20 22:16:50 [INFO] subsystem_hooks: 📋 No project_mode.json found, using default: development
+2025-11-20 22:16:50 [INFO] subsystem_hooks: 🔍 Extracting dialog context...
+2025-11-20 22:16:50 [INFO] subsystem_hooks:    transcript_path: /home/vano/.claude/projects/-mnt-e-Projects-Quantum-Video-tagging-db/14e8e706-4611-4028-b7db-fce58b14f3e9.jsonl
+2025-11-20 22:16:50 [INFO] subsystem_hooks:    session_id: 14e8e706-4611-4028-b7db-fce58b14f3e9
+2025-11-20 22:16:50 [INFO] subsystem_hooks:    tool_name: Edit
+2025-11-20 22:16:50 [INFO] subsystem_hooks: 📂 Finding actual transcript for session: 14e8e706-4611-4028-b7db-fce58b14f3e9
+2025-11-20 22:16:52 [INFO] subsystem_hooks: 📂 Using transcript file: /home/vano/.claude/projects/-mnt-e-Projects-Quantum-Video-tagging-db/14e8e706-4611-4028-b7db-fce58b14f3e9.jsonl
+2025-11-20 22:16:52 [INFO] subsystem_hooks: 📊 Read 279 lines from transcript
+2025-11-20 22:16:52 [INFO] subsystem_hooks: 📝 Найдено 43 сообщений диалога (из 8 смен ролей)
+2025-11-20 22:16:52 [INFO] subsystem_hooks: 🎯 Найдено 6 команд пользователя
+2025-11-20 22:16:52 [INFO] subsystem_hooks: ✅ Dialog context extracted: 25934 chars
+2025-11-20 22:16:52 [INFO] subsystem_hooks: ✅ Trigger created: tool_control_pending_1763666210.json
+2025-11-20 22:17:29 [INFO] subsystem_hooks: ✅ Project matched: Video_tagging (user: 158301565, chat: 158301565)
+2025-11-20 22:17:29 [INFO] subsystem_hooks: 🎯 Creating trigger for project: Video_tagging
+2025-11-20 22:17:29 [INFO] subsystem_hooks:    Project dir: /mnt/e/Projects/Quantum/Video_tagging_db
+2025-11-20 22:17:29 [INFO] subsystem_hooks:    User: 158301565, Chat: 158301565
+2025-11-20 22:17:29 [INFO] subsystem_hooks:    Trigger dir: /mnt/e/Projects/Quantum/Video_tagging_db/workflow_inbox
+2025-11-20 22:17:29 [INFO] subsystem_hooks: 📋 No project_mode.json found, using default: development
+2025-11-20 22:17:29 [INFO] subsystem_hooks: 🔍 Extracting dialog context...
+2025-11-20 22:17:29 [INFO] subsystem_hooks:    transcript_path: /home/vano/.claude/projects/-mnt-e-Projects-Quantum-Video-tagging-db/14e8e706-4611-4028-b7db-fce58b14f3e9.jsonl
+2025-11-20 22:17:29 [INFO] subsystem_hooks:    session_id: 14e8e706-4611-4028-b7db-fce58b14f3e9
+2025-11-20 22:17:29 [INFO] subsystem_hooks:    tool_name: Edit
+2025-11-20 22:17:29 [INFO] subsystem_hooks: 📂 Finding actual transcript for session: 14e8e706-4611-4028-b7db-fce58b14f3e9
+2025-11-20 22:17:31 [INFO] subsystem_hooks: 📂 Using transcript file: /home/vano/.claude/projects/-mnt-e-Projects-Quantum-Video-tagging-db/14e8e706-4611-4028-b7db-fce58b14f3e9.jsonl
+2025-11-20 22:17:31 [INFO] subsystem_hooks: 📊 Read 280 lines from transcript
+2025-11-20 22:17:31 [INFO] subsystem_hooks: 📝 Найдено 44 сообщений диалога (из 8 смен ролей)
+2025-11-20 22:17:31 [INFO] subsystem_hooks: 🎯 Найдено 6 команд пользователя
+2025-11-20 22:17:31 [INFO] subsystem_hooks: ✅ Dialog context extracted: 26890 chars
+2025-11-20 22:17:31 [INFO] subsystem_hooks: ✅ Trigger created: tool_control_pending_1763666249.json
+2025-11-20 22:17:51 [INFO] subsystem_hooks: ✅ Project matched: Video_tagging (user: 158301565, chat: 158301565)
+2025-11-20 22:17:51 [INFO] subsystem_hooks: 🎯 Creating trigger for project: Video_tagging
+2025-11-20 22:17:51 [INFO] subsystem_hooks:    Project dir: /mnt/e/Projects/Quantum/Video_tagging_db
+2025-11-20 22:17:51 [INFO] subsystem_hooks:    User: 158301565, Chat: 158301565
+2025-11-20 22:17:51 [INFO] subsystem_hooks:    Trigger dir: /mnt/e/Projects/Quantum/Video_tagging_db/workflow_inbox
+2025-11-20 22:17:51 [INFO] subsystem_hooks: 📋 No project_mode.json found, using default: development
+2025-11-20 22:17:51 [INFO] subsystem_hooks: 🔍 Extracting dialog context...
+2025-11-20 22:17:51 [INFO] subsystem_hooks:    transcript_path: /home/vano/.claude/projects/-mnt-e-Projects-Quantum-Video-tagging-db/14e8e706-4611-4028-b7db-fce58b14f3e9.jsonl
+2025-11-20 22:17:51 [INFO] subsystem_hooks:    session_id: 14e8e706-4611-4028-b7db-fce58b14f3e9
+2025-11-20 22:17:51 [INFO] subsystem_hooks:    tool_name: Edit
+2025-11-20 22:17:51 [INFO] subsystem_hooks: 📂 Finding actual transcript for session: 14e8e706-4611-4028-b7db-fce58b14f3e9
+2025-11-20 22:17:53 [INFO] subsystem_hooks: 📂 Using transcript file: /home/vano/.claude/projects/-mnt-e-Projects-Quantum-Video-tagging-db/14e8e706-4611-4028-b7db-fce58b14f3e9.jsonl
+2025-11-20 22:17:53 [INFO] subsystem_hooks: 📊 Read 281 lines from transcript
+2025-11-20 22:17:53 [INFO] subsystem_hooks: 📝 Найдено 45 сообщений диалога (из 8 смен ролей)
+2025-11-20 22:17:53 [INFO] subsystem_hooks: 🎯 Найдено 6 команд пользователя
+2025-11-20 22:17:53 [INFO] subsystem_hooks: ✅ Dialog context extracted: 27626 chars
+2025-11-20 22:17:53 [INFO] subsystem_hooks: ✅ Trigger created: tool_control_pending_1763666271.json
+2025-11-20 22:47:55 [INFO] subsystem_hooks: ✅ Project matched: Video_tagging (user: 158301565, chat: 158301565)
+2025-11-20 22:47:55 [INFO] subsystem_hooks: 🎯 Creating trigger for project: Video_tagging
+2025-11-20 22:47:55 [INFO] subsystem_hooks:    Project dir: /mnt/e/Projects/Quantum/Video_tagging_db
+2025-11-20 22:47:55 [INFO] subsystem_hooks:    User: 158301565, Chat: 158301565
+2025-11-20 22:47:55 [INFO] subsystem_hooks:    Trigger dir: /mnt/e/Projects/Quantum/Video_tagging_db/workflow_inbox
+2025-11-20 22:47:55 [INFO] subsystem_hooks: 📋 No project_mode.json found, using default: development
+2025-11-20 22:47:55 [INFO] subsystem_hooks: 🔍 Extracting dialog context...
+2025-11-20 22:47:55 [INFO] subsystem_hooks:    transcript_path: /home/vano/.claude/projects/-mnt-e-Projects-Quantum-Video-tagging-db/14e8e706-4611-4028-b7db-fce58b14f3e9.jsonl
+2025-11-20 22:47:55 [INFO] subsystem_hooks:    session_id: 14e8e706-4611-4028-b7db-fce58b14f3e9
+2025-11-20 22:47:55 [INFO] subsystem_hooks:    tool_name: Write
+2025-11-20 22:47:55 [INFO] subsystem_hooks: 📂 Finding actual transcript for session: 14e8e706-4611-4028-b7db-fce58b14f3e9
+2025-11-20 22:47:57 [INFO] subsystem_hooks: 📂 Using transcript file: /home/vano/.claude/projects/-mnt-e-Projects-Quantum-Video-tagging-db/14e8e706-4611-4028-b7db-fce58b14f3e9.jsonl
+2025-11-20 22:47:57 [INFO] subsystem_hooks: 📊 Read 304 lines from transcript
+2025-11-20 22:47:57 [INFO] subsystem_hooks: 📝 Найдено 24 сообщений диалога (из 8 смен ролей)
+2025-11-20 22:47:57 [INFO] subsystem_hooks: 🎯 Найдено 6 команд пользователя
+2025-11-20 22:47:57 [INFO] subsystem_hooks: ✅ Dialog context extracted: 35934 chars
+2025-11-20 22:47:57 [INFO] subsystem_hooks: ✅ Trigger created: tool_control_pending_1763668075.json
+2025-11-20 23:09:47 [INFO] subsystem_hooks: ✅ Project matched: Video_tagging (user: 158301565, chat: 158301565)
+2025-11-20 23:09:47 [INFO] subsystem_hooks: 🎯 Creating trigger for project: Video_tagging
+2025-11-20 23:09:47 [INFO] subsystem_hooks:    Project dir: /mnt/e/Projects/Quantum/Video_tagging_db
+2025-11-20 23:09:47 [INFO] subsystem_hooks:    User: 158301565, Chat: 158301565
+2025-11-20 23:09:47 [INFO] subsystem_hooks:    Trigger dir: /mnt/e/Projects/Quantum/Video_tagging_db/workflow_inbox
+2025-11-20 23:09:47 [INFO] subsystem_hooks: 📋 Project mode loaded: development
+2025-11-20 23:09:47 [INFO] subsystem_hooks: 🔍 Extracting dialog context...
+2025-11-20 23:09:47 [INFO] subsystem_hooks:    transcript_path: /home/vano/.claude/projects/-mnt-e-Projects-Quantum-Video-tagging-db/14e8e706-4611-4028-b7db-fce58b14f3e9.jsonl
+2025-11-20 23:09:47 [INFO] subsystem_hooks:    session_id: 14e8e706-4611-4028-b7db-fce58b14f3e9
+2025-11-20 23:09:47 [INFO] subsystem_hooks:    tool_name: Edit
+2025-11-20 23:09:47 [INFO] subsystem_hooks: 📂 Finding actual transcript for session: 14e8e706-4611-4028-b7db-fce58b14f3e9
+2025-11-20 23:09:49 [INFO] subsystem_hooks: 📂 Using transcript file: /home/vano/.claude/projects/-mnt-e-Projects-Quantum-Video-tagging-db/14e8e706-4611-4028-b7db-fce58b14f3e9.jsonl
+2025-11-20 23:09:49 [INFO] subsystem_hooks: 📊 Read 334 lines from transcript
+2025-11-20 23:09:49 [INFO] subsystem_hooks: 📝 Найдено 17 сообщений диалога (из 8 смен ролей)
+2025-11-20 23:09:49 [INFO] subsystem_hooks: 🎯 Найдено 6 команд пользователя
+2025-11-20 23:09:49 [INFO] subsystem_hooks: ✅ Dialog context extracted: 16916 chars
+2025-11-20 23:09:49 [INFO] subsystem_hooks: ✅ Trigger created: tool_control_pending_1763669387.json
+2025-11-20 23:10:57 [INFO] subsystem_hooks: ✅ Project matched: Video_tagging (user: 158301565, chat: 158301565)
+2025-11-20 23:10:57 [INFO] subsystem_hooks: 🎯 Creating trigger for project: Video_tagging
+2025-11-20 23:10:57 [INFO] subsystem_hooks:    Project dir: /mnt/e/Projects/Quantum/Video_tagging_db
+2025-11-20 23:10:57 [INFO] subsystem_hooks:    User: 158301565, Chat: 158301565
+2025-11-20 23:10:57 [INFO] subsystem_hooks:    Trigger dir: /mnt/e/Projects/Quantum/Video_tagging_db/workflow_inbox
+2025-11-20 23:10:57 [INFO] subsystem_hooks: 📋 Project mode loaded: development
+2025-11-20 23:10:57 [INFO] subsystem_hooks: 🔍 Extracting dialog context...
+2025-11-20 23:10:57 [INFO] subsystem_hooks:    transcript_path: /home/vano/.claude/projects/-mnt-e-Projects-Quantum-Video-tagging-db/14e8e706-4611-4028-b7db-fce58b14f3e9.jsonl
+2025-11-20 23:10:57 [INFO] subsystem_hooks:    session_id: 14e8e706-4611-4028-b7db-fce58b14f3e9
+2025-11-20 23:10:57 [INFO] subsystem_hooks:    tool_name: Edit
+2025-11-20 23:10:57 [INFO] subsystem_hooks: 📂 Finding actual transcript for session: 14e8e706-4611-4028-b7db-fce58b14f3e9
+2025-11-20 23:10:59 [INFO] subsystem_hooks: 📂 Using transcript file: /home/vano/.claude/projects/-mnt-e-Projects-Quantum-Video-tagging-db/14e8e706-4611-4028-b7db-fce58b14f3e9.jsonl
+2025-11-20 23:10:59 [INFO] subsystem_hooks: 📊 Read 336 lines from transcript
+2025-11-20 23:10:59 [INFO] subsystem_hooks: 📝 Найдено 19 сообщений диалога (из 8 смен ролей)
+2025-11-20 23:10:59 [INFO] subsystem_hooks: 🎯 Найдено 6 команд пользователя
+2025-11-20 23:10:59 [INFO] subsystem_hooks: ✅ Dialog context extracted: 21006 chars
+2025-11-20 23:10:59 [INFO] subsystem_hooks: ✅ Trigger created: tool_control_pending_1763669457.json
+2025-11-20 23:11:36 [INFO] subsystem_hooks: ✅ Project matched: Video_tagging (user: 158301565, chat: 158301565)
+2025-11-20 23:11:36 [INFO] subsystem_hooks: 🎯 Creating trigger for project: Video_tagging
+2025-11-20 23:11:36 [INFO] subsystem_hooks:    Project dir: /mnt/e/Projects/Quantum/Video_tagging_db
+2025-11-20 23:11:36 [INFO] subsystem_hooks:    User: 158301565, Chat: 158301565
+2025-11-20 23:11:36 [INFO] subsystem_hooks:    Trigger dir: /mnt/e/Projects/Quantum/Video_tagging_db/workflow_inbox
+2025-11-20 23:11:36 [INFO] subsystem_hooks: 📋 Project mode loaded: development
+2025-11-20 23:11:36 [INFO] subsystem_hooks: 🔍 Extracting dialog context...
+2025-11-20 23:11:36 [INFO] subsystem_hooks:    transcript_path: /home/vano/.claude/projects/-mnt-e-Projects-Quantum-Video-tagging-db/14e8e706-4611-4028-b7db-fce58b14f3e9.jsonl
+2025-11-20 23:11:36 [INFO] subsystem_hooks:    session_id: 14e8e706-4611-4028-b7db-fce58b14f3e9
+2025-11-20 23:11:36 [INFO] subsystem_hooks:    tool_name: Edit
+2025-11-20 23:11:36 [INFO] subsystem_hooks: 📂 Finding actual transcript for session: 14e8e706-4611-4028-b7db-fce58b14f3e9
+2025-11-20 23:11:38 [INFO] subsystem_hooks: 📂 Using transcript file: /home/vano/.claude/projects/-mnt-e-Projects-Quantum-Video-tagging-db/14e8e706-4611-4028-b7db-fce58b14f3e9.jsonl
+2025-11-20 23:11:38 [INFO] subsystem_hooks: 📊 Read 338 lines from transcript
+2025-11-20 23:11:38 [INFO] subsystem_hooks: 📝 Найдено 21 сообщений диалога (из 8 смен ролей)
+2025-11-20 23:11:38 [INFO] subsystem_hooks: 🎯 Найдено 6 команд пользователя
+2025-11-20 23:11:38 [INFO] subsystem_hooks: ✅ Dialog context extracted: 24271 chars
+2025-11-20 23:11:38 [INFO] subsystem_hooks: ✅ Trigger created: tool_control_pending_1763669496.json
+2025-11-20 23:12:31 [INFO] subsystem_hooks: ✅ Project matched: Video_tagging (user: 158301565, chat: 158301565)
+2025-11-20 23:12:31 [INFO] subsystem_hooks: 🎯 Creating trigger for project: Video_tagging
+2025-11-20 23:12:31 [INFO] subsystem_hooks:    Project dir: /mnt/e/Projects/Quantum/Video_tagging_db
+2025-11-20 23:12:31 [INFO] subsystem_hooks:    User: 158301565, Chat: 158301565
+2025-11-20 23:12:31 [INFO] subsystem_hooks:    Trigger dir: /mnt/e/Projects/Quantum/Video_tagging_db/workflow_inbox
+2025-11-20 23:12:31 [INFO] subsystem_hooks: 📋 Project mode loaded: development
+2025-11-20 23:12:31 [INFO] subsystem_hooks: 🔍 Extracting dialog context...
+2025-11-20 23:12:31 [INFO] subsystem_hooks:    transcript_path: /home/vano/.claude/projects/-mnt-e-Projects-Quantum-Video-tagging-db/14e8e706-4611-4028-b7db-fce58b14f3e9.jsonl
+2025-11-20 23:12:31 [INFO] subsystem_hooks:    session_id: 14e8e706-4611-4028-b7db-fce58b14f3e9
+2025-11-20 23:12:31 [INFO] subsystem_hooks:    tool_name: Edit
+2025-11-20 23:12:31 [INFO] subsystem_hooks: 📂 Finding actual transcript for session: 14e8e706-4611-4028-b7db-fce58b14f3e9
+2025-11-20 23:12:33 [INFO] subsystem_hooks: 📂 Using transcript file: /home/vano/.claude/projects/-mnt-e-Projects-Quantum-Video-tagging-db/14e8e706-4611-4028-b7db-fce58b14f3e9.jsonl
+2025-11-20 23:12:33 [INFO] subsystem_hooks: 📊 Read 340 lines from transcript
+2025-11-20 23:12:33 [INFO] subsystem_hooks: 📝 Найдено 23 сообщений диалога (из 8 смен ролей)
+2025-11-20 23:12:33 [INFO] subsystem_hooks: 🎯 Найдено 6 команд пользователя
+2025-11-20 23:12:33 [INFO] subsystem_hooks: ✅ Dialog context extracted: 28027 chars
+2025-11-20 23:12:33 [INFO] subsystem_hooks: ✅ Trigger created: tool_control_pending_1763669551.json
+2025-11-20 23:13:44 [INFO] subsystem_hooks: ✅ Project matched: Video_tagging (user: 158301565, chat: 158301565)
+2025-11-20 23:13:44 [INFO] subsystem_hooks: 🎯 Creating trigger for project: Video_tagging
+2025-11-20 23:13:44 [INFO] subsystem_hooks:    Project dir: /mnt/e/Projects/Quantum/Video_tagging_db
+2025-11-20 23:13:44 [INFO] subsystem_hooks:    User: 158301565, Chat: 158301565
+2025-11-20 23:13:44 [INFO] subsystem_hooks:    Trigger dir: /mnt/e/Projects/Quantum/Video_tagging_db/workflow_inbox
+2025-11-20 23:13:44 [INFO] subsystem_hooks: 📋 Project mode loaded: development
+2025-11-20 23:13:44 [INFO] subsystem_hooks: 🔍 Extracting dialog context...
+2025-11-20 23:13:44 [INFO] subsystem_hooks:    transcript_path: /home/vano/.claude/projects/-mnt-e-Projects-Quantum-Video-tagging-db/14e8e706-4611-4028-b7db-fce58b14f3e9.jsonl
+2025-11-20 23:13:44 [INFO] subsystem_hooks:    session_id: 14e8e706-4611-4028-b7db-fce58b14f3e9
+2025-11-20 23:13:44 [INFO] subsystem_hooks:    tool_name: Edit
+2025-11-20 23:13:44 [INFO] subsystem_hooks: 📂 Finding actual transcript for session: 14e8e706-4611-4028-b7db-fce58b14f3e9
+2025-11-20 23:13:46 [INFO] subsystem_hooks: 📂 Using transcript file: /home/vano/.claude/projects/-mnt-e-Projects-Quantum-Video-tagging-db/14e8e706-4611-4028-b7db-fce58b14f3e9.jsonl
+2025-11-20 23:13:46 [INFO] subsystem_hooks: 📊 Read 347 lines from transcript
+2025-11-20 23:13:46 [INFO] subsystem_hooks: 📝 Найдено 25 сообщений диалога (из 8 смен ролей)
+2025-11-20 23:13:46 [INFO] subsystem_hooks: 🎯 Найдено 6 команд пользователя
+2025-11-20 23:13:46 [INFO] subsystem_hooks: ✅ Dialog context extracted: 31067 chars
+2025-11-20 23:13:46 [INFO] subsystem_hooks: ✅ Trigger created: tool_control_pending_1763669624.json
+2025-11-20 23:14:20 [INFO] subsystem_hooks: ✅ Project matched: Video_tagging (user: 158301565, chat: 158301565)
+2025-11-20 23:14:20 [INFO] subsystem_hooks: 🎯 Creating trigger for project: Video_tagging
+2025-11-20 23:14:20 [INFO] subsystem_hooks:    Project dir: /mnt/e/Projects/Quantum/Video_tagging_db
+2025-11-20 23:14:20 [INFO] subsystem_hooks:    User: 158301565, Chat: 158301565
+2025-11-20 23:14:20 [INFO] subsystem_hooks:    Trigger dir: /mnt/e/Projects/Quantum/Video_tagging_db/workflow_inbox
+2025-11-20 23:14:20 [INFO] subsystem_hooks: 📋 Project mode loaded: development
+2025-11-20 23:14:20 [INFO] subsystem_hooks: 🔍 Extracting dialog context...
+2025-11-20 23:14:20 [INFO] subsystem_hooks:    transcript_path: /home/vano/.claude/projects/-mnt-e-Projects-Quantum-Video-tagging-db/14e8e706-4611-4028-b7db-fce58b14f3e9.jsonl
+2025-11-20 23:14:20 [INFO] subsystem_hooks:    session_id: 14e8e706-4611-4028-b7db-fce58b14f3e9
+2025-11-20 23:14:20 [INFO] subsystem_hooks:    tool_name: Edit
+2025-11-20 23:14:20 [INFO] subsystem_hooks: 📂 Finding actual transcript for session: 14e8e706-4611-4028-b7db-fce58b14f3e9
+2025-11-20 23:14:22 [INFO] subsystem_hooks: 📂 Using transcript file: /home/vano/.claude/projects/-mnt-e-Projects-Quantum-Video-tagging-db/14e8e706-4611-4028-b7db-fce58b14f3e9.jsonl
+2025-11-20 23:14:22 [INFO] subsystem_hooks: 📊 Read 349 lines from transcript
+2025-11-20 23:14:22 [INFO] subsystem_hooks: 📝 Найдено 27 сообщений диалога (из 8 смен ролей)
+2025-11-20 23:14:22 [INFO] subsystem_hooks: 🎯 Найдено 6 команд пользователя
+2025-11-20 23:14:22 [INFO] subsystem_hooks: ✅ Dialog context extracted: 31990 chars
+2025-11-20 23:14:22 [INFO] subsystem_hooks: ✅ Trigger created: tool_control_pending_1763669660.json
+2025-11-20 23:14:59 [INFO] subsystem_hooks: ✅ Project matched: Video_tagging (user: 158301565, chat: 158301565)
+2025-11-20 23:14:59 [INFO] subsystem_hooks: 🎯 Creating trigger for project: Video_tagging
+2025-11-20 23:14:59 [INFO] subsystem_hooks:    Project dir: /mnt/e/Projects/Quantum/Video_tagging_db
+2025-11-20 23:14:59 [INFO] subsystem_hooks:    User: 158301565, Chat: 158301565
+2025-11-20 23:14:59 [INFO] subsystem_hooks:    Trigger dir: /mnt/e/Projects/Quantum/Video_tagging_db/workflow_inbox
+2025-11-20 23:14:59 [INFO] subsystem_hooks: 📋 Project mode loaded: development
+2025-11-20 23:14:59 [INFO] subsystem_hooks: 🔍 Extracting dialog context...
+2025-11-20 23:14:59 [INFO] subsystem_hooks:    transcript_path: /home/vano/.claude/projects/-mnt-e-Projects-Quantum-Video-tagging-db/14e8e706-4611-4028-b7db-fce58b14f3e9.jsonl
+2025-11-20 23:14:59 [INFO] subsystem_hooks:    session_id: 14e8e706-4611-4028-b7db-fce58b14f3e9
+2025-11-20 23:14:59 [INFO] subsystem_hooks:    tool_name: Edit
+2025-11-20 23:14:59 [INFO] subsystem_hooks: 📂 Finding actual transcript for session: 14e8e706-4611-4028-b7db-fce58b14f3e9
+2025-11-20 23:15:01 [INFO] subsystem_hooks: 📂 Using transcript file: /home/vano/.claude/projects/-mnt-e-Projects-Quantum-Video-tagging-db/14e8e706-4611-4028-b7db-fce58b14f3e9.jsonl
+2025-11-20 23:15:01 [INFO] subsystem_hooks: 📊 Read 351 lines from transcript
+2025-11-20 23:15:01 [INFO] subsystem_hooks: 📝 Найдено 29 сообщений диалога (из 8 смен ролей)
+2025-11-20 23:15:01 [INFO] subsystem_hooks: 🎯 Найдено 6 команд пользователя
+2025-11-20 23:15:01 [INFO] subsystem_hooks: ✅ Dialog context extracted: 33950 chars
+2025-11-20 23:15:01 [INFO] subsystem_hooks: ✅ Trigger created: tool_control_pending_1763669699.json
+2025-11-20 23:15:44 [INFO] subsystem_hooks: ✅ Project matched: Video_tagging (user: 158301565, chat: 158301565)
+2025-11-20 23:15:44 [INFO] subsystem_hooks: 🎯 Creating trigger for project: Video_tagging
+2025-11-20 23:15:44 [INFO] subsystem_hooks:    Project dir: /mnt/e/Projects/Quantum/Video_tagging_db
+2025-11-20 23:15:44 [INFO] subsystem_hooks:    User: 158301565, Chat: 158301565
+2025-11-20 23:15:44 [INFO] subsystem_hooks:    Trigger dir: /mnt/e/Projects/Quantum/Video_tagging_db/workflow_inbox
+2025-11-20 23:15:44 [INFO] subsystem_hooks: 📋 Project mode loaded: development
+2025-11-20 23:15:44 [INFO] subsystem_hooks: 🔍 Extracting dialog context...
+2025-11-20 23:15:44 [INFO] subsystem_hooks:    transcript_path: /home/vano/.claude/projects/-mnt-e-Projects-Quantum-Video-tagging-db/14e8e706-4611-4028-b7db-fce58b14f3e9.jsonl
+2025-11-20 23:15:44 [INFO] subsystem_hooks:    session_id: 14e8e706-4611-4028-b7db-fce58b14f3e9
+2025-11-20 23:15:44 [INFO] subsystem_hooks:    tool_name: Edit
+2025-11-20 23:15:44 [INFO] subsystem_hooks: 📂 Finding actual transcript for session: 14e8e706-4611-4028-b7db-fce58b14f3e9
+2025-11-20 23:15:46 [INFO] subsystem_hooks: 📂 Using transcript file: /home/vano/.claude/projects/-mnt-e-Projects-Quantum-Video-tagging-db/14e8e706-4611-4028-b7db-fce58b14f3e9.jsonl
+2025-11-20 23:15:46 [INFO] subsystem_hooks: 📊 Read 353 lines from transcript
+2025-11-20 23:15:46 [INFO] subsystem_hooks: 📝 Найдено 31 сообщений диалога (из 8 смен ролей)
+2025-11-20 23:15:46 [INFO] subsystem_hooks: 🎯 Найдено 6 команд пользователя
+2025-11-20 23:15:46 [INFO] subsystem_hooks: ✅ Dialog context extracted: 35721 chars
+2025-11-20 23:15:46 [INFO] subsystem_hooks: ✅ Trigger created: tool_control_pending_1763669744.json
+2025-11-20 23:16:44 [INFO] subsystem_hooks: ✅ Project matched: Video_tagging (user: 158301565, chat: 158301565)
+2025-11-20 23:16:44 [INFO] subsystem_hooks: 🎯 Creating trigger for project: Video_tagging
+2025-11-20 23:16:44 [INFO] subsystem_hooks:    Project dir: /mnt/e/Projects/Quantum/Video_tagging_db
+2025-11-20 23:16:44 [INFO] subsystem_hooks:    User: 158301565, Chat: 158301565
+2025-11-20 23:16:44 [INFO] subsystem_hooks:    Trigger dir: /mnt/e/Projects/Quantum/Video_tagging_db/workflow_inbox
+2025-11-20 23:16:44 [INFO] subsystem_hooks: 📋 Project mode loaded: development
+2025-11-20 23:16:44 [INFO] subsystem_hooks: 🔍 Extracting dialog context...
+2025-11-20 23:16:44 [INFO] subsystem_hooks:    transcript_path: /home/vano/.claude/projects/-mnt-e-Projects-Quantum-Video-tagging-db/14e8e706-4611-4028-b7db-fce58b14f3e9.jsonl
+2025-11-20 23:16:44 [INFO] subsystem_hooks:    session_id: 14e8e706-4611-4028-b7db-fce58b14f3e9
+2025-11-20 23:16:44 [INFO] subsystem_hooks:    tool_name: Edit
+2025-11-20 23:16:44 [INFO] subsystem_hooks: 📂 Finding actual transcript for session: 14e8e706-4611-4028-b7db-fce58b14f3e9
+2025-11-20 23:16:46 [INFO] subsystem_hooks: 📂 Using transcript file: /home/vano/.claude/projects/-mnt-e-Projects-Quantum-Video-tagging-db/14e8e706-4611-4028-b7db-fce58b14f3e9.jsonl
+2025-11-20 23:16:46 [INFO] subsystem_hooks: 📊 Read 355 lines from transcript
+2025-11-20 23:16:46 [INFO] subsystem_hooks: 📝 Найдено 33 сообщений диалога (из 8 смен ролей)
+2025-11-20 23:16:46 [INFO] subsystem_hooks: 🎯 Найдено 6 команд пользователя
+2025-11-20 23:16:46 [INFO] subsystem_hooks: ✅ Dialog context extracted: 46128 chars
+2025-11-20 23:16:46 [INFO] subsystem_hooks: ✅ Trigger created: tool_control_pending_1763669804.json
+2025-11-20 23:17:44 [INFO] subsystem_hooks: ✅ Project matched: Video_tagging (user: 158301565, chat: 158301565)
+2025-11-20 23:17:44 [INFO] subsystem_hooks: 🎯 Creating trigger for project: Video_tagging
+2025-11-20 23:17:44 [INFO] subsystem_hooks:    Project dir: /mnt/e/Projects/Quantum/Video_tagging_db
+2025-11-20 23:17:44 [INFO] subsystem_hooks:    User: 158301565, Chat: 158301565
+2025-11-20 23:17:44 [INFO] subsystem_hooks:    Trigger dir: /mnt/e/Projects/Quantum/Video_tagging_db/workflow_inbox
+2025-11-20 23:17:44 [INFO] subsystem_hooks: 📋 Project mode loaded: development
+2025-11-20 23:17:44 [INFO] subsystem_hooks: 🔍 Extracting dialog context...
+2025-11-20 23:17:44 [INFO] subsystem_hooks:    transcript_path: /home/vano/.claude/projects/-mnt-e-Projects-Quantum-Video-tagging-db/14e8e706-4611-4028-b7db-fce58b14f3e9.jsonl
+2025-11-20 23:17:44 [INFO] subsystem_hooks:    session_id: 14e8e706-4611-4028-b7db-fce58b14f3e9
+2025-11-20 23:17:44 [INFO] subsystem_hooks:    tool_name: Edit
+2025-11-20 23:17:44 [INFO] subsystem_hooks: 📂 Finding actual transcript for session: 14e8e706-4611-4028-b7db-fce58b14f3e9
+2025-11-20 23:17:46 [INFO] subsystem_hooks: 📂 Using transcript file: /home/vano/.claude/projects/-mnt-e-Projects-Quantum-Video-tagging-db/14e8e706-4611-4028-b7db-fce58b14f3e9.jsonl
+2025-11-20 23:17:46 [INFO] subsystem_hooks: 📊 Read 357 lines from transcript
+2025-11-20 23:17:46 [INFO] subsystem_hooks: 📝 Найдено 35 сообщений диалога (из 8 смен ролей)
+2025-11-20 23:17:46 [INFO] subsystem_hooks: 🎯 Найдено 6 команд пользователя
+2025-11-20 23:17:46 [INFO] subsystem_hooks: ✅ Dialog context extracted: 47181 chars
+2025-11-20 23:17:46 [INFO] subsystem_hooks: ✅ Trigger created: tool_control_pending_1763669864.json
+2025-11-20 23:18:42 [INFO] subsystem_hooks: ✅ Project matched: Video_tagging (user: 158301565, chat: 158301565)
+2025-11-20 23:18:42 [INFO] subsystem_hooks: 🎯 Creating trigger for project: Video_tagging
+2025-11-20 23:18:42 [INFO] subsystem_hooks:    Project dir: /mnt/e/Projects/Quantum/Video_tagging_db
+2025-11-20 23:18:42 [INFO] subsystem_hooks:    User: 158301565, Chat: 158301565
+2025-11-20 23:18:42 [INFO] subsystem_hooks:    Trigger dir: /mnt/e/Projects/Quantum/Video_tagging_db/workflow_inbox
+2025-11-20 23:18:42 [INFO] subsystem_hooks: 📋 Project mode loaded: development
+2025-11-20 23:18:42 [INFO] subsystem_hooks: 🔍 Extracting dialog context...
+2025-11-20 23:18:42 [INFO] subsystem_hooks:    transcript_path: /home/vano/.claude/projects/-mnt-e-Projects-Quantum-Video-tagging-db/14e8e706-4611-4028-b7db-fce58b14f3e9.jsonl
+2025-11-20 23:18:42 [INFO] subsystem_hooks:    session_id: 14e8e706-4611-4028-b7db-fce58b14f3e9
+2025-11-20 23:18:42 [INFO] subsystem_hooks:    tool_name: Edit
+2025-11-20 23:18:42 [INFO] subsystem_hooks: 📂 Finding actual transcript for session: 14e8e706-4611-4028-b7db-fce58b14f3e9
+2025-11-20 23:18:44 [INFO] subsystem_hooks: 📂 Using transcript file: /home/vano/.claude/projects/-mnt-e-Projects-Quantum-Video-tagging-db/14e8e706-4611-4028-b7db-fce58b14f3e9.jsonl
+2025-11-20 23:18:44 [INFO] subsystem_hooks: 📊 Read 362 lines from transcript
+2025-11-20 23:18:44 [INFO] subsystem_hooks: 📝 Найдено 40 сообщений диалога (из 8 смен ролей)
+2025-11-20 23:18:44 [INFO] subsystem_hooks: 🎯 Найдено 6 команд пользователя
+2025-11-20 23:18:44 [INFO] subsystem_hooks: ✅ Dialog context extracted: 50098 chars
+2025-11-20 23:18:44 [INFO] subsystem_hooks: ✅ Trigger created: tool_control_pending_1763669922.json
+2025-11-20 23:19:19 [INFO] subsystem_hooks: ✅ Project matched: Video_tagging (user: 158301565, chat: 158301565)
+2025-11-20 23:19:19 [INFO] subsystem_hooks: 🎯 Creating trigger for project: Video_tagging
+2025-11-20 23:19:19 [INFO] subsystem_hooks:    Project dir: /mnt/e/Projects/Quantum/Video_tagging_db
+2025-11-20 23:19:19 [INFO] subsystem_hooks:    User: 158301565, Chat: 158301565
+2025-11-20 23:19:19 [INFO] subsystem_hooks:    Trigger dir: /mnt/e/Projects/Quantum/Video_tagging_db/workflow_inbox
+2025-11-20 23:19:19 [INFO] subsystem_hooks: 📋 Project mode loaded: development
+2025-11-20 23:19:19 [INFO] subsystem_hooks: 🔍 Extracting dialog context...
+2025-11-20 23:19:19 [INFO] subsystem_hooks:    transcript_path: /home/vano/.claude/projects/-mnt-e-Projects-Quantum-Video-tagging-db/14e8e706-4611-4028-b7db-fce58b14f3e9.jsonl
+2025-11-20 23:19:19 [INFO] subsystem_hooks:    session_id: 14e8e706-4611-4028-b7db-fce58b14f3e9
+2025-11-20 23:19:19 [INFO] subsystem_hooks:    tool_name: Edit
+2025-11-20 23:19:19 [INFO] subsystem_hooks: 📂 Finding actual transcript for session: 14e8e706-4611-4028-b7db-fce58b14f3e9
+2025-11-20 23:19:21 [INFO] subsystem_hooks: 📂 Using transcript file: /home/vano/.claude/projects/-mnt-e-Projects-Quantum-Video-tagging-db/14e8e706-4611-4028-b7db-fce58b14f3e9.jsonl
+2025-11-20 23:19:21 [INFO] subsystem_hooks: 📊 Read 364 lines from transcript
+2025-11-20 23:19:21 [INFO] subsystem_hooks: 📝 Найдено 42 сообщений диалога (из 8 смен ролей)
+2025-11-20 23:19:21 [INFO] subsystem_hooks: 🎯 Найдено 6 команд пользователя
+2025-11-20 23:19:21 [INFO] subsystem_hooks: ✅ Dialog context extracted: 52507 chars
+2025-11-20 23:19:21 [INFO] subsystem_hooks: ✅ Trigger created: tool_control_pending_1763669959.json
+2025-11-20 23:19:54 [INFO] subsystem_hooks: ✅ Project matched: Video_tagging (user: 158301565, chat: 158301565)
+2025-11-20 23:19:54 [INFO] subsystem_hooks: 🎯 Creating trigger for project: Video_tagging
+2025-11-20 23:19:54 [INFO] subsystem_hooks:    Project dir: /mnt/e/Projects/Quantum/Video_tagging_db
+2025-11-20 23:19:54 [INFO] subsystem_hooks:    User: 158301565, Chat: 158301565
+2025-11-20 23:19:54 [INFO] subsystem_hooks:    Trigger dir: /mnt/e/Projects/Quantum/Video_tagging_db/workflow_inbox
+2025-11-20 23:19:54 [INFO] subsystem_hooks: 📋 Project mode loaded: development
+2025-11-20 23:19:54 [INFO] subsystem_hooks: 🔍 Extracting dialog context...
+2025-11-20 23:19:54 [INFO] subsystem_hooks:    transcript_path: /home/vano/.claude/projects/-mnt-e-Projects-Quantum-Video-tagging-db/14e8e706-4611-4028-b7db-fce58b14f3e9.jsonl
+2025-11-20 23:19:54 [INFO] subsystem_hooks:    session_id: 14e8e706-4611-4028-b7db-fce58b14f3e9
+2025-11-20 23:19:54 [INFO] subsystem_hooks:    tool_name: Edit
+2025-11-20 23:19:54 [INFO] subsystem_hooks: 📂 Finding actual transcript for session: 14e8e706-4611-4028-b7db-fce58b14f3e9
+2025-11-20 23:19:56 [INFO] subsystem_hooks: 📂 Using transcript file: /home/vano/.claude/projects/-mnt-e-Projects-Quantum-Video-tagging-db/14e8e706-4611-4028-b7db-fce58b14f3e9.jsonl
+2025-11-20 23:19:56 [INFO] subsystem_hooks: 📊 Read 366 lines from transcript
+2025-11-20 23:19:56 [INFO] subsystem_hooks: 📝 Найдено 44 сообщений диалога (из 8 смен ролей)
+2025-11-20 23:19:56 [INFO] subsystem_hooks: 🎯 Найдено 6 команд пользователя
+2025-11-20 23:19:56 [INFO] subsystem_hooks: ✅ Dialog context extracted: 56815 chars
+2025-11-20 23:19:56 [INFO] subsystem_hooks: ✅ Trigger created: tool_control_pending_1763669994.json
+2025-11-20 23:20:45 [INFO] subsystem_hooks: ✅ Project matched: Video_tagging (user: 158301565, chat: 158301565)
+2025-11-20 23:20:45 [INFO] subsystem_hooks: 🎯 Creating trigger for project: Video_tagging
+2025-11-20 23:20:45 [INFO] subsystem_hooks:    Project dir: /mnt/e/Projects/Quantum/Video_tagging_db
+2025-11-20 23:20:45 [INFO] subsystem_hooks:    User: 158301565, Chat: 158301565
+2025-11-20 23:20:45 [INFO] subsystem_hooks:    Trigger dir: /mnt/e/Projects/Quantum/Video_tagging_db/workflow_inbox
+2025-11-20 23:20:45 [INFO] subsystem_hooks: 📋 Project mode loaded: development
+2025-11-20 23:20:45 [INFO] subsystem_hooks: 🔍 Extracting dialog context...
+2025-11-20 23:20:45 [INFO] subsystem_hooks:    transcript_path: /home/vano/.claude/projects/-mnt-e-Projects-Quantum-Video-tagging-db/14e8e706-4611-4028-b7db-fce58b14f3e9.jsonl
+2025-11-20 23:20:45 [INFO] subsystem_hooks:    session_id: 14e8e706-4611-4028-b7db-fce58b14f3e9
+2025-11-20 23:20:45 [INFO] subsystem_hooks:    tool_name: Edit
+2025-11-20 23:20:45 [INFO] subsystem_hooks: 📂 Finding actual transcript for session: 14e8e706-4611-4028-b7db-fce58b14f3e9
+2025-11-20 23:20:47 [INFO] subsystem_hooks: 📂 Using transcript file: /home/vano/.claude/projects/-mnt-e-Projects-Quantum-Video-tagging-db/14e8e706-4611-4028-b7db-fce58b14f3e9.jsonl
+2025-11-20 23:20:47 [INFO] subsystem_hooks: 📊 Read 368 lines from transcript
+2025-11-20 23:20:47 [INFO] subsystem_hooks: 📝 Найдено 46 сообщений диалога (из 8 смен ролей)
+2025-11-20 23:20:47 [INFO] subsystem_hooks: 🎯 Найдено 6 команд пользователя
+2025-11-20 23:20:47 [INFO] subsystem_hooks: ✅ Dialog context extracted: 57357 chars
+2025-11-20 23:20:47 [INFO] subsystem_hooks: ✅ Trigger created: tool_control_pending_1763670045.json
+2025-11-20 23:21:32 [INFO] subsystem_hooks: ✅ Project matched: Video_tagging (user: 158301565, chat: 158301565)
+2025-11-20 23:21:32 [INFO] subsystem_hooks: 🎯 Creating trigger for project: Video_tagging
+2025-11-20 23:21:32 [INFO] subsystem_hooks:    Project dir: /mnt/e/Projects/Quantum/Video_tagging_db
+2025-11-20 23:21:32 [INFO] subsystem_hooks:    User: 158301565, Chat: 158301565
+2025-11-20 23:21:32 [INFO] subsystem_hooks:    Trigger dir: /mnt/e/Projects/Quantum/Video_tagging_db/workflow_inbox
+2025-11-20 23:21:32 [INFO] subsystem_hooks: 📋 Project mode loaded: development
+2025-11-20 23:21:32 [INFO] subsystem_hooks: 🔍 Extracting dialog context...
+2025-11-20 23:21:32 [INFO] subsystem_hooks:    transcript_path: /home/vano/.claude/projects/-mnt-e-Projects-Quantum-Video-tagging-db/14e8e706-4611-4028-b7db-fce58b14f3e9.jsonl
+2025-11-20 23:21:32 [INFO] subsystem_hooks:    session_id: 14e8e706-4611-4028-b7db-fce58b14f3e9
+2025-11-20 23:21:32 [INFO] subsystem_hooks:    tool_name: Edit
+2025-11-20 23:21:32 [INFO] subsystem_hooks: 📂 Finding actual transcript for session: 14e8e706-4611-4028-b7db-fce58b14f3e9
+2025-11-20 23:21:34 [INFO] subsystem_hooks: 📂 Using transcript file: /home/vano/.claude/projects/-mnt-e-Projects-Quantum-Video-tagging-db/14e8e706-4611-4028-b7db-fce58b14f3e9.jsonl
+2025-11-20 23:21:34 [INFO] subsystem_hooks: 📊 Read 370 lines from transcript
+2025-11-20 23:21:34 [INFO] subsystem_hooks: 📝 Найдено 48 сообщений диалога (из 8 смен ролей)
+2025-11-20 23:21:34 [INFO] subsystem_hooks: 🎯 Найдено 6 команд пользователя
+2025-11-20 23:21:34 [INFO] subsystem_hooks: ✅ Dialog context extracted: 58967 chars
+2025-11-20 23:21:34 [INFO] subsystem_hooks: ✅ Trigger created: tool_control_pending_1763670092.json
+2025-11-20 23:22:25 [INFO] subsystem_hooks: ✅ Project matched: Video_tagging (user: 158301565, chat: 158301565)
+2025-11-20 23:22:25 [INFO] subsystem_hooks: 🎯 Creating trigger for project: Video_tagging
+2025-11-20 23:22:25 [INFO] subsystem_hooks:    Project dir: /mnt/e/Projects/Quantum/Video_tagging_db
+2025-11-20 23:22:25 [INFO] subsystem_hooks:    User: 158301565, Chat: 158301565
+2025-11-20 23:22:25 [INFO] subsystem_hooks:    Trigger dir: /mnt/e/Projects/Quantum/Video_tagging_db/workflow_inbox
+2025-11-20 23:22:25 [INFO] subsystem_hooks: 📋 Project mode loaded: development
+2025-11-20 23:22:25 [INFO] subsystem_hooks: 🔍 Extracting dialog context...
+2025-11-20 23:22:25 [INFO] subsystem_hooks:    transcript_path: /home/vano/.claude/projects/-mnt-e-Projects-Quantum-Video-tagging-db/14e8e706-4611-4028-b7db-fce58b14f3e9.jsonl
+2025-11-20 23:22:25 [INFO] subsystem_hooks:    session_id: 14e8e706-4611-4028-b7db-fce58b14f3e9
+2025-11-20 23:22:25 [INFO] subsystem_hooks:    tool_name: Edit
+2025-11-20 23:22:25 [INFO] subsystem_hooks: 📂 Finding actual transcript for session: 14e8e706-4611-4028-b7db-fce58b14f3e9
+2025-11-20 23:22:27 [INFO] subsystem_hooks: 📂 Using transcript file: /home/vano/.claude/projects/-mnt-e-Projects-Quantum-Video-tagging-db/14e8e706-4611-4028-b7db-fce58b14f3e9.jsonl
+2025-11-20 23:22:27 [INFO] subsystem_hooks: 📊 Read 380 lines from transcript
+2025-11-20 23:22:27 [INFO] subsystem_hooks: 📝 Найдено 58 сообщений диалога (из 8 смен ролей)
+2025-11-20 23:22:27 [INFO] subsystem_hooks: 🎯 Найдено 6 команд пользователя
+2025-11-20 23:22:27 [INFO] subsystem_hooks: ✅ Dialog context extracted: 62431 chars
+2025-11-20 23:22:27 [INFO] subsystem_hooks: ✅ Trigger created: tool_control_pending_1763670145.json
+2025-11-20 23:23:32 [INFO] subsystem_hooks: ✅ Project matched: Video_tagging (user: 158301565, chat: 158301565)
+2025-11-20 23:23:32 [INFO] subsystem_hooks: 🎯 Creating trigger for project: Video_tagging
+2025-11-20 23:23:32 [INFO] subsystem_hooks:    Project dir: /mnt/e/Projects/Quantum/Video_tagging_db
+2025-11-20 23:23:32 [INFO] subsystem_hooks:    User: 158301565, Chat: 158301565
+2025-11-20 23:23:32 [INFO] subsystem_hooks:    Trigger dir: /mnt/e/Projects/Quantum/Video_tagging_db/workflow_inbox
+2025-11-20 23:23:32 [INFO] subsystem_hooks: 📋 Project mode loaded: development
+2025-11-20 23:23:32 [INFO] subsystem_hooks: 🔍 Extracting dialog context...
+2025-11-20 23:23:32 [INFO] subsystem_hooks:    transcript_path: /home/vano/.claude/projects/-mnt-e-Projects-Quantum-Video-tagging-db/14e8e706-4611-4028-b7db-fce58b14f3e9.jsonl
+2025-11-20 23:23:32 [INFO] subsystem_hooks:    session_id: 14e8e706-4611-4028-b7db-fce58b14f3e9
+2025-11-20 23:23:32 [INFO] subsystem_hooks:    tool_name: Edit
+2025-11-20 23:23:32 [INFO] subsystem_hooks: 📂 Finding actual transcript for session: 14e8e706-4611-4028-b7db-fce58b14f3e9
+2025-11-20 23:23:34 [INFO] subsystem_hooks: 📂 Using transcript file: /home/vano/.claude/projects/-mnt-e-Projects-Quantum-Video-tagging-db/14e8e706-4611-4028-b7db-fce58b14f3e9.jsonl
+2025-11-20 23:23:34 [INFO] subsystem_hooks: 📊 Read 383 lines from transcript
+2025-11-20 23:23:34 [INFO] subsystem_hooks: 📝 Найдено 60 сообщений диалога (из 8 смен ролей)
+2025-11-20 23:23:34 [INFO] subsystem_hooks: 🎯 Найдено 6 команд пользователя
+2025-11-20 23:23:34 [INFO] subsystem_hooks: ✅ Dialog context extracted: 66443 chars
+2025-11-20 23:23:34 [INFO] subsystem_hooks: ✅ Trigger created: tool_control_pending_1763670212.json
+2025-11-20 23:24:10 [INFO] subsystem_hooks: ✅ Project matched: Video_tagging (user: 158301565, chat: 158301565)
+2025-11-20 23:24:10 [INFO] subsystem_hooks: 🎯 Creating trigger for project: Video_tagging
+2025-11-20 23:24:10 [INFO] subsystem_hooks:    Project dir: /mnt/e/Projects/Quantum/Video_tagging_db
+2025-11-20 23:24:10 [INFO] subsystem_hooks:    User: 158301565, Chat: 158301565
+2025-11-20 23:24:10 [INFO] subsystem_hooks:    Trigger dir: /mnt/e/Projects/Quantum/Video_tagging_db/workflow_inbox
+2025-11-20 23:24:10 [INFO] subsystem_hooks: 📋 Project mode loaded: development
+2025-11-20 23:24:10 [INFO] subsystem_hooks: 🔍 Extracting dialog context...
+2025-11-20 23:24:10 [INFO] subsystem_hooks:    transcript_path: /home/vano/.claude/projects/-mnt-e-Projects-Quantum-Video-tagging-db/14e8e706-4611-4028-b7db-fce58b14f3e9.jsonl
+2025-11-20 23:24:10 [INFO] subsystem_hooks:    session_id: 14e8e706-4611-4028-b7db-fce58b14f3e9
+2025-11-20 23:24:10 [INFO] subsystem_hooks:    tool_name: Edit
+2025-11-20 23:24:10 [INFO] subsystem_hooks: 📂 Finding actual transcript for session: 14e8e706-4611-4028-b7db-fce58b14f3e9
+2025-11-20 23:24:12 [INFO] subsystem_hooks: 📂 Using transcript file: /home/vano/.claude/projects/-mnt-e-Projects-Quantum-Video-tagging-db/14e8e706-4611-4028-b7db-fce58b14f3e9.jsonl
+2025-11-20 23:24:12 [INFO] subsystem_hooks: 📊 Read 385 lines from transcript
+2025-11-20 23:24:12 [INFO] subsystem_hooks: 📝 Найдено 62 сообщений диалога (из 8 смен ролей)
+2025-11-20 23:24:12 [INFO] subsystem_hooks: 🎯 Найдено 6 команд пользователя
+2025-11-20 23:24:12 [INFO] subsystem_hooks: ✅ Dialog context extracted: 69293 chars
+2025-11-20 23:24:12 [INFO] subsystem_hooks: ✅ Trigger created: tool_control_pending_1763670250.json
+2025-11-20 23:24:58 [INFO] subsystem_hooks: ✅ Project matched: Video_tagging (user: 158301565, chat: 158301565)
+2025-11-20 23:24:58 [INFO] subsystem_hooks: 🎯 Creating trigger for project: Video_tagging
+2025-11-20 23:24:58 [INFO] subsystem_hooks:    Project dir: /mnt/e/Projects/Quantum/Video_tagging_db
+2025-11-20 23:24:58 [INFO] subsystem_hooks:    User: 158301565, Chat: 158301565
+2025-11-20 23:24:58 [INFO] subsystem_hooks:    Trigger dir: /mnt/e/Projects/Quantum/Video_tagging_db/workflow_inbox
+2025-11-20 23:24:58 [INFO] subsystem_hooks: 📋 Project mode loaded: development
+2025-11-20 23:24:58 [INFO] subsystem_hooks: 🔍 Extracting dialog context...
+2025-11-20 23:24:58 [INFO] subsystem_hooks:    transcript_path: /home/vano/.claude/projects/-mnt-e-Projects-Quantum-Video-tagging-db/14e8e706-4611-4028-b7db-fce58b14f3e9.jsonl
+2025-11-20 23:24:58 [INFO] subsystem_hooks:    session_id: 14e8e706-4611-4028-b7db-fce58b14f3e9
+2025-11-20 23:24:58 [INFO] subsystem_hooks:    tool_name: Edit
+2025-11-20 23:24:58 [INFO] subsystem_hooks: 📂 Finding actual transcript for session: 14e8e706-4611-4028-b7db-fce58b14f3e9
+2025-11-20 23:25:00 [INFO] subsystem_hooks: 📂 Using transcript file: /home/vano/.claude/projects/-mnt-e-Projects-Quantum-Video-tagging-db/14e8e706-4611-4028-b7db-fce58b14f3e9.jsonl
+2025-11-20 23:25:00 [INFO] subsystem_hooks: 📊 Read 387 lines from transcript
+2025-11-20 23:25:00 [INFO] subsystem_hooks: 📝 Найдено 64 сообщений диалога (из 8 смен ролей)
+2025-11-20 23:25:00 [INFO] subsystem_hooks: 🎯 Найдено 6 команд пользователя
+2025-11-20 23:25:00 [INFO] subsystem_hooks: ✅ Dialog context extracted: 70260 chars
+2025-11-20 23:25:00 [INFO] subsystem_hooks: ✅ Trigger created: tool_control_pending_1763670298.json
+2025-11-20 23:25:44 [INFO] subsystem_hooks: ✅ Project matched: Video_tagging (user: 158301565, chat: 158301565)
+2025-11-20 23:25:44 [INFO] subsystem_hooks: 🎯 Creating trigger for project: Video_tagging
+2025-11-20 23:25:44 [INFO] subsystem_hooks:    Project dir: /mnt/e/Projects/Quantum/Video_tagging_db
+2025-11-20 23:25:44 [INFO] subsystem_hooks:    User: 158301565, Chat: 158301565
+2025-11-20 23:25:44 [INFO] subsystem_hooks:    Trigger dir: /mnt/e/Projects/Quantum/Video_tagging_db/workflow_inbox
+2025-11-20 23:25:44 [INFO] subsystem_hooks: 📋 Project mode loaded: development
+2025-11-20 23:25:44 [INFO] subsystem_hooks: 🔍 Extracting dialog context...
+2025-11-20 23:25:44 [INFO] subsystem_hooks:    transcript_path: /home/vano/.claude/projects/-mnt-e-Projects-Quantum-Video-tagging-db/14e8e706-4611-4028-b7db-fce58b14f3e9.jsonl
+2025-11-20 23:25:44 [INFO] subsystem_hooks:    session_id: 14e8e706-4611-4028-b7db-fce58b14f3e9
+2025-11-20 23:25:44 [INFO] subsystem_hooks:    tool_name: Edit
+2025-11-20 23:25:44 [INFO] subsystem_hooks: 📂 Finding actual transcript for session: 14e8e706-4611-4028-b7db-fce58b14f3e9
+2025-11-20 23:25:46 [INFO] subsystem_hooks: 📂 Using transcript file: /home/vano/.claude/projects/-mnt-e-Projects-Quantum-Video-tagging-db/14e8e706-4611-4028-b7db-fce58b14f3e9.jsonl
+2025-11-20 23:25:46 [INFO] subsystem_hooks: 📊 Read 389 lines from transcript
+2025-11-20 23:25:46 [INFO] subsystem_hooks: 📝 Найдено 66 сообщений диалога (из 8 смен ролей)
+2025-11-20 23:25:46 [INFO] subsystem_hooks: 🎯 Найдено 6 команд пользователя
+2025-11-20 23:25:46 [INFO] subsystem_hooks: ✅ Dialog context extracted: 74221 chars
+2025-11-20 23:25:46 [INFO] subsystem_hooks: ✅ Trigger created: tool_control_pending_1763670344.json
+2025-11-20 23:26:44 [INFO] subsystem_hooks: ✅ Project matched: Video_tagging (user: 158301565, chat: 158301565)
+2025-11-20 23:26:44 [INFO] subsystem_hooks: 🎯 Creating trigger for project: Video_tagging
+2025-11-20 23:26:44 [INFO] subsystem_hooks:    Project dir: /mnt/e/Projects/Quantum/Video_tagging_db
+2025-11-20 23:26:44 [INFO] subsystem_hooks:    User: 158301565, Chat: 158301565
+2025-11-20 23:26:44 [INFO] subsystem_hooks:    Trigger dir: /mnt/e/Projects/Quantum/Video_tagging_db/workflow_inbox
+2025-11-20 23:26:44 [INFO] subsystem_hooks: 📋 Project mode loaded: development
+2025-11-20 23:26:44 [INFO] subsystem_hooks: 🔍 Extracting dialog context...
+2025-11-20 23:26:44 [INFO] subsystem_hooks:    transcript_path: /home/vano/.claude/projects/-mnt-e-Projects-Quantum-Video-tagging-db/14e8e706-4611-4028-b7db-fce58b14f3e9.jsonl
+2025-11-20 23:26:44 [INFO] subsystem_hooks:    session_id: 14e8e706-4611-4028-b7db-fce58b14f3e9
+2025-11-20 23:26:44 [INFO] subsystem_hooks:    tool_name: Edit
+2025-11-20 23:26:44 [INFO] subsystem_hooks: 📂 Finding actual transcript for session: 14e8e706-4611-4028-b7db-fce58b14f3e9
+2025-11-20 23:26:46 [INFO] subsystem_hooks: 📂 Using transcript file: /home/vano/.claude/projects/-mnt-e-Projects-Quantum-Video-tagging-db/14e8e706-4611-4028-b7db-fce58b14f3e9.jsonl
+2025-11-20 23:26:46 [INFO] subsystem_hooks: 📊 Read 398 lines from transcript
+2025-11-20 23:26:46 [INFO] subsystem_hooks: 📝 Найдено 75 сообщений диалога (из 8 смен ролей)
+2025-11-20 23:26:46 [INFO] subsystem_hooks: 🎯 Найдено 6 команд пользователя
+2025-11-20 23:26:46 [INFO] subsystem_hooks: ✅ Dialog context extracted: 77578 chars
+2025-11-20 23:26:46 [INFO] subsystem_hooks: ✅ Trigger created: tool_control_pending_1763670404.json
+2025-11-20 23:28:26 [INFO] subsystem_hooks: ✅ Project matched: Video_tagging (user: 158301565, chat: 158301565)
+2025-11-20 23:28:26 [INFO] subsystem_hooks: 🎯 Creating trigger for project: Video_tagging
+2025-11-20 23:28:26 [INFO] subsystem_hooks:    Project dir: /mnt/e/Projects/Quantum/Video_tagging_db
+2025-11-20 23:28:26 [INFO] subsystem_hooks:    User: 158301565, Chat: 158301565
+2025-11-20 23:28:26 [INFO] subsystem_hooks:    Trigger dir: /mnt/e/Projects/Quantum/Video_tagging_db/workflow_inbox
+2025-11-20 23:28:26 [INFO] subsystem_hooks: 📋 Project mode loaded: development
+2025-11-20 23:28:26 [INFO] subsystem_hooks: 🔍 Extracting dialog context...
+2025-11-20 23:28:26 [INFO] subsystem_hooks:    transcript_path: /home/vano/.claude/projects/-mnt-e-Projects-Quantum-Video-tagging-db/14e8e706-4611-4028-b7db-fce58b14f3e9.jsonl
+2025-11-20 23:28:26 [INFO] subsystem_hooks:    session_id: 14e8e706-4611-4028-b7db-fce58b14f3e9
+2025-11-20 23:28:26 [INFO] subsystem_hooks:    tool_name: Edit
+2025-11-20 23:28:26 [INFO] subsystem_hooks: 📂 Finding actual transcript for session: 14e8e706-4611-4028-b7db-fce58b14f3e9
+2025-11-20 23:28:28 [INFO] subsystem_hooks: 📂 Using transcript file: /home/vano/.claude/projects/-mnt-e-Projects-Quantum-Video-tagging-db/14e8e706-4611-4028-b7db-fce58b14f3e9.jsonl
+2025-11-20 23:28:28 [INFO] subsystem_hooks: 📊 Read 400 lines from transcript
+2025-11-20 23:28:28 [INFO] subsystem_hooks: 📝 Найдено 77 сообщений диалога (из 8 смен ролей)
+2025-11-20 23:28:28 [INFO] subsystem_hooks: 🎯 Найдено 6 команд пользователя
+2025-11-20 23:28:28 [INFO] subsystem_hooks: ✅ Dialog context extracted: 83720 chars
+2025-11-20 23:28:28 [INFO] subsystem_hooks: ✅ Trigger created: tool_control_pending_1763670506.json
+2025-11-20 23:29:15 [INFO] subsystem_hooks: ✅ Project matched: Video_tagging (user: 158301565, chat: 158301565)
+2025-11-20 23:29:15 [INFO] subsystem_hooks: 🎯 Creating trigger for project: Video_tagging
+2025-11-20 23:29:15 [INFO] subsystem_hooks:    Project dir: /mnt/e/Projects/Quantum/Video_tagging_db
+2025-11-20 23:29:15 [INFO] subsystem_hooks:    User: 158301565, Chat: 158301565
+2025-11-20 23:29:15 [INFO] subsystem_hooks:    Trigger dir: /mnt/e/Projects/Quantum/Video_tagging_db/workflow_inbox
+2025-11-20 23:29:15 [INFO] subsystem_hooks: 📋 Project mode loaded: development
+2025-11-20 23:29:15 [INFO] subsystem_hooks: 🔍 Extracting dialog context...
+2025-11-20 23:29:15 [INFO] subsystem_hooks:    transcript_path: /home/vano/.claude/projects/-mnt-e-Projects-Quantum-Video-tagging-db/14e8e706-4611-4028-b7db-fce58b14f3e9.jsonl
+2025-11-20 23:29:15 [INFO] subsystem_hooks:    session_id: 14e8e706-4611-4028-b7db-fce58b14f3e9
+2025-11-20 23:29:15 [INFO] subsystem_hooks:    tool_name: Edit
+2025-11-20 23:29:15 [INFO] subsystem_hooks: 📂 Finding actual transcript for session: 14e8e706-4611-4028-b7db-fce58b14f3e9
+2025-11-20 23:29:17 [INFO] subsystem_hooks: 📂 Using transcript file: /home/vano/.claude/projects/-mnt-e-Projects-Quantum-Video-tagging-db/14e8e706-4611-4028-b7db-fce58b14f3e9.jsonl
+2025-11-20 23:29:17 [INFO] subsystem_hooks: 📊 Read 402 lines from transcript
+2025-11-20 23:29:17 [INFO] subsystem_hooks: 📝 Найдено 79 сообщений диалога (из 8 смен ролей)
+2025-11-20 23:29:17 [INFO] subsystem_hooks: 🎯 Найдено 6 команд пользователя
+2025-11-20 23:29:17 [INFO] subsystem_hooks: ✅ Dialog context extracted: 87944 chars
+2025-11-20 23:29:17 [INFO] subsystem_hooks: ✅ Trigger created: tool_control_pending_1763670555.json
+2025-11-21 00:16:49 [INFO] subsystem_hooks: ✅ Project matched: Video_tagging (user: 158301565, chat: 158301565)
+2025-11-21 00:16:49 [INFO] subsystem_hooks: 🎯 Creating trigger for project: Video_tagging
+2025-11-21 00:16:49 [INFO] subsystem_hooks:    Project dir: /mnt/e/Projects/Quantum/Video_tagging_db
+2025-11-21 00:16:49 [INFO] subsystem_hooks:    User: 158301565, Chat: 158301565
+2025-11-21 00:16:49 [INFO] subsystem_hooks:    Trigger dir: /mnt/e/Projects/Quantum/Video_tagging_db/workflow_inbox
+2025-11-21 00:16:49 [INFO] subsystem_hooks: 📋 Project mode loaded: development
+2025-11-21 00:16:49 [INFO] subsystem_hooks: 🔍 Extracting dialog context...
+2025-11-21 00:16:49 [INFO] subsystem_hooks:    transcript_path: /home/vano/.claude/projects/-mnt-e-Projects-Quantum-Video-tagging-db/14e8e706-4611-4028-b7db-fce58b14f3e9.jsonl
+2025-11-21 00:16:49 [INFO] subsystem_hooks:    session_id: 14e8e706-4611-4028-b7db-fce58b14f3e9
+2025-11-21 00:16:49 [INFO] subsystem_hooks:    tool_name: Edit
+2025-11-21 00:16:49 [INFO] subsystem_hooks: 📂 Finding actual transcript for session: 14e8e706-4611-4028-b7db-fce58b14f3e9
+2025-11-21 00:16:51 [INFO] subsystem_hooks: 📂 Using transcript file: /home/vano/.claude/projects/-mnt-e-Projects-Quantum-Video-tagging-db/14e8e706-4611-4028-b7db-fce58b14f3e9.jsonl
+2025-11-21 00:16:51 [INFO] subsystem_hooks: 📊 Read 416 lines from transcript
+2025-11-21 00:16:51 [INFO] subsystem_hooks: 📝 Найдено 86 сообщений диалога (из 8 смен ролей)
+2025-11-21 00:16:51 [INFO] subsystem_hooks: 🎯 Найдено 6 команд пользователя
+2025-11-21 00:16:51 [INFO] subsystem_hooks: ✅ Dialog context extracted: 95215 chars
+2025-11-21 00:16:51 [INFO] subsystem_hooks: ✅ Trigger created: tool_control_pending_1763673409.json
+2025-11-21 00:39:38 [INFO] subsystem_hooks: ✅ Project matched: Video_tagging (user: 158301565, chat: 158301565)
+2025-11-21 00:39:38 [INFO] subsystem_hooks: 🎯 Creating trigger for project: Video_tagging
+2025-11-21 00:39:38 [INFO] subsystem_hooks:    Project dir: /mnt/e/Projects/Quantum/Video_tagging_db
+2025-11-21 00:39:38 [INFO] subsystem_hooks:    User: 158301565, Chat: 158301565
+2025-11-21 00:39:38 [INFO] subsystem_hooks:    Trigger dir: /mnt/e/Projects/Quantum/Video_tagging_db/workflow_inbox
+2025-11-21 00:39:38 [INFO] subsystem_hooks: 📋 Project mode loaded: development
+2025-11-21 00:39:38 [INFO] subsystem_hooks: 🔍 Extracting dialog context...
+2025-11-21 00:39:38 [INFO] subsystem_hooks:    transcript_path: /home/vano/.claude/projects/-mnt-e-Projects-Quantum-Video-tagging-db/14e8e706-4611-4028-b7db-fce58b14f3e9.jsonl
+2025-11-21 00:39:38 [INFO] subsystem_hooks:    session_id: 14e8e706-4611-4028-b7db-fce58b14f3e9
+2025-11-21 00:39:38 [INFO] subsystem_hooks:    tool_name: Bash
+2025-11-21 00:39:38 [INFO] subsystem_hooks: 📂 Finding actual transcript for session: 14e8e706-4611-4028-b7db-fce58b14f3e9
+2025-11-21 00:39:40 [INFO] subsystem_hooks: 📂 Using transcript file: /home/vano/.claude/projects/-mnt-e-Projects-Quantum-Video-tagging-db/14e8e706-4611-4028-b7db-fce58b14f3e9.jsonl
+2025-11-21 00:39:40 [INFO] subsystem_hooks: 📊 Read 422 lines from transcript
+2025-11-21 00:39:40 [INFO] subsystem_hooks: 📝 Найдено 86 сообщений диалога (из 8 смен ролей)
+2025-11-21 00:39:40 [INFO] subsystem_hooks: 🎯 Найдено 6 команд пользователя
+2025-11-21 00:39:40 [INFO] subsystem_hooks: ✅ Dialog context extracted: 96246 chars
+2025-11-21 00:39:40 [INFO] subsystem_hooks: ✅ Trigger created: tool_control_pending_1763674778.json
+2025-11-21 01:19:27 [INFO] subsystem_hooks: ✅ Project matched: Video_tagging (user: 158301565, chat: 158301565)
+2025-11-21 01:19:27 [INFO] subsystem_hooks: 🎯 Creating trigger for project: Video_tagging
+2025-11-21 01:19:27 [INFO] subsystem_hooks:    Project dir: /mnt/e/Projects/Quantum/Video_tagging_db
+2025-11-21 01:19:27 [INFO] subsystem_hooks:    User: 158301565, Chat: 158301565
+2025-11-21 01:19:27 [INFO] subsystem_hooks:    Trigger dir: /mnt/e/Projects/Quantum/Video_tagging_db/workflow_inbox
+2025-11-21 01:19:27 [INFO] subsystem_hooks: 📋 Project mode loaded: development
+2025-11-21 01:19:27 [INFO] subsystem_hooks: 🔍 Extracting dialog context...
+2025-11-21 01:19:27 [INFO] subsystem_hooks:    transcript_path: /home/vano/.claude/projects/-mnt-e-Projects-Quantum-Video-tagging-db/14e8e706-4611-4028-b7db-fce58b14f3e9.jsonl
+2025-11-21 01:19:27 [INFO] subsystem_hooks:    session_id: 14e8e706-4611-4028-b7db-fce58b14f3e9
+2025-11-21 01:19:27 [INFO] subsystem_hooks:    tool_name: Bash
+2025-11-21 01:19:27 [INFO] subsystem_hooks: 📂 Finding actual transcript for session: 14e8e706-4611-4028-b7db-fce58b14f3e9
+2025-11-21 01:19:29 [INFO] subsystem_hooks: 📂 Using transcript file: /home/vano/.claude/projects/-mnt-e-Projects-Quantum-Video-tagging-db/14e8e706-4611-4028-b7db-fce58b14f3e9.jsonl
+2025-11-21 01:19:29 [INFO] subsystem_hooks: 📊 Read 437 lines from transcript
+2025-11-21 01:19:29 [INFO] subsystem_hooks: 📝 Найдено 11 сообщений диалога (из 8 смен ролей)
+2025-11-21 01:19:29 [INFO] subsystem_hooks: 🎯 Найдено 6 команд пользователя
+2025-11-21 01:19:29 [INFO] subsystem_hooks: ✅ Dialog context extracted: 12031 chars
+2025-11-21 01:19:29 [INFO] subsystem_hooks: ✅ Trigger created: tool_control_pending_1763677167.json
+2025-11-21 01:20:12 [INFO] subsystem_hooks: ✅ Project matched: Video_tagging (user: 158301565, chat: 158301565)
+2025-11-21 01:20:12 [INFO] subsystem_hooks: 🎯 Creating trigger for project: Video_tagging
+2025-11-21 01:20:12 [INFO] subsystem_hooks:    Project dir: /mnt/e/Projects/Quantum/Video_tagging_db
+2025-11-21 01:20:12 [INFO] subsystem_hooks:    User: 158301565, Chat: 158301565
+2025-11-21 01:20:12 [INFO] subsystem_hooks:    Trigger dir: /mnt/e/Projects/Quantum/Video_tagging_db/workflow_inbox
+2025-11-21 01:20:12 [INFO] subsystem_hooks: 📋 Project mode loaded: development
+2025-11-21 01:20:12 [INFO] subsystem_hooks: 🔍 Extracting dialog context...
+2025-11-21 01:20:12 [INFO] subsystem_hooks:    transcript_path: /home/vano/.claude/projects/-mnt-e-Projects-Quantum-Video-tagging-db/14e8e706-4611-4028-b7db-fce58b14f3e9.jsonl
+2025-11-21 01:20:12 [INFO] subsystem_hooks:    session_id: 14e8e706-4611-4028-b7db-fce58b14f3e9
+2025-11-21 01:20:12 [INFO] subsystem_hooks:    tool_name: Bash
+2025-11-21 01:20:12 [INFO] subsystem_hooks: 📂 Finding actual transcript for session: 14e8e706-4611-4028-b7db-fce58b14f3e9
+2025-11-21 01:20:14 [INFO] subsystem_hooks: 📂 Using transcript file: /home/vano/.claude/projects/-mnt-e-Projects-Quantum-Video-tagging-db/14e8e706-4611-4028-b7db-fce58b14f3e9.jsonl
+2025-11-21 01:20:14 [INFO] subsystem_hooks: 📊 Read 439 lines from transcript
+2025-11-21 01:20:14 [INFO] subsystem_hooks: 📝 Найдено 13 сообщений диалога (из 8 смен ролей)
+2025-11-21 01:20:14 [INFO] subsystem_hooks: 🎯 Найдено 6 команд пользователя
+2025-11-21 01:20:14 [INFO] subsystem_hooks: ✅ Dialog context extracted: 12212 chars
+2025-11-21 01:20:14 [INFO] subsystem_hooks: ✅ Trigger created: tool_control_pending_1763677212.json
+2025-11-21 01:20:45 [INFO] subsystem_hooks: ✅ Project matched: Video_tagging (user: 158301565, chat: 158301565)
+2025-11-21 01:20:45 [INFO] subsystem_hooks: 🎯 Creating trigger for project: Video_tagging
+2025-11-21 01:20:45 [INFO] subsystem_hooks:    Project dir: /mnt/e/Projects/Quantum/Video_tagging_db
+2025-11-21 01:20:45 [INFO] subsystem_hooks:    User: 158301565, Chat: 158301565
+2025-11-21 01:20:45 [INFO] subsystem_hooks:    Trigger dir: /mnt/e/Projects/Quantum/Video_tagging_db/workflow_inbox
+2025-11-21 01:20:45 [INFO] subsystem_hooks: 📋 Project mode loaded: development
+2025-11-21 01:20:45 [INFO] subsystem_hooks: 🔍 Extracting dialog context...
+2025-11-21 01:20:45 [INFO] subsystem_hooks:    transcript_path: /home/vano/.claude/projects/-mnt-e-Projects-Quantum-Video-tagging-db/14e8e706-4611-4028-b7db-fce58b14f3e9.jsonl
+2025-11-21 01:20:45 [INFO] subsystem_hooks:    session_id: 14e8e706-4611-4028-b7db-fce58b14f3e9
+2025-11-21 01:20:45 [INFO] subsystem_hooks:    tool_name: Bash
+2025-11-21 01:20:45 [INFO] subsystem_hooks: 📂 Finding actual transcript for session: 14e8e706-4611-4028-b7db-fce58b14f3e9
+2025-11-21 01:20:47 [INFO] subsystem_hooks: 📂 Using transcript file: /home/vano/.claude/projects/-mnt-e-Projects-Quantum-Video-tagging-db/14e8e706-4611-4028-b7db-fce58b14f3e9.jsonl
+2025-11-21 01:20:47 [INFO] subsystem_hooks: 📊 Read 441 lines from transcript
+2025-11-21 01:20:47 [INFO] subsystem_hooks: 📝 Найдено 15 сообщений диалога (из 8 смен ролей)
+2025-11-21 01:20:47 [INFO] subsystem_hooks: 🎯 Найдено 6 команд пользователя
+2025-11-21 01:20:47 [INFO] subsystem_hooks: ✅ Dialog context extracted: 12536 chars
+2025-11-21 01:20:47 [INFO] subsystem_hooks: ✅ Trigger created: tool_control_pending_1763677245.json
+2025-11-21 01:25:47 [INFO] subsystem_hooks: ✅ Project matched: Video_tagging (user: 158301565, chat: 158301565)
+2025-11-21 01:25:47 [INFO] subsystem_hooks: 🎯 Creating trigger for project: Video_tagging
+2025-11-21 01:25:47 [INFO] subsystem_hooks:    Project dir: /mnt/e/Projects/Quantum/Video_tagging_db
+2025-11-21 01:25:47 [INFO] subsystem_hooks:    User: 158301565, Chat: 158301565
+2025-11-21 01:25:47 [INFO] subsystem_hooks:    Trigger dir: /mnt/e/Projects/Quantum/Video_tagging_db/workflow_inbox
+2025-11-21 01:25:47 [INFO] subsystem_hooks: 📋 Project mode loaded: development
+2025-11-21 01:25:47 [INFO] subsystem_hooks: 🔍 Extracting dialog context...
+2025-11-21 01:25:47 [INFO] subsystem_hooks:    transcript_path: /home/vano/.claude/projects/-mnt-e-Projects-Quantum-Video-tagging-db/14e8e706-4611-4028-b7db-fce58b14f3e9.jsonl
+2025-11-21 01:25:47 [INFO] subsystem_hooks:    session_id: 14e8e706-4611-4028-b7db-fce58b14f3e9
+2025-11-21 01:25:47 [INFO] subsystem_hooks:    tool_name: Bash
+2025-11-21 01:25:47 [INFO] subsystem_hooks: 📂 Finding actual transcript for session: 14e8e706-4611-4028-b7db-fce58b14f3e9
+2025-11-21 01:25:49 [INFO] subsystem_hooks: 📂 Using transcript file: /home/vano/.claude/projects/-mnt-e-Projects-Quantum-Video-tagging-db/14e8e706-4611-4028-b7db-fce58b14f3e9.jsonl
+2025-11-21 01:25:49 [INFO] subsystem_hooks: 📊 Read 455 lines from transcript
+2025-11-21 01:25:49 [INFO] subsystem_hooks: 📝 Найдено 22 сообщений диалога (из 8 смен ролей)
+2025-11-21 01:25:49 [INFO] subsystem_hooks: 🎯 Найдено 6 команд пользователя
+2025-11-21 01:25:49 [INFO] subsystem_hooks: ✅ Dialog context extracted: 13928 chars
+2025-11-21 01:25:49 [INFO] subsystem_hooks: ✅ Trigger created: tool_control_pending_1763677547.json
+2025-11-21 01:29:17 [INFO] subsystem_hooks: ✅ Project matched: Video_tagging (user: 158301565, chat: 158301565)
+2025-11-21 01:29:17 [INFO] subsystem_hooks: 🎯 Creating trigger for project: Video_tagging
+2025-11-21 01:29:17 [INFO] subsystem_hooks:    Project dir: /mnt/e/Projects/Quantum/Video_tagging_db
+2025-11-21 01:29:17 [INFO] subsystem_hooks:    User: 158301565, Chat: 158301565
+2025-11-21 01:29:17 [INFO] subsystem_hooks:    Trigger dir: /mnt/e/Projects/Quantum/Video_tagging_db/workflow_inbox
+2025-11-21 01:29:17 [INFO] subsystem_hooks: 📋 Project mode loaded: development
+2025-11-21 01:29:17 [INFO] subsystem_hooks: 🔍 Extracting dialog context...
+2025-11-21 01:29:17 [INFO] subsystem_hooks:    transcript_path: /home/vano/.claude/projects/-mnt-e-Projects-Quantum-Video-tagging-db/14e8e706-4611-4028-b7db-fce58b14f3e9.jsonl
+2025-11-21 01:29:17 [INFO] subsystem_hooks:    session_id: 14e8e706-4611-4028-b7db-fce58b14f3e9
+2025-11-21 01:29:17 [INFO] subsystem_hooks:    tool_name: Bash
+2025-11-21 01:29:17 [INFO] subsystem_hooks: 📂 Finding actual transcript for session: 14e8e706-4611-4028-b7db-fce58b14f3e9
+2025-11-21 01:29:19 [INFO] subsystem_hooks: 📂 Using transcript file: /home/vano/.claude/projects/-mnt-e-Projects-Quantum-Video-tagging-db/14e8e706-4611-4028-b7db-fce58b14f3e9.jsonl
+2025-11-21 01:29:19 [INFO] subsystem_hooks: 📊 Read 462 lines from transcript
+2025-11-21 01:29:19 [INFO] subsystem_hooks: 📝 Найдено 25 сообщений диалога (из 8 смен ролей)
+2025-11-21 01:29:19 [INFO] subsystem_hooks: 🎯 Найдено 6 команд пользователя
+2025-11-21 01:29:19 [INFO] subsystem_hooks: ✅ Dialog context extracted: 14403 chars
+2025-11-21 01:29:19 [INFO] subsystem_hooks: ✅ Trigger created: tool_control_pending_1763677757.json
+2025-11-21 01:34:27 [INFO] subsystem_hooks: ✅ Project matched: Video_tagging (user: 158301565, chat: 158301565)
+2025-11-21 01:34:27 [INFO] subsystem_hooks: 🎯 Creating trigger for project: Video_tagging
+2025-11-21 01:34:27 [INFO] subsystem_hooks:    Project dir: /mnt/e/Projects/Quantum/Video_tagging_db
+2025-11-21 01:34:27 [INFO] subsystem_hooks:    User: 158301565, Chat: 158301565
+2025-11-21 01:34:27 [INFO] subsystem_hooks:    Trigger dir: /mnt/e/Projects/Quantum/Video_tagging_db/workflow_inbox
+2025-11-21 01:34:27 [INFO] subsystem_hooks: 📋 Project mode loaded: development
+2025-11-21 01:34:27 [INFO] subsystem_hooks: 🔍 Extracting dialog context...
+2025-11-21 01:34:27 [INFO] subsystem_hooks:    transcript_path: /home/vano/.claude/projects/-mnt-e-Projects-Quantum-Video-tagging-db/14e8e706-4611-4028-b7db-fce58b14f3e9.jsonl
+2025-11-21 01:34:27 [INFO] subsystem_hooks:    session_id: 14e8e706-4611-4028-b7db-fce58b14f3e9
+2025-11-21 01:34:27 [INFO] subsystem_hooks:    tool_name: Bash
+2025-11-21 01:34:27 [INFO] subsystem_hooks: 📂 Finding actual transcript for session: 14e8e706-4611-4028-b7db-fce58b14f3e9
+2025-11-21 01:34:29 [INFO] subsystem_hooks: 📂 Using transcript file: /home/vano/.claude/projects/-mnt-e-Projects-Quantum-Video-tagging-db/14e8e706-4611-4028-b7db-fce58b14f3e9.jsonl
+2025-11-21 01:34:29 [INFO] subsystem_hooks: 📊 Read 469 lines from transcript
+2025-11-21 01:34:29 [INFO] subsystem_hooks: 📝 Найдено 28 сообщений диалога (из 8 смен ролей)
+2025-11-21 01:34:29 [INFO] subsystem_hooks: 🎯 Найдено 6 команд пользователя
+2025-11-21 01:34:29 [INFO] subsystem_hooks: ✅ Dialog context extracted: 15570 chars
+2025-11-21 01:34:29 [INFO] subsystem_hooks: ✅ Trigger created: tool_control_pending_1763678067.json
+2025-11-21 01:36:45 [INFO] subsystem_hooks: ✅ Project matched: Video_tagging (user: 158301565, chat: 158301565)
+2025-11-21 01:36:45 [INFO] subsystem_hooks: 🎯 Creating trigger for project: Video_tagging
+2025-11-21 01:36:45 [INFO] subsystem_hooks:    Project dir: /mnt/e/Projects/Quantum/Video_tagging_db
+2025-11-21 01:36:45 [INFO] subsystem_hooks:    User: 158301565, Chat: 158301565
+2025-11-21 01:36:45 [INFO] subsystem_hooks:    Trigger dir: /mnt/e/Projects/Quantum/Video_tagging_db/workflow_inbox
+2025-11-21 01:36:45 [INFO] subsystem_hooks: 📋 Project mode loaded: development
+2025-11-21 01:36:45 [INFO] subsystem_hooks: 🔍 Extracting dialog context...
+2025-11-21 01:36:45 [INFO] subsystem_hooks:    transcript_path: /home/vano/.claude/projects/-mnt-e-Projects-Quantum-Video-tagging-db/14e8e706-4611-4028-b7db-fce58b14f3e9.jsonl
+2025-11-21 01:36:45 [INFO] subsystem_hooks:    session_id: 14e8e706-4611-4028-b7db-fce58b14f3e9
+2025-11-21 01:36:45 [INFO] subsystem_hooks:    tool_name: Bash
+2025-11-21 01:36:45 [INFO] subsystem_hooks: 📂 Finding actual transcript for session: 14e8e706-4611-4028-b7db-fce58b14f3e9
+2025-11-21 01:36:47 [INFO] subsystem_hooks: 📂 Using transcript file: /home/vano/.claude/projects/-mnt-e-Projects-Quantum-Video-tagging-db/14e8e706-4611-4028-b7db-fce58b14f3e9.jsonl
+2025-11-21 01:36:47 [INFO] subsystem_hooks: 📊 Read 475 lines from transcript
+2025-11-21 01:36:47 [INFO] subsystem_hooks: 📝 Найдено 25 сообщений диалога (из 8 смен ролей)
+2025-11-21 01:36:47 [INFO] subsystem_hooks: 🎯 Найдено 6 команд пользователя
+2025-11-21 01:36:47 [INFO] subsystem_hooks: ✅ Dialog context extracted: 16185 chars
+2025-11-21 01:36:47 [INFO] subsystem_hooks: ✅ Trigger created: tool_control_pending_1763678205.json
+2025-11-21 01:37:30 [INFO] subsystem_hooks: ✅ Project matched: Video_tagging (user: 158301565, chat: 158301565)
+2025-11-21 01:37:30 [INFO] subsystem_hooks: 🎯 Creating trigger for project: Video_tagging
+2025-11-21 01:37:30 [INFO] subsystem_hooks:    Project dir: /mnt/e/Projects/Quantum/Video_tagging_db
+2025-11-21 01:37:30 [INFO] subsystem_hooks:    User: 158301565, Chat: 158301565
+2025-11-21 01:37:30 [INFO] subsystem_hooks:    Trigger dir: /mnt/e/Projects/Quantum/Video_tagging_db/workflow_inbox
+2025-11-21 01:37:30 [INFO] subsystem_hooks: 📋 Project mode loaded: development
+2025-11-21 01:37:30 [INFO] subsystem_hooks: 🔍 Extracting dialog context...
+2025-11-21 01:37:30 [INFO] subsystem_hooks:    transcript_path: /home/vano/.claude/projects/-mnt-e-Projects-Quantum-Video-tagging-db/14e8e706-4611-4028-b7db-fce58b14f3e9.jsonl
+2025-11-21 01:37:30 [INFO] subsystem_hooks:    session_id: 14e8e706-4611-4028-b7db-fce58b14f3e9
+2025-11-21 01:37:30 [INFO] subsystem_hooks:    tool_name: Bash
+2025-11-21 01:37:30 [INFO] subsystem_hooks: 📂 Finding actual transcript for session: 14e8e706-4611-4028-b7db-fce58b14f3e9
+2025-11-21 01:37:32 [INFO] subsystem_hooks: 📂 Using transcript file: /home/vano/.claude/projects/-mnt-e-Projects-Quantum-Video-tagging-db/14e8e706-4611-4028-b7db-fce58b14f3e9.jsonl
+2025-11-21 01:37:32 [INFO] subsystem_hooks: 📊 Read 478 lines from transcript
+2025-11-21 01:37:32 [INFO] subsystem_hooks: 📝 Найдено 27 сообщений диалога (из 8 смен ролей)
+2025-11-21 01:37:32 [INFO] subsystem_hooks: 🎯 Найдено 6 команд пользователя
+2025-11-21 01:37:32 [INFO] subsystem_hooks: ✅ Dialog context extracted: 15113 chars
+2025-11-21 01:37:32 [INFO] subsystem_hooks: ✅ Trigger created: tool_control_pending_1763678250.json
+2025-11-21 01:38:05 [INFO] subsystem_hooks: ✅ Project matched: Video_tagging (user: 158301565, chat: 158301565)
+2025-11-21 01:38:05 [INFO] subsystem_hooks: 🎯 Creating trigger for project: Video_tagging
+2025-11-21 01:38:05 [INFO] subsystem_hooks:    Project dir: /mnt/e/Projects/Quantum/Video_tagging_db
+2025-11-21 01:38:05 [INFO] subsystem_hooks:    User: 158301565, Chat: 158301565
+2025-11-21 01:38:05 [INFO] subsystem_hooks:    Trigger dir: /mnt/e/Projects/Quantum/Video_tagging_db/workflow_inbox
+2025-11-21 01:38:05 [INFO] subsystem_hooks: 📋 Project mode loaded: development
+2025-11-21 01:38:05 [INFO] subsystem_hooks: 🔍 Extracting dialog context...
+2025-11-21 01:38:05 [INFO] subsystem_hooks:    transcript_path: /home/vano/.claude/projects/-mnt-e-Projects-Quantum-Video-tagging-db/14e8e706-4611-4028-b7db-fce58b14f3e9.jsonl
+2025-11-21 01:38:05 [INFO] subsystem_hooks:    session_id: 14e8e706-4611-4028-b7db-fce58b14f3e9
+2025-11-21 01:38:05 [INFO] subsystem_hooks:    tool_name: Bash
+2025-11-21 01:38:05 [INFO] subsystem_hooks: 📂 Finding actual transcript for session: 14e8e706-4611-4028-b7db-fce58b14f3e9
+2025-11-21 01:38:07 [INFO] subsystem_hooks: 📂 Using transcript file: /home/vano/.claude/projects/-mnt-e-Projects-Quantum-Video-tagging-db/14e8e706-4611-4028-b7db-fce58b14f3e9.jsonl
+2025-11-21 01:38:07 [INFO] subsystem_hooks: 📊 Read 481 lines from transcript
+2025-11-21 01:38:07 [INFO] subsystem_hooks: 📝 Найдено 30 сообщений диалога (из 8 смен ролей)
+2025-11-21 01:38:07 [INFO] subsystem_hooks: 🎯 Найдено 6 команд пользователя
+2025-11-21 01:38:07 [INFO] subsystem_hooks: ✅ Dialog context extracted: 15880 chars
+2025-11-21 01:38:07 [INFO] subsystem_hooks: ✅ Trigger created: tool_control_pending_1763678285.json
+2025-11-21 01:39:05 [INFO] subsystem_hooks: ✅ Project matched: Video_tagging (user: 158301565, chat: 158301565)
+2025-11-21 01:39:05 [INFO] subsystem_hooks: 🎯 Creating trigger for project: Video_tagging
+2025-11-21 01:39:05 [INFO] subsystem_hooks:    Project dir: /mnt/e/Projects/Quantum/Video_tagging_db
+2025-11-21 01:39:05 [INFO] subsystem_hooks:    User: 158301565, Chat: 158301565
+2025-11-21 01:39:05 [INFO] subsystem_hooks:    Trigger dir: /mnt/e/Projects/Quantum/Video_tagging_db/workflow_inbox
+2025-11-21 01:39:05 [INFO] subsystem_hooks: 📋 Project mode loaded: development
+2025-11-21 01:39:05 [INFO] subsystem_hooks: 🔍 Extracting dialog context...
+2025-11-21 01:39:05 [INFO] subsystem_hooks:    transcript_path: /home/vano/.claude/projects/-mnt-e-Projects-Quantum-Video-tagging-db/14e8e706-4611-4028-b7db-fce58b14f3e9.jsonl
+2025-11-21 01:39:05 [INFO] subsystem_hooks:    session_id: 14e8e706-4611-4028-b7db-fce58b14f3e9
+2025-11-21 01:39:05 [INFO] subsystem_hooks:    tool_name: Bash
+2025-11-21 01:39:05 [INFO] subsystem_hooks: 📂 Finding actual transcript for session: 14e8e706-4611-4028-b7db-fce58b14f3e9
+2025-11-21 01:39:07 [INFO] subsystem_hooks: 📂 Using transcript file: /home/vano/.claude/projects/-mnt-e-Projects-Quantum-Video-tagging-db/14e8e706-4611-4028-b7db-fce58b14f3e9.jsonl
+2025-11-21 01:39:07 [INFO] subsystem_hooks: 📊 Read 484 lines from transcript
+2025-11-21 01:39:07 [INFO] subsystem_hooks: 📝 Найдено 33 сообщений диалога (из 8 смен ролей)
+2025-11-21 01:39:07 [INFO] subsystem_hooks: 🎯 Найдено 6 команд пользователя
+2025-11-21 01:39:07 [INFO] subsystem_hooks: ✅ Dialog context extracted: 17647 chars
+2025-11-21 01:39:07 [INFO] subsystem_hooks: ✅ Trigger created: tool_control_pending_1763678345.json
+2025-11-21 01:40:37 [INFO] subsystem_hooks: ✅ Project matched: Video_tagging (user: 158301565, chat: 158301565)
+2025-11-21 01:40:37 [INFO] subsystem_hooks: 🎯 Creating trigger for project: Video_tagging
+2025-11-21 01:40:37 [INFO] subsystem_hooks:    Project dir: /mnt/e/Projects/Quantum/Video_tagging_db
+2025-11-21 01:40:37 [INFO] subsystem_hooks:    User: 158301565, Chat: 158301565
+2025-11-21 01:40:37 [INFO] subsystem_hooks:    Trigger dir: /mnt/e/Projects/Quantum/Video_tagging_db/workflow_inbox
+2025-11-21 01:40:37 [INFO] subsystem_hooks: 📋 Project mode loaded: development
+2025-11-21 01:40:37 [INFO] subsystem_hooks: 🔍 Extracting dialog context...
+2025-11-21 01:40:37 [INFO] subsystem_hooks:    transcript_path: /home/vano/.claude/projects/-mnt-e-Projects-Quantum-Video-tagging-db/14e8e706-4611-4028-b7db-fce58b14f3e9.jsonl
+2025-11-21 01:40:37 [INFO] subsystem_hooks:    session_id: 14e8e706-4611-4028-b7db-fce58b14f3e9
+2025-11-21 01:40:37 [INFO] subsystem_hooks:    tool_name: Write
+2025-11-21 01:40:37 [INFO] subsystem_hooks: 📂 Finding actual transcript for session: 14e8e706-4611-4028-b7db-fce58b14f3e9
+2025-11-21 01:40:39 [INFO] subsystem_hooks: 📂 Using transcript file: /home/vano/.claude/projects/-mnt-e-Projects-Quantum-Video-tagging-db/14e8e706-4611-4028-b7db-fce58b14f3e9.jsonl
+2025-11-21 01:40:39 [INFO] subsystem_hooks: 📊 Read 487 lines from transcript
+2025-11-21 01:40:39 [INFO] subsystem_hooks: 📝 Найдено 36 сообщений диалога (из 8 смен ролей)
+2025-11-21 01:40:39 [INFO] subsystem_hooks: 🎯 Найдено 6 команд пользователя
+2025-11-21 01:40:39 [INFO] subsystem_hooks: ✅ Dialog context extracted: 35958 chars
+2025-11-21 01:40:39 [INFO] subsystem_hooks: ✅ Trigger created: tool_control_pending_1763678437.json
+2025-11-21 01:41:18 [INFO] subsystem_hooks: ✅ Project matched: Video_tagging (user: 158301565, chat: 158301565)
+2025-11-21 01:41:18 [INFO] subsystem_hooks: 🎯 Creating trigger for project: Video_tagging
+2025-11-21 01:41:18 [INFO] subsystem_hooks:    Project dir: /mnt/e/Projects/Quantum/Video_tagging_db
+2025-11-21 01:41:18 [INFO] subsystem_hooks:    User: 158301565, Chat: 158301565
+2025-11-21 01:41:18 [INFO] subsystem_hooks:    Trigger dir: /mnt/e/Projects/Quantum/Video_tagging_db/workflow_inbox
+2025-11-21 01:41:18 [INFO] subsystem_hooks: 📋 Project mode loaded: development
+2025-11-21 01:41:18 [INFO] subsystem_hooks: 🔍 Extracting dialog context...
+2025-11-21 01:41:18 [INFO] subsystem_hooks:    transcript_path: /home/vano/.claude/projects/-mnt-e-Projects-Quantum-Video-tagging-db/14e8e706-4611-4028-b7db-fce58b14f3e9.jsonl
+2025-11-21 01:41:18 [INFO] subsystem_hooks:    session_id: 14e8e706-4611-4028-b7db-fce58b14f3e9
+2025-11-21 01:41:18 [INFO] subsystem_hooks:    tool_name: Bash
+2025-11-21 01:41:18 [INFO] subsystem_hooks: 📂 Finding actual transcript for session: 14e8e706-4611-4028-b7db-fce58b14f3e9
+2025-11-21 01:41:20 [INFO] subsystem_hooks: 📂 Using transcript file: /home/vano/.claude/projects/-mnt-e-Projects-Quantum-Video-tagging-db/14e8e706-4611-4028-b7db-fce58b14f3e9.jsonl
+2025-11-21 01:41:20 [INFO] subsystem_hooks: 📊 Read 491 lines from transcript
+2025-11-21 01:41:20 [INFO] subsystem_hooks: 📝 Найдено 39 сообщений диалога (из 8 смен ролей)
+2025-11-21 01:41:20 [INFO] subsystem_hooks: 🎯 Найдено 6 команд пользователя
+2025-11-21 01:41:20 [INFO] subsystem_hooks: ✅ Dialog context extracted: 36271 chars
+2025-11-21 01:41:20 [INFO] subsystem_hooks: ✅ Trigger created: tool_control_pending_1763678478.json
+2025-11-21 01:41:49 [INFO] subsystem_hooks: ✅ Project matched: Video_tagging (user: 158301565, chat: 158301565)
+2025-11-21 01:41:49 [INFO] subsystem_hooks: 🎯 Creating trigger for project: Video_tagging
+2025-11-21 01:41:49 [INFO] subsystem_hooks:    Project dir: /mnt/e/Projects/Quantum/Video_tagging_db
+2025-11-21 01:41:49 [INFO] subsystem_hooks:    User: 158301565, Chat: 158301565
+2025-11-21 01:41:49 [INFO] subsystem_hooks:    Trigger dir: /mnt/e/Projects/Quantum/Video_tagging_db/workflow_inbox
+2025-11-21 01:41:49 [INFO] subsystem_hooks: 📋 Project mode loaded: development
+2025-11-21 01:41:49 [INFO] subsystem_hooks: 🔍 Extracting dialog context...
+2025-11-21 01:41:49 [INFO] subsystem_hooks:    transcript_path: /home/vano/.claude/projects/-mnt-e-Projects-Quantum-Video-tagging-db/14e8e706-4611-4028-b7db-fce58b14f3e9.jsonl
+2025-11-21 01:41:49 [INFO] subsystem_hooks:    session_id: 14e8e706-4611-4028-b7db-fce58b14f3e9
+2025-11-21 01:41:49 [INFO] subsystem_hooks:    tool_name: Bash
+2025-11-21 01:41:49 [INFO] subsystem_hooks: 📂 Finding actual transcript for session: 14e8e706-4611-4028-b7db-fce58b14f3e9
+2025-11-21 01:41:51 [INFO] subsystem_hooks: 📂 Using transcript file: /home/vano/.claude/projects/-mnt-e-Projects-Quantum-Video-tagging-db/14e8e706-4611-4028-b7db-fce58b14f3e9.jsonl
+2025-11-21 01:41:51 [INFO] subsystem_hooks: 📊 Read 494 lines from transcript
+2025-11-21 01:41:51 [INFO] subsystem_hooks: 📝 Найдено 42 сообщений диалога (из 8 смен ролей)
+2025-11-21 01:41:51 [INFO] subsystem_hooks: 🎯 Найдено 6 команд пользователя
+2025-11-21 01:41:51 [INFO] subsystem_hooks: ✅ Dialog context extracted: 38380 chars
+2025-11-21 01:41:51 [INFO] subsystem_hooks: ✅ Trigger created: tool_control_pending_1763678509.json
+2025-11-21 01:42:20 [INFO] subsystem_hooks: ✅ Project matched: Video_tagging (user: 158301565, chat: 158301565)
+2025-11-21 01:42:20 [INFO] subsystem_hooks: 🎯 Creating trigger for project: Video_tagging
+2025-11-21 01:42:20 [INFO] subsystem_hooks:    Project dir: /mnt/e/Projects/Quantum/Video_tagging_db
+2025-11-21 01:42:20 [INFO] subsystem_hooks:    User: 158301565, Chat: 158301565
+2025-11-21 01:42:20 [INFO] subsystem_hooks:    Trigger dir: /mnt/e/Projects/Quantum/Video_tagging_db/workflow_inbox
+2025-11-21 01:42:20 [INFO] subsystem_hooks: 📋 Project mode loaded: development
+2025-11-21 01:42:20 [INFO] subsystem_hooks: 🔍 Extracting dialog context...
+2025-11-21 01:42:20 [INFO] subsystem_hooks:    transcript_path: /home/vano/.claude/projects/-mnt-e-Projects-Quantum-Video-tagging-db/14e8e706-4611-4028-b7db-fce58b14f3e9.jsonl
+2025-11-21 01:42:20 [INFO] subsystem_hooks:    session_id: 14e8e706-4611-4028-b7db-fce58b14f3e9
+2025-11-21 01:42:20 [INFO] subsystem_hooks:    tool_name: Bash
+2025-11-21 01:42:20 [INFO] subsystem_hooks: 📂 Finding actual transcript for session: 14e8e706-4611-4028-b7db-fce58b14f3e9
+2025-11-21 01:42:22 [INFO] subsystem_hooks: 📂 Using transcript file: /home/vano/.claude/projects/-mnt-e-Projects-Quantum-Video-tagging-db/14e8e706-4611-4028-b7db-fce58b14f3e9.jsonl
+2025-11-21 01:42:22 [INFO] subsystem_hooks: 📊 Read 497 lines from transcript
+2025-11-21 01:42:22 [INFO] subsystem_hooks: 📝 Найдено 45 сообщений диалога (из 8 смен ролей)
+2025-11-21 01:42:22 [INFO] subsystem_hooks: 🎯 Найдено 6 команд пользователя
+2025-11-21 01:42:22 [INFO] subsystem_hooks: ✅ Dialog context extracted: 38675 chars
+2025-11-21 01:42:22 [INFO] subsystem_hooks: ✅ Trigger created: tool_control_pending_1763678540.json
+2025-11-21 09:30:11 [INFO] subsystem_hooks: ✅ Project matched: Video_tagging (user: 158301565, chat: 158301565)
+2025-11-21 09:30:11 [INFO] subsystem_hooks: 🎯 Creating trigger for project: Video_tagging
+2025-11-21 09:30:11 [INFO] subsystem_hooks:    Project dir: /mnt/e/Projects/Quantum/Video_tagging_db
+2025-11-21 09:30:11 [INFO] subsystem_hooks:    User: 158301565, Chat: 158301565
+2025-11-21 09:30:11 [INFO] subsystem_hooks:    Trigger dir: /mnt/e/Projects/Quantum/Video_tagging_db/workflow_inbox
+2025-11-21 09:30:11 [INFO] subsystem_hooks: 📋 Project mode loaded: development
+2025-11-21 09:30:11 [INFO] subsystem_hooks: 🔍 Extracting dialog context...
+2025-11-21 09:30:11 [INFO] subsystem_hooks:    transcript_path: /home/vano/.claude/projects/-mnt-e-Projects-Quantum-Video-tagging-db/14e8e706-4611-4028-b7db-fce58b14f3e9.jsonl
+2025-11-21 09:30:11 [INFO] subsystem_hooks:    session_id: 14e8e706-4611-4028-b7db-fce58b14f3e9
+2025-11-21 09:30:11 [INFO] subsystem_hooks:    tool_name: Write
+2025-11-21 09:30:11 [INFO] subsystem_hooks: 📂 Finding actual transcript for session: 14e8e706-4611-4028-b7db-fce58b14f3e9
+2025-11-21 09:30:13 [INFO] subsystem_hooks: 📂 Using transcript file: /home/vano/.claude/projects/-mnt-e-Projects-Quantum-Video-tagging-db/14e8e706-4611-4028-b7db-fce58b14f3e9.jsonl
+2025-11-21 09:30:13 [INFO] subsystem_hooks: 📊 Read 509 lines from transcript
+2025-11-21 09:30:13 [INFO] subsystem_hooks: 📝 Найдено 43 сообщений диалога (из 8 смен ролей)
+2025-11-21 09:30:13 [INFO] subsystem_hooks: 🎯 Найдено 6 команд пользователя
+2025-11-21 09:30:13 [INFO] subsystem_hooks: ✅ Dialog context extracted: 52127 chars
+2025-11-21 09:30:13 [INFO] subsystem_hooks: ✅ Trigger created: tool_control_pending_1763706611.json
+2025-11-21 09:31:34 [INFO] subsystem_hooks: ✅ Project matched: Video_tagging (user: 158301565, chat: 158301565)
+2025-11-21 09:31:34 [INFO] subsystem_hooks: 🎯 Creating trigger for project: Video_tagging
+2025-11-21 09:31:34 [INFO] subsystem_hooks:    Project dir: /mnt/e/Projects/Quantum/Video_tagging_db
+2025-11-21 09:31:34 [INFO] subsystem_hooks:    User: 158301565, Chat: 158301565
+2025-11-21 09:31:34 [INFO] subsystem_hooks:    Trigger dir: /mnt/e/Projects/Quantum/Video_tagging_db/workflow_inbox
+2025-11-21 09:31:34 [INFO] subsystem_hooks: 📋 Project mode loaded: development
+2025-11-21 09:31:34 [INFO] subsystem_hooks: 🔍 Extracting dialog context...
+2025-11-21 09:31:34 [INFO] subsystem_hooks:    transcript_path: /home/vano/.claude/projects/-mnt-e-Projects-Quantum-Video-tagging-db/14e8e706-4611-4028-b7db-fce58b14f3e9.jsonl
+2025-11-21 09:31:34 [INFO] subsystem_hooks:    session_id: 14e8e706-4611-4028-b7db-fce58b14f3e9
+2025-11-21 09:31:34 [INFO] subsystem_hooks:    tool_name: Edit
+2025-11-21 09:31:34 [INFO] subsystem_hooks: 📂 Finding actual transcript for session: 14e8e706-4611-4028-b7db-fce58b14f3e9
+2025-11-21 09:31:36 [INFO] subsystem_hooks: 📂 Using transcript file: /home/vano/.claude/projects/-mnt-e-Projects-Quantum-Video-tagging-db/14e8e706-4611-4028-b7db-fce58b14f3e9.jsonl
+2025-11-21 09:31:36 [INFO] subsystem_hooks: 📊 Read 514 lines from transcript
+2025-11-21 09:31:36 [INFO] subsystem_hooks: 📝 Найдено 47 сообщений диалога (из 8 смен ролей)
+2025-11-21 09:31:36 [INFO] subsystem_hooks: 🎯 Найдено 6 команд пользователя
+2025-11-21 09:31:36 [INFO] subsystem_hooks: ✅ Dialog context extracted: 59865 chars
+2025-11-21 09:31:36 [INFO] subsystem_hooks: ✅ Trigger created: tool_control_pending_1763706694.json
+2025-11-21 13:12:46 [INFO] subsystem_hooks: ✅ Project matched: Video_tagging (user: 158301565, chat: 158301565)
+2025-11-21 13:12:46 [INFO] subsystem_hooks: 🎯 Creating trigger for project: Video_tagging
+2025-11-21 13:12:46 [INFO] subsystem_hooks:    Project dir: /mnt/e/Projects/Quantum/Video_tagging_db
+2025-11-21 13:12:46 [INFO] subsystem_hooks:    User: 158301565, Chat: 158301565
+2025-11-21 13:12:46 [INFO] subsystem_hooks:    Trigger dir: /mnt/e/Projects/Quantum/Video_tagging_db/workflow_inbox
+2025-11-21 13:12:46 [INFO] subsystem_hooks: 📋 Project mode loaded: development
+2025-11-21 13:12:46 [INFO] subsystem_hooks: 🔍 Extracting dialog context...
+2025-11-21 13:12:46 [INFO] subsystem_hooks:    transcript_path: /home/vano/.claude/projects/-mnt-e-Projects-Quantum-Video-tagging-db/14e8e706-4611-4028-b7db-fce58b14f3e9.jsonl
+2025-11-21 13:12:46 [INFO] subsystem_hooks:    session_id: 14e8e706-4611-4028-b7db-fce58b14f3e9
+2025-11-21 13:12:46 [INFO] subsystem_hooks:    tool_name: Edit
+2025-11-21 13:12:46 [INFO] subsystem_hooks: 📂 Finding actual transcript for session: 14e8e706-4611-4028-b7db-fce58b14f3e9
+2025-11-21 13:12:48 [INFO] subsystem_hooks: 📂 Using transcript file: /home/vano/.claude/projects/-mnt-e-Projects-Quantum-Video-tagging-db/14e8e706-4611-4028-b7db-fce58b14f3e9.jsonl
+2025-11-21 13:12:48 [INFO] subsystem_hooks: 📊 Read 533 lines from transcript
+2025-11-21 13:12:48 [INFO] subsystem_hooks: 📝 Найдено 49 сообщений диалога (из 8 смен ролей)
+2025-11-21 13:12:48 [INFO] subsystem_hooks: 🎯 Найдено 6 команд пользователя
+2025-11-21 13:12:48 [INFO] subsystem_hooks: ✅ Dialog context extracted: 78384 chars
+2025-11-21 13:12:48 [INFO] subsystem_hooks: ✅ Trigger created: tool_control_pending_1763719966.json
+2025-11-21 13:19:44 [INFO] subsystem_hooks: ✅ Project matched: Video_tagging (user: 158301565, chat: 158301565)
+2025-11-21 13:19:44 [INFO] subsystem_hooks: 🎯 Creating trigger for project: Video_tagging
+2025-11-21 13:19:44 [INFO] subsystem_hooks:    Project dir: /mnt/e/Projects/Quantum/Video_tagging_db
+2025-11-21 13:19:44 [INFO] subsystem_hooks:    User: 158301565, Chat: 158301565
+2025-11-21 13:19:44 [INFO] subsystem_hooks:    Trigger dir: /mnt/e/Projects/Quantum/Video_tagging_db/workflow_inbox
+2025-11-21 13:19:44 [INFO] subsystem_hooks: 📋 Project mode loaded: development
+2025-11-21 13:19:44 [INFO] subsystem_hooks: 🔍 Extracting dialog context...
+2025-11-21 13:19:44 [INFO] subsystem_hooks:    transcript_path: /home/vano/.claude/projects/-mnt-e-Projects-Quantum-Video-tagging-db/14e8e706-4611-4028-b7db-fce58b14f3e9.jsonl
+2025-11-21 13:19:44 [INFO] subsystem_hooks:    session_id: 14e8e706-4611-4028-b7db-fce58b14f3e9
+2025-11-21 13:19:44 [INFO] subsystem_hooks:    tool_name: Bash
+2025-11-21 13:19:44 [INFO] subsystem_hooks: 📂 Finding actual transcript for session: 14e8e706-4611-4028-b7db-fce58b14f3e9
+2025-11-21 13:19:46 [INFO] subsystem_hooks: 📂 Using transcript file: /home/vano/.claude/projects/-mnt-e-Projects-Quantum-Video-tagging-db/14e8e706-4611-4028-b7db-fce58b14f3e9.jsonl
+2025-11-21 13:19:46 [INFO] subsystem_hooks: 📊 Read 549 lines from transcript
+2025-11-21 13:19:46 [INFO] subsystem_hooks: 📝 Найдено 13 сообщений диалога (из 8 смен ролей)
+2025-11-21 13:19:46 [INFO] subsystem_hooks: 🎯 Найдено 6 команд пользователя
+2025-11-21 13:19:46 [INFO] subsystem_hooks: ✅ Dialog context extracted: 11142 chars
+2025-11-21 13:19:46 [INFO] subsystem_hooks: ✅ Trigger created: tool_control_pending_1763720384.json
+2025-11-21 13:20:02 [INFO] subsystem_hooks: ✅ Project matched: Video_tagging (user: 158301565, chat: 158301565)
+2025-11-21 13:20:02 [INFO] subsystem_hooks: 🎯 Creating trigger for project: Video_tagging
+2025-11-21 13:20:02 [INFO] subsystem_hooks:    Project dir: /mnt/e/Projects/Quantum/Video_tagging_db
+2025-11-21 13:20:02 [INFO] subsystem_hooks:    User: 158301565, Chat: 158301565
+2025-11-21 13:20:02 [INFO] subsystem_hooks:    Trigger dir: /mnt/e/Projects/Quantum/Video_tagging_db/workflow_inbox
+2025-11-21 13:20:02 [INFO] subsystem_hooks: 📋 Project mode loaded: development
+2025-11-21 13:20:02 [INFO] subsystem_hooks: 🔍 Extracting dialog context...
+2025-11-21 13:20:02 [INFO] subsystem_hooks:    transcript_path: /home/vano/.claude/projects/-mnt-e-Projects-Quantum-Video-tagging-db/14e8e706-4611-4028-b7db-fce58b14f3e9.jsonl
+2025-11-21 13:20:02 [INFO] subsystem_hooks:    session_id: 14e8e706-4611-4028-b7db-fce58b14f3e9
+2025-11-21 13:20:02 [INFO] subsystem_hooks:    tool_name: Bash
+2025-11-21 13:20:02 [INFO] subsystem_hooks: 📂 Finding actual transcript for session: 14e8e706-4611-4028-b7db-fce58b14f3e9
+2025-11-21 13:20:04 [INFO] subsystem_hooks: 📂 Using transcript file: /home/vano/.claude/projects/-mnt-e-Projects-Quantum-Video-tagging-db/14e8e706-4611-4028-b7db-fce58b14f3e9.jsonl
+2025-11-21 13:20:04 [INFO] subsystem_hooks: 📊 Read 551 lines from transcript
+2025-11-21 13:20:04 [INFO] subsystem_hooks: 📝 Найдено 15 сообщений диалога (из 8 смен ролей)
+2025-11-21 13:20:04 [INFO] subsystem_hooks: 🎯 Найдено 6 команд пользователя
+2025-11-21 13:20:04 [INFO] subsystem_hooks: ✅ Dialog context extracted: 11307 chars
+2025-11-21 13:20:04 [INFO] subsystem_hooks: ✅ Trigger created: tool_control_pending_1763720402.json
+2025-11-21 13:20:25 [INFO] subsystem_hooks: ✅ Project matched: Video_tagging (user: 158301565, chat: 158301565)
+2025-11-21 13:20:25 [INFO] subsystem_hooks: 🎯 Creating trigger for project: Video_tagging
+2025-11-21 13:20:25 [INFO] subsystem_hooks:    Project dir: /mnt/e/Projects/Quantum/Video_tagging_db
+2025-11-21 13:20:25 [INFO] subsystem_hooks:    User: 158301565, Chat: 158301565
+2025-11-21 13:20:25 [INFO] subsystem_hooks:    Trigger dir: /mnt/e/Projects/Quantum/Video_tagging_db/workflow_inbox
+2025-11-21 13:20:25 [INFO] subsystem_hooks: 📋 Project mode loaded: development
+2025-11-21 13:20:25 [INFO] subsystem_hooks: 🔍 Extracting dialog context...
+2025-11-21 13:20:25 [INFO] subsystem_hooks:    transcript_path: /home/vano/.claude/projects/-mnt-e-Projects-Quantum-Video-tagging-db/14e8e706-4611-4028-b7db-fce58b14f3e9.jsonl
+2025-11-21 13:20:25 [INFO] subsystem_hooks:    session_id: 14e8e706-4611-4028-b7db-fce58b14f3e9
+2025-11-21 13:20:25 [INFO] subsystem_hooks:    tool_name: Bash
+2025-11-21 13:20:25 [INFO] subsystem_hooks: 📂 Finding actual transcript for session: 14e8e706-4611-4028-b7db-fce58b14f3e9
+2025-11-21 13:20:27 [INFO] subsystem_hooks: 📂 Using transcript file: /home/vano/.claude/projects/-mnt-e-Projects-Quantum-Video-tagging-db/14e8e706-4611-4028-b7db-fce58b14f3e9.jsonl
+2025-11-21 13:20:27 [INFO] subsystem_hooks: 📊 Read 553 lines from transcript
+2025-11-21 13:20:27 [INFO] subsystem_hooks: 📝 Найдено 17 сообщений диалога (из 8 смен ролей)
+2025-11-21 13:20:27 [INFO] subsystem_hooks: 🎯 Найдено 6 команд пользователя
+2025-11-21 13:20:27 [INFO] subsystem_hooks: ✅ Dialog context extracted: 11523 chars
+2025-11-21 13:20:27 [INFO] subsystem_hooks: ✅ Trigger created: tool_control_pending_1763720425.json
+2025-11-21 13:20:45 [INFO] subsystem_hooks: ✅ Project matched: Video_tagging (user: 158301565, chat: 158301565)
+2025-11-21 13:20:45 [INFO] subsystem_hooks: 🎯 Creating trigger for project: Video_tagging
+2025-11-21 13:20:45 [INFO] subsystem_hooks:    Project dir: /mnt/e/Projects/Quantum/Video_tagging_db
+2025-11-21 13:20:45 [INFO] subsystem_hooks:    User: 158301565, Chat: 158301565
+2025-11-21 13:20:45 [INFO] subsystem_hooks:    Trigger dir: /mnt/e/Projects/Quantum/Video_tagging_db/workflow_inbox
+2025-11-21 13:20:45 [INFO] subsystem_hooks: 📋 Project mode loaded: development
+2025-11-21 13:20:45 [INFO] subsystem_hooks: 🔍 Extracting dialog context...
+2025-11-21 13:20:45 [INFO] subsystem_hooks:    transcript_path: /home/vano/.claude/projects/-mnt-e-Projects-Quantum-Video-tagging-db/14e8e706-4611-4028-b7db-fce58b14f3e9.jsonl
+2025-11-21 13:20:45 [INFO] subsystem_hooks:    session_id: 14e8e706-4611-4028-b7db-fce58b14f3e9
+2025-11-21 13:20:45 [INFO] subsystem_hooks:    tool_name: Bash
+2025-11-21 13:20:45 [INFO] subsystem_hooks: 📂 Finding actual transcript for session: 14e8e706-4611-4028-b7db-fce58b14f3e9
+2025-11-21 13:20:47 [INFO] subsystem_hooks: 📂 Using transcript file: /home/vano/.claude/projects/-mnt-e-Projects-Quantum-Video-tagging-db/14e8e706-4611-4028-b7db-fce58b14f3e9.jsonl
+2025-11-21 13:20:47 [INFO] subsystem_hooks: 📊 Read 555 lines from transcript
+2025-11-21 13:20:47 [INFO] subsystem_hooks: 📝 Найдено 19 сообщений диалога (из 8 смен ролей)
+2025-11-21 13:20:47 [INFO] subsystem_hooks: 🎯 Найдено 6 команд пользователя
+2025-11-21 13:20:47 [INFO] subsystem_hooks: ✅ Dialog context extracted: 11977 chars
+2025-11-21 13:20:47 [INFO] subsystem_hooks: ✅ Trigger created: tool_control_pending_1763720445.json
+2025-11-21 13:21:03 [INFO] subsystem_hooks: ✅ Project matched: Video_tagging (user: 158301565, chat: 158301565)
+2025-11-21 13:21:03 [INFO] subsystem_hooks: 🎯 Creating trigger for project: Video_tagging
+2025-11-21 13:21:03 [INFO] subsystem_hooks:    Project dir: /mnt/e/Projects/Quantum/Video_tagging_db
+2025-11-21 13:21:03 [INFO] subsystem_hooks:    User: 158301565, Chat: 158301565
+2025-11-21 13:21:03 [INFO] subsystem_hooks:    Trigger dir: /mnt/e/Projects/Quantum/Video_tagging_db/workflow_inbox
+2025-11-21 13:21:03 [INFO] subsystem_hooks: 📋 Project mode loaded: development
+2025-11-21 13:21:03 [INFO] subsystem_hooks: 🔍 Extracting dialog context...
+2025-11-21 13:21:03 [INFO] subsystem_hooks:    transcript_path: /home/vano/.claude/projects/-mnt-e-Projects-Quantum-Video-tagging-db/14e8e706-4611-4028-b7db-fce58b14f3e9.jsonl
+2025-11-21 13:21:03 [INFO] subsystem_hooks:    session_id: 14e8e706-4611-4028-b7db-fce58b14f3e9
+2025-11-21 13:21:03 [INFO] subsystem_hooks:    tool_name: Bash
+2025-11-21 13:21:03 [INFO] subsystem_hooks: 📂 Finding actual transcript for session: 14e8e706-4611-4028-b7db-fce58b14f3e9
+2025-11-21 13:21:05 [INFO] subsystem_hooks: 📂 Using transcript file: /home/vano/.claude/projects/-mnt-e-Projects-Quantum-Video-tagging-db/14e8e706-4611-4028-b7db-fce58b14f3e9.jsonl
+2025-11-21 13:21:05 [INFO] subsystem_hooks: 📊 Read 557 lines from transcript
+2025-11-21 13:21:05 [INFO] subsystem_hooks: 📝 Найдено 21 сообщений диалога (из 8 смен ролей)
+2025-11-21 13:21:05 [INFO] subsystem_hooks: 🎯 Найдено 6 команд пользователя
+2025-11-21 13:21:05 [INFO] subsystem_hooks: ✅ Dialog context extracted: 12243 chars
+2025-11-21 13:21:05 [INFO] subsystem_hooks: ✅ Trigger created: tool_control_pending_1763720463.json
+2025-11-21 13:22:49 [INFO] subsystem_hooks: ✅ Project matched: Video_tagging (user: 158301565, chat: 158301565)
+2025-11-21 13:22:49 [INFO] subsystem_hooks: 🎯 Creating trigger for project: Video_tagging
+2025-11-21 13:22:49 [INFO] subsystem_hooks:    Project dir: /mnt/e/Projects/Quantum/Video_tagging_db
+2025-11-21 13:22:49 [INFO] subsystem_hooks:    User: 158301565, Chat: 158301565
+2025-11-21 13:22:49 [INFO] subsystem_hooks:    Trigger dir: /mnt/e/Projects/Quantum/Video_tagging_db/workflow_inbox
+2025-11-21 13:22:49 [INFO] subsystem_hooks: 📋 Project mode loaded: development
+2025-11-21 13:22:49 [INFO] subsystem_hooks: 🔍 Extracting dialog context...
+2025-11-21 13:22:49 [INFO] subsystem_hooks:    transcript_path: /home/vano/.claude/projects/-mnt-e-Projects-Quantum-Video-tagging-db/14e8e706-4611-4028-b7db-fce58b14f3e9.jsonl
+2025-11-21 13:22:49 [INFO] subsystem_hooks:    session_id: 14e8e706-4611-4028-b7db-fce58b14f3e9
+2025-11-21 13:22:49 [INFO] subsystem_hooks:    tool_name: Bash
+2025-11-21 13:22:49 [INFO] subsystem_hooks: 📂 Finding actual transcript for session: 14e8e706-4611-4028-b7db-fce58b14f3e9
+2025-11-21 13:22:51 [INFO] subsystem_hooks: 📂 Using transcript file: /home/vano/.claude/projects/-mnt-e-Projects-Quantum-Video-tagging-db/14e8e706-4611-4028-b7db-fce58b14f3e9.jsonl
+2025-11-21 13:22:51 [INFO] subsystem_hooks: 📊 Read 569 lines from transcript
+2025-11-21 13:22:51 [INFO] subsystem_hooks: 📝 Найдено 27 сообщений диалога (из 8 смен ролей)
+2025-11-21 13:22:51 [INFO] subsystem_hooks: 🎯 Найдено 6 команд пользователя
+2025-11-21 13:22:51 [INFO] subsystem_hooks: ✅ Dialog context extracted: 14811 chars
+2025-11-21 13:22:51 [INFO] subsystem_hooks: ✅ Trigger created: tool_control_pending_1763720569.json
+2025-11-21 14:57:32 [INFO] subsystem_hooks: ✅ Project matched: Video_tagging (user: 158301565, chat: 158301565)
+2025-11-21 14:57:32 [INFO] subsystem_hooks: 🎯 Creating trigger for project: Video_tagging
+2025-11-21 14:57:32 [INFO] subsystem_hooks:    Project dir: /mnt/e/Projects/Quantum/Video_tagging_db
+2025-11-21 14:57:32 [INFO] subsystem_hooks:    User: 158301565, Chat: 158301565
+2025-11-21 14:57:32 [INFO] subsystem_hooks:    Trigger dir: /mnt/e/Projects/Quantum/Video_tagging_db/workflow_inbox
+2025-11-21 14:57:32 [INFO] subsystem_hooks: 📋 Project mode loaded: development
+2025-11-21 14:57:32 [INFO] subsystem_hooks: 🔍 Extracting dialog context...
+2025-11-21 14:57:32 [INFO] subsystem_hooks:    transcript_path: /home/vano/.claude/projects/-mnt-e-Projects-Quantum-Video-tagging-db/14e8e706-4611-4028-b7db-fce58b14f3e9.jsonl
+2025-11-21 14:57:32 [INFO] subsystem_hooks:    session_id: 14e8e706-4611-4028-b7db-fce58b14f3e9
+2025-11-21 14:57:32 [INFO] subsystem_hooks:    tool_name: Bash
+2025-11-21 14:57:32 [INFO] subsystem_hooks: 📂 Finding actual transcript for session: 14e8e706-4611-4028-b7db-fce58b14f3e9
+2025-11-21 14:57:34 [INFO] subsystem_hooks: 📂 Using transcript file: /home/vano/.claude/projects/-mnt-e-Projects-Quantum-Video-tagging-db/14e8e706-4611-4028-b7db-fce58b14f3e9.jsonl
+2025-11-21 14:57:34 [INFO] subsystem_hooks: 📊 Read 606 lines from transcript
+2025-11-21 14:57:34 [INFO] subsystem_hooks: 📝 Найдено 48 сообщений диалога (из 8 смен ролей)
+2025-11-21 14:57:34 [INFO] subsystem_hooks: 🎯 Найдено 6 команд пользователя
+2025-11-21 14:57:34 [INFO] subsystem_hooks: ✅ Dialog context extracted: 28540 chars
+2025-11-21 14:57:34 [INFO] subsystem_hooks: ✅ Trigger created: tool_control_pending_1763726252.json
+2025-11-21 15:28:16 [INFO] subsystem_hooks: ✅ Project matched: Video_tagging (user: 158301565, chat: 158301565)
+2025-11-21 15:28:16 [INFO] subsystem_hooks: 🎯 Creating trigger for project: Video_tagging
+2025-11-21 15:28:16 [INFO] subsystem_hooks:    Project dir: /mnt/e/Projects/Quantum/Video_tagging_db
+2025-11-21 15:28:16 [INFO] subsystem_hooks:    User: 158301565, Chat: 158301565
+2025-11-21 15:28:16 [INFO] subsystem_hooks:    Trigger dir: /mnt/e/Projects/Quantum/Video_tagging_db/workflow_inbox
+2025-11-21 15:28:16 [INFO] subsystem_hooks: 📋 Project mode loaded: development
+2025-11-21 15:28:16 [INFO] subsystem_hooks: 🔍 Extracting dialog context...
+2025-11-21 15:28:16 [INFO] subsystem_hooks:    transcript_path: /home/vano/.claude/projects/-mnt-e-Projects-Quantum-Video-tagging-db/14e8e706-4611-4028-b7db-fce58b14f3e9.jsonl
+2025-11-21 15:28:16 [INFO] subsystem_hooks:    session_id: 14e8e706-4611-4028-b7db-fce58b14f3e9
+2025-11-21 15:28:16 [INFO] subsystem_hooks:    tool_name: Bash
+2025-11-21 15:28:16 [INFO] subsystem_hooks: 📂 Finding actual transcript for session: 14e8e706-4611-4028-b7db-fce58b14f3e9
+2025-11-21 15:28:18 [INFO] subsystem_hooks: 📂 Using transcript file: /home/vano/.claude/projects/-mnt-e-Projects-Quantum-Video-tagging-db/14e8e706-4611-4028-b7db-fce58b14f3e9.jsonl
+2025-11-21 15:28:18 [INFO] subsystem_hooks: 📊 Read 627 lines from transcript
+2025-11-21 15:28:18 [INFO] subsystem_hooks: 📝 Найдено 64 сообщений диалога (из 8 смен ролей)
+2025-11-21 15:28:18 [INFO] subsystem_hooks: 🎯 Найдено 6 команд пользователя
+2025-11-21 15:28:18 [INFO] subsystem_hooks: ✅ Dialog context extracted: 33455 chars
+2025-11-21 15:28:18 [INFO] subsystem_hooks: ✅ Trigger created: tool_control_pending_1763728095.json
+2025-11-21 15:29:01 [INFO] subsystem_hooks: ✅ Project matched: Video_tagging (user: 158301565, chat: 158301565)
+2025-11-21 15:29:01 [INFO] subsystem_hooks: 🎯 Creating trigger for project: Video_tagging
+2025-11-21 15:29:01 [INFO] subsystem_hooks:    Project dir: /mnt/e/Projects/Quantum/Video_tagging_db
+2025-11-21 15:29:01 [INFO] subsystem_hooks:    User: 158301565, Chat: 158301565
+2025-11-21 15:29:01 [INFO] subsystem_hooks:    Trigger dir: /mnt/e/Projects/Quantum/Video_tagging_db/workflow_inbox
+2025-11-21 15:29:01 [INFO] subsystem_hooks: 📋 Project mode loaded: development
+2025-11-21 15:29:01 [INFO] subsystem_hooks: 🔍 Extracting dialog context...
+2025-11-21 15:29:01 [INFO] subsystem_hooks:    transcript_path: /home/vano/.claude/projects/-mnt-e-Projects-Quantum-Video-tagging-db/14e8e706-4611-4028-b7db-fce58b14f3e9.jsonl
+2025-11-21 15:29:01 [INFO] subsystem_hooks:    session_id: 14e8e706-4611-4028-b7db-fce58b14f3e9
+2025-11-21 15:29:01 [INFO] subsystem_hooks:    tool_name: Bash
+2025-11-21 15:29:01 [INFO] subsystem_hooks: 📂 Finding actual transcript for session: 14e8e706-4611-4028-b7db-fce58b14f3e9
+2025-11-21 15:29:03 [INFO] subsystem_hooks: 📂 Using transcript file: /home/vano/.claude/projects/-mnt-e-Projects-Quantum-Video-tagging-db/14e8e706-4611-4028-b7db-fce58b14f3e9.jsonl
+2025-11-21 15:29:03 [INFO] subsystem_hooks: 📊 Read 635 lines from transcript
+2025-11-21 15:29:03 [INFO] subsystem_hooks: 📝 Найдено 72 сообщений диалога (из 8 смен ролей)
+2025-11-21 15:29:03 [INFO] subsystem_hooks: 🎯 Найдено 6 команд пользователя
+2025-11-21 15:29:03 [INFO] subsystem_hooks: ✅ Dialog context extracted: 34814 chars
+2025-11-21 15:29:03 [INFO] subsystem_hooks: ✅ Trigger created: tool_control_pending_1763728141.json
+2025-11-21 15:29:17 [INFO] subsystem_hooks: ✅ Project matched: Video_tagging (user: 158301565, chat: 158301565)
+2025-11-21 15:29:17 [INFO] subsystem_hooks: 🎯 Creating trigger for project: Video_tagging
+2025-11-21 15:29:17 [INFO] subsystem_hooks:    Project dir: /mnt/e/Projects/Quantum/Video_tagging_db
+2025-11-21 15:29:17 [INFO] subsystem_hooks:    User: 158301565, Chat: 158301565
+2025-11-21 15:29:17 [INFO] subsystem_hooks:    Trigger dir: /mnt/e/Projects/Quantum/Video_tagging_db/workflow_inbox
+2025-11-21 15:29:17 [INFO] subsystem_hooks: 📋 Project mode loaded: development
+2025-11-21 15:29:17 [INFO] subsystem_hooks: 🔍 Extracting dialog context...
+2025-11-21 15:29:17 [INFO] subsystem_hooks:    transcript_path: /home/vano/.claude/projects/-mnt-e-Projects-Quantum-Video-tagging-db/14e8e706-4611-4028-b7db-fce58b14f3e9.jsonl
+2025-11-21 15:29:17 [INFO] subsystem_hooks:    session_id: 14e8e706-4611-4028-b7db-fce58b14f3e9
+2025-11-21 15:29:17 [INFO] subsystem_hooks:    tool_name: Bash
+2025-11-21 15:29:17 [INFO] subsystem_hooks: 📂 Finding actual transcript for session: 14e8e706-4611-4028-b7db-fce58b14f3e9
+2025-11-21 15:29:19 [INFO] subsystem_hooks: 📂 Using transcript file: /home/vano/.claude/projects/-mnt-e-Projects-Quantum-Video-tagging-db/14e8e706-4611-4028-b7db-fce58b14f3e9.jsonl
+2025-11-21 15:29:19 [INFO] subsystem_hooks: 📊 Read 637 lines from transcript
+2025-11-21 15:29:19 [INFO] subsystem_hooks: 📝 Найдено 74 сообщений диалога (из 8 смен ролей)
+2025-11-21 15:29:19 [INFO] subsystem_hooks: 🎯 Найдено 6 команд пользователя
+2025-11-21 15:29:19 [INFO] subsystem_hooks: ✅ Dialog context extracted: 35038 chars
+2025-11-21 15:29:19 [INFO] subsystem_hooks: ✅ Trigger created: tool_control_pending_1763728157.json
+2025-11-26 00:57:54 [INFO] subsystem_hooks: ✅ Project matched: Video_tagging (user: 158301565, chat: 158301565)
+2025-11-26 00:57:54 [INFO] subsystem_hooks: 🎯 Creating trigger for project: Video_tagging
+2025-11-26 00:57:54 [INFO] subsystem_hooks:    Project dir: /mnt/e/Projects/Quantum/Video_tagging_db
+2025-11-26 00:57:54 [INFO] subsystem_hooks:    User: 158301565, Chat: 158301565
+2025-11-26 00:57:54 [INFO] subsystem_hooks:    Trigger dir: /mnt/e/Projects/Quantum/Video_tagging_db/workflow_inbox
+2025-11-26 00:57:54 [INFO] subsystem_hooks: 📋 Project mode loaded: development
+2025-11-26 00:57:54 [INFO] subsystem_hooks: 🔍 Extracting dialog context...
+2025-11-26 00:57:54 [INFO] subsystem_hooks:    transcript_path: /home/vano/.claude/projects/-mnt-e-Projects-Quantum-Video-tagging-db/14e8e706-4611-4028-b7db-fce58b14f3e9.jsonl
+2025-11-26 00:57:54 [INFO] subsystem_hooks:    session_id: 14e8e706-4611-4028-b7db-fce58b14f3e9
+2025-11-26 00:57:54 [INFO] subsystem_hooks:    tool_name: Write
+2025-11-26 00:57:54 [INFO] subsystem_hooks: 📂 Finding actual transcript for session: 14e8e706-4611-4028-b7db-fce58b14f3e9
+2025-11-26 00:57:56 [INFO] subsystem_hooks: 📂 Using transcript file: /home/vano/.claude/projects/-mnt-e-Projects-Quantum-Video-tagging-db/14e8e706-4611-4028-b7db-fce58b14f3e9.jsonl
+2025-11-26 00:57:56 [INFO] subsystem_hooks: 📊 Read 654 lines from transcript
+2025-11-26 00:57:56 [INFO] subsystem_hooks: 📝 Найдено 34 сообщений диалога (из 8 смен ролей)
+2025-11-26 00:57:56 [INFO] subsystem_hooks: 🎯 Найдено 6 команд пользователя
+2025-11-26 00:57:56 [INFO] subsystem_hooks: ✅ Dialog context extracted: 26852 chars
+2025-11-26 00:57:56 [INFO] subsystem_hooks: ✅ Trigger created: tool_control_pending_1764107874.json
+2025-11-26 00:58:35 [INFO] subsystem_hooks: ✅ Project matched: Video_tagging (user: 158301565, chat: 158301565)
+2025-11-26 00:58:35 [INFO] subsystem_hooks: 🎯 Creating trigger for project: Video_tagging
+2025-11-26 00:58:35 [INFO] subsystem_hooks:    Project dir: /mnt/e/Projects/Quantum/Video_tagging_db
+2025-11-26 00:58:35 [INFO] subsystem_hooks:    User: 158301565, Chat: 158301565
+2025-11-26 00:58:35 [INFO] subsystem_hooks:    Trigger dir: /mnt/e/Projects/Quantum/Video_tagging_db/workflow_inbox
+2025-11-26 00:58:35 [INFO] subsystem_hooks: 📋 Project mode loaded: development
+2025-11-26 00:58:35 [INFO] subsystem_hooks: 🔍 Extracting dialog context...
+2025-11-26 00:58:35 [INFO] subsystem_hooks:    transcript_path: /home/vano/.claude/projects/-mnt-e-Projects-Quantum-Video-tagging-db/14e8e706-4611-4028-b7db-fce58b14f3e9.jsonl
+2025-11-26 00:58:35 [INFO] subsystem_hooks:    session_id: 14e8e706-4611-4028-b7db-fce58b14f3e9
+2025-11-26 00:58:35 [INFO] subsystem_hooks:    tool_name: Bash
+2025-11-26 00:58:35 [INFO] subsystem_hooks: 📂 Finding actual transcript for session: 14e8e706-4611-4028-b7db-fce58b14f3e9
+2025-11-26 00:58:37 [INFO] subsystem_hooks: 📂 Using transcript file: /home/vano/.claude/projects/-mnt-e-Projects-Quantum-Video-tagging-db/14e8e706-4611-4028-b7db-fce58b14f3e9.jsonl
+2025-11-26 00:58:37 [INFO] subsystem_hooks: 📊 Read 657 lines from transcript
+2025-11-26 00:58:37 [INFO] subsystem_hooks: 📝 Найдено 36 сообщений диалога (из 8 смен ролей)
+2025-11-26 00:58:37 [INFO] subsystem_hooks: 🎯 Найдено 6 команд пользователя
+2025-11-26 00:58:37 [INFO] subsystem_hooks: ✅ Dialog context extracted: 27131 chars
+2025-11-26 00:58:37 [INFO] subsystem_hooks: ✅ Trigger created: tool_control_pending_1764107915.json
+2025-11-26 00:59:23 [INFO] subsystem_hooks: ✅ Project matched: Video_tagging (user: 158301565, chat: 158301565)
+2025-11-26 00:59:23 [INFO] subsystem_hooks: 🎯 Creating trigger for project: Video_tagging
+2025-11-26 00:59:23 [INFO] subsystem_hooks:    Project dir: /mnt/e/Projects/Quantum/Video_tagging_db
+2025-11-26 00:59:23 [INFO] subsystem_hooks:    User: 158301565, Chat: 158301565
+2025-11-26 00:59:23 [INFO] subsystem_hooks:    Trigger dir: /mnt/e/Projects/Quantum/Video_tagging_db/workflow_inbox
+2025-11-26 00:59:23 [INFO] subsystem_hooks: 📋 Project mode loaded: development
+2025-11-26 00:59:23 [INFO] subsystem_hooks: 🔍 Extracting dialog context...
+2025-11-26 00:59:23 [INFO] subsystem_hooks:    transcript_path: /home/vano/.claude/projects/-mnt-e-Projects-Quantum-Video-tagging-db/14e8e706-4611-4028-b7db-fce58b14f3e9.jsonl
+2025-11-26 00:59:23 [INFO] subsystem_hooks:    session_id: 14e8e706-4611-4028-b7db-fce58b14f3e9
+2025-11-26 00:59:23 [INFO] subsystem_hooks:    tool_name: Bash
+2025-11-26 00:59:23 [INFO] subsystem_hooks: 📂 Finding actual transcript for session: 14e8e706-4611-4028-b7db-fce58b14f3e9
+2025-11-26 00:59:25 [INFO] subsystem_hooks: 📂 Using transcript file: /home/vano/.claude/projects/-mnt-e-Projects-Quantum-Video-tagging-db/14e8e706-4611-4028-b7db-fce58b14f3e9.jsonl
+2025-11-26 00:59:25 [INFO] subsystem_hooks: 📊 Read 661 lines from transcript
+2025-11-26 00:59:25 [INFO] subsystem_hooks: 📝 Найдено 40 сообщений диалога (из 8 смен ролей)
+2025-11-26 00:59:25 [INFO] subsystem_hooks: 🎯 Найдено 6 команд пользователя
+2025-11-26 00:59:25 [INFO] subsystem_hooks: ✅ Dialog context extracted: 28170 chars
+2025-11-26 00:59:25 [INFO] subsystem_hooks: ✅ Trigger created: tool_control_pending_1764107963.json
+2025-11-26 00:59:52 [INFO] subsystem_hooks: ✅ Project matched: Video_tagging (user: 158301565, chat: 158301565)
+2025-11-26 00:59:52 [INFO] subsystem_hooks: 🎯 Creating trigger for project: Video_tagging
+2025-11-26 00:59:52 [INFO] subsystem_hooks:    Project dir: /mnt/e/Projects/Quantum/Video_tagging_db
+2025-11-26 00:59:52 [INFO] subsystem_hooks:    User: 158301565, Chat: 158301565
+2025-11-26 00:59:52 [INFO] subsystem_hooks:    Trigger dir: /mnt/e/Projects/Quantum/Video_tagging_db/workflow_inbox
+2025-11-26 00:59:52 [INFO] subsystem_hooks: 📋 Project mode loaded: development
+2025-11-26 00:59:52 [INFO] subsystem_hooks: 🔍 Extracting dialog context...
+2025-11-26 00:59:52 [INFO] subsystem_hooks:    transcript_path: /home/vano/.claude/projects/-mnt-e-Projects-Quantum-Video-tagging-db/14e8e706-4611-4028-b7db-fce58b14f3e9.jsonl
+2025-11-26 00:59:52 [INFO] subsystem_hooks:    session_id: 14e8e706-4611-4028-b7db-fce58b14f3e9
+2025-11-26 00:59:52 [INFO] subsystem_hooks:    tool_name: Edit
+2025-11-26 00:59:52 [INFO] subsystem_hooks: 📂 Finding actual transcript for session: 14e8e706-4611-4028-b7db-fce58b14f3e9
+2025-11-26 00:59:55 [INFO] subsystem_hooks: 📂 Using transcript file: /home/vano/.claude/projects/-mnt-e-Projects-Quantum-Video-tagging-db/14e8e706-4611-4028-b7db-fce58b14f3e9.jsonl
+2025-11-26 00:59:55 [INFO] subsystem_hooks: 📊 Read 667 lines from transcript
+2025-11-26 00:59:55 [INFO] subsystem_hooks: 📝 Найдено 46 сообщений диалога (из 8 смен ролей)
+2025-11-26 00:59:55 [INFO] subsystem_hooks: 🎯 Найдено 6 команд пользователя
+2025-11-26 00:59:55 [INFO] subsystem_hooks: ✅ Dialog context extracted: 30985 chars
+2025-11-26 00:59:55 [INFO] subsystem_hooks: ✅ Trigger created: tool_control_pending_1764107992.json
+2025-11-26 01:00:28 [INFO] subsystem_hooks: ✅ Project matched: Video_tagging (user: 158301565, chat: 158301565)
+2025-11-26 01:00:28 [INFO] subsystem_hooks: 🎯 Creating trigger for project: Video_tagging
+2025-11-26 01:00:28 [INFO] subsystem_hooks:    Project dir: /mnt/e/Projects/Quantum/Video_tagging_db
+2025-11-26 01:00:28 [INFO] subsystem_hooks:    User: 158301565, Chat: 158301565
+2025-11-26 01:00:28 [INFO] subsystem_hooks:    Trigger dir: /mnt/e/Projects/Quantum/Video_tagging_db/workflow_inbox
+2025-11-26 01:00:28 [INFO] subsystem_hooks: 📋 Project mode loaded: development
+2025-11-26 01:00:28 [INFO] subsystem_hooks: 🔍 Extracting dialog context...
+2025-11-26 01:00:28 [INFO] subsystem_hooks:    transcript_path: /home/vano/.claude/projects/-mnt-e-Projects-Quantum-Video-tagging-db/14e8e706-4611-4028-b7db-fce58b14f3e9.jsonl
+2025-11-26 01:00:28 [INFO] subsystem_hooks:    session_id: 14e8e706-4611-4028-b7db-fce58b14f3e9
+2025-11-26 01:00:28 [INFO] subsystem_hooks:    tool_name: Bash
+2025-11-26 01:00:28 [INFO] subsystem_hooks: 📂 Finding actual transcript for session: 14e8e706-4611-4028-b7db-fce58b14f3e9
+2025-11-26 01:00:30 [INFO] subsystem_hooks: 📂 Using transcript file: /home/vano/.claude/projects/-mnt-e-Projects-Quantum-Video-tagging-db/14e8e706-4611-4028-b7db-fce58b14f3e9.jsonl
+2025-11-26 01:00:30 [INFO] subsystem_hooks: 📊 Read 672 lines from transcript
+2025-11-26 01:00:30 [INFO] subsystem_hooks: 📝 Найдено 50 сообщений диалога (из 8 смен ролей)
+2025-11-26 01:00:30 [INFO] subsystem_hooks: 🎯 Найдено 6 команд пользователя
+2025-11-26 01:00:30 [INFO] subsystem_hooks: ✅ Dialog context extracted: 32638 chars
+2025-11-26 01:00:30 [INFO] subsystem_hooks: ✅ Trigger created: tool_control_pending_1764108028.json
+2025-11-26 01:01:33 [INFO] subsystem_hooks: ✅ Project matched: Video_tagging (user: 158301565, chat: 158301565)
+2025-11-26 01:01:33 [INFO] subsystem_hooks: 🎯 Creating trigger for project: Video_tagging
+2025-11-26 01:01:33 [INFO] subsystem_hooks:    Project dir: /mnt/e/Projects/Quantum/Video_tagging_db
+2025-11-26 01:01:33 [INFO] subsystem_hooks:    User: 158301565, Chat: 158301565
+2025-11-26 01:01:33 [INFO] subsystem_hooks:    Trigger dir: /mnt/e/Projects/Quantum/Video_tagging_db/workflow_inbox
+2025-11-26 01:01:33 [INFO] subsystem_hooks: 📋 Project mode loaded: development
+2025-11-26 01:01:33 [INFO] subsystem_hooks: 🔍 Extracting dialog context...
+2025-11-26 01:01:33 [INFO] subsystem_hooks:    transcript_path: /home/vano/.claude/projects/-mnt-e-Projects-Quantum-Video-tagging-db/14e8e706-4611-4028-b7db-fce58b14f3e9.jsonl
+2025-11-26 01:01:33 [INFO] subsystem_hooks:    session_id: 14e8e706-4611-4028-b7db-fce58b14f3e9
+2025-11-26 01:01:33 [INFO] subsystem_hooks:    tool_name: Bash
+2025-11-26 01:01:33 [INFO] subsystem_hooks: 📂 Finding actual transcript for session: 14e8e706-4611-4028-b7db-fce58b14f3e9
+2025-11-26 01:01:35 [INFO] subsystem_hooks: 📂 Using transcript file: /home/vano/.claude/projects/-mnt-e-Projects-Quantum-Video-tagging-db/14e8e706-4611-4028-b7db-fce58b14f3e9.jsonl
+2025-11-26 01:01:35 [INFO] subsystem_hooks: 📊 Read 674 lines from transcript
+2025-11-26 01:01:35 [INFO] subsystem_hooks: 📝 Найдено 52 сообщений диалога (из 8 смен ролей)
+2025-11-26 01:01:35 [INFO] subsystem_hooks: 🎯 Найдено 6 команд пользователя
+2025-11-26 01:01:35 [INFO] subsystem_hooks: ✅ Dialog context extracted: 32814 chars
+2025-11-26 01:01:35 [INFO] subsystem_hooks: ✅ Trigger created: tool_control_pending_1764108093.json
+2025-11-26 01:02:16 [INFO] subsystem_hooks: ✅ Project matched: Video_tagging (user: 158301565, chat: 158301565)
+2025-11-26 01:02:16 [INFO] subsystem_hooks: 🎯 Creating trigger for project: Video_tagging
+2025-11-26 01:02:16 [INFO] subsystem_hooks:    Project dir: /mnt/e/Projects/Quantum/Video_tagging_db
+2025-11-26 01:02:16 [INFO] subsystem_hooks:    User: 158301565, Chat: 158301565
+2025-11-26 01:02:16 [INFO] subsystem_hooks:    Trigger dir: /mnt/e/Projects/Quantum/Video_tagging_db/workflow_inbox
+2025-11-26 01:02:16 [INFO] subsystem_hooks: 📋 Project mode loaded: development
+2025-11-26 01:02:16 [INFO] subsystem_hooks: 🔍 Extracting dialog context...
+2025-11-26 01:02:16 [INFO] subsystem_hooks:    transcript_path: /home/vano/.claude/projects/-mnt-e-Projects-Quantum-Video-tagging-db/14e8e706-4611-4028-b7db-fce58b14f3e9.jsonl
+2025-11-26 01:02:16 [INFO] subsystem_hooks:    session_id: 14e8e706-4611-4028-b7db-fce58b14f3e9
+2025-11-26 01:02:16 [INFO] subsystem_hooks:    tool_name: Bash
+2025-11-26 01:02:16 [INFO] subsystem_hooks: 📂 Finding actual transcript for session: 14e8e706-4611-4028-b7db-fce58b14f3e9
+2025-11-26 01:02:18 [INFO] subsystem_hooks: 📂 Using transcript file: /home/vano/.claude/projects/-mnt-e-Projects-Quantum-Video-tagging-db/14e8e706-4611-4028-b7db-fce58b14f3e9.jsonl
+2025-11-26 01:02:18 [INFO] subsystem_hooks: 📊 Read 684 lines from transcript
+2025-11-26 01:02:18 [INFO] subsystem_hooks: 📝 Найдено 62 сообщений диалога (из 8 смен ролей)
+2025-11-26 01:02:18 [INFO] subsystem_hooks: 🎯 Найдено 6 команд пользователя
+2025-11-26 01:02:18 [INFO] subsystem_hooks: ✅ Dialog context extracted: 35180 chars
+2025-11-26 01:02:18 [INFO] subsystem_hooks: ✅ Trigger created: tool_control_pending_1764108136.json
+2025-11-26 01:02:45 [INFO] subsystem_hooks: ✅ Project matched: Video_tagging (user: 158301565, chat: 158301565)
+2025-11-26 01:02:45 [INFO] subsystem_hooks: 🎯 Creating trigger for project: Video_tagging
+2025-11-26 01:02:45 [INFO] subsystem_hooks:    Project dir: /mnt/e/Projects/Quantum/Video_tagging_db
+2025-11-26 01:02:45 [INFO] subsystem_hooks:    User: 158301565, Chat: 158301565
+2025-11-26 01:02:45 [INFO] subsystem_hooks:    Trigger dir: /mnt/e/Projects/Quantum/Video_tagging_db/workflow_inbox
+2025-11-26 01:02:45 [INFO] subsystem_hooks: 📋 Project mode loaded: development
+2025-11-26 01:02:45 [INFO] subsystem_hooks: 🔍 Extracting dialog context...
+2025-11-26 01:02:45 [INFO] subsystem_hooks:    transcript_path: /home/vano/.claude/projects/-mnt-e-Projects-Quantum-Video-tagging-db/14e8e706-4611-4028-b7db-fce58b14f3e9.jsonl
+2025-11-26 01:02:45 [INFO] subsystem_hooks:    session_id: 14e8e706-4611-4028-b7db-fce58b14f3e9
+2025-11-26 01:02:45 [INFO] subsystem_hooks:    tool_name: Bash
+2025-11-26 01:02:45 [INFO] subsystem_hooks: 📂 Finding actual transcript for session: 14e8e706-4611-4028-b7db-fce58b14f3e9
+2025-11-26 01:02:47 [INFO] subsystem_hooks: 📂 Using transcript file: /home/vano/.claude/projects/-mnt-e-Projects-Quantum-Video-tagging-db/14e8e706-4611-4028-b7db-fce58b14f3e9.jsonl
+2025-11-26 01:02:47 [INFO] subsystem_hooks: 📊 Read 686 lines from transcript
+2025-11-26 01:02:47 [INFO] subsystem_hooks: 📝 Найдено 64 сообщений диалога (из 8 смен ролей)
+2025-11-26 01:02:47 [INFO] subsystem_hooks: 🎯 Найдено 6 команд пользователя
+2025-11-26 01:02:47 [INFO] subsystem_hooks: ✅ Dialog context extracted: 35600 chars
+2025-11-26 01:02:47 [INFO] subsystem_hooks: ✅ Trigger created: tool_control_pending_1764108165.json
+2025-11-26 01:03:24 [INFO] subsystem_hooks: ✅ Project matched: Video_tagging (user: 158301565, chat: 158301565)
+2025-11-26 01:03:24 [INFO] subsystem_hooks: 🎯 Creating trigger for project: Video_tagging
+2025-11-26 01:03:24 [INFO] subsystem_hooks:    Project dir: /mnt/e/Projects/Quantum/Video_tagging_db
+2025-11-26 01:03:24 [INFO] subsystem_hooks:    User: 158301565, Chat: 158301565
+2025-11-26 01:03:24 [INFO] subsystem_hooks:    Trigger dir: /mnt/e/Projects/Quantum/Video_tagging_db/workflow_inbox
+2025-11-26 01:03:24 [INFO] subsystem_hooks: 📋 Project mode loaded: development
+2025-11-26 01:03:24 [INFO] subsystem_hooks: 🔍 Extracting dialog context...
+2025-11-26 01:03:24 [INFO] subsystem_hooks:    transcript_path: /home/vano/.claude/projects/-mnt-e-Projects-Quantum-Video-tagging-db/14e8e706-4611-4028-b7db-fce58b14f3e9.jsonl
+2025-11-26 01:03:24 [INFO] subsystem_hooks:    session_id: 14e8e706-4611-4028-b7db-fce58b14f3e9
+2025-11-26 01:03:24 [INFO] subsystem_hooks:    tool_name: Bash
+2025-11-26 01:03:24 [INFO] subsystem_hooks: 📂 Finding actual transcript for session: 14e8e706-4611-4028-b7db-fce58b14f3e9
+2025-11-26 01:03:26 [INFO] subsystem_hooks: 📂 Using transcript file: /home/vano/.claude/projects/-mnt-e-Projects-Quantum-Video-tagging-db/14e8e706-4611-4028-b7db-fce58b14f3e9.jsonl
+2025-11-26 01:03:26 [INFO] subsystem_hooks: 📊 Read 688 lines from transcript
+2025-11-26 01:03:26 [INFO] subsystem_hooks: 📝 Найдено 66 сообщений диалога (из 8 смен ролей)
+2025-11-26 01:03:26 [INFO] subsystem_hooks: 🎯 Найдено 6 команд пользователя
+2025-11-26 01:03:26 [INFO] subsystem_hooks: ✅ Dialog context extracted: 35768 chars
+2025-11-26 01:03:26 [INFO] subsystem_hooks: ✅ Trigger created: tool_control_pending_1764108204.json
+2025-11-26 01:04:05 [INFO] subsystem_hooks: ✅ Project matched: Video_tagging (user: 158301565, chat: 158301565)
+2025-11-26 01:04:05 [INFO] subsystem_hooks: 🎯 Creating trigger for project: Video_tagging
+2025-11-26 01:04:05 [INFO] subsystem_hooks:    Project dir: /mnt/e/Projects/Quantum/Video_tagging_db
+2025-11-26 01:04:05 [INFO] subsystem_hooks:    User: 158301565, Chat: 158301565
+2025-11-26 01:04:05 [INFO] subsystem_hooks:    Trigger dir: /mnt/e/Projects/Quantum/Video_tagging_db/workflow_inbox
+2025-11-26 01:04:05 [INFO] subsystem_hooks: 📋 Project mode loaded: development
+2025-11-26 01:04:05 [INFO] subsystem_hooks: 🔍 Extracting dialog context...
+2025-11-26 01:04:05 [INFO] subsystem_hooks:    transcript_path: /home/vano/.claude/projects/-mnt-e-Projects-Quantum-Video-tagging-db/14e8e706-4611-4028-b7db-fce58b14f3e9.jsonl
+2025-11-26 01:04:05 [INFO] subsystem_hooks:    session_id: 14e8e706-4611-4028-b7db-fce58b14f3e9
+2025-11-26 01:04:05 [INFO] subsystem_hooks:    tool_name: Bash
+2025-11-26 01:04:05 [INFO] subsystem_hooks: 📂 Finding actual transcript for session: 14e8e706-4611-4028-b7db-fce58b14f3e9
+2025-11-26 01:04:07 [INFO] subsystem_hooks: 📂 Using transcript file: /home/vano/.claude/projects/-mnt-e-Projects-Quantum-Video-tagging-db/14e8e706-4611-4028-b7db-fce58b14f3e9.jsonl
+2025-11-26 01:04:07 [INFO] subsystem_hooks: 📊 Read 693 lines from transcript
+2025-11-26 01:04:07 [INFO] subsystem_hooks: 📝 Найдено 70 сообщений диалога (из 8 смен ролей)
+2025-11-26 01:04:07 [INFO] subsystem_hooks: 🎯 Найдено 6 команд пользователя
+2025-11-26 01:04:07 [INFO] subsystem_hooks: ✅ Dialog context extracted: 35304 chars
+2025-11-26 01:04:07 [INFO] subsystem_hooks: ✅ Trigger created: tool_control_pending_1764108245.json
+2025-11-26 01:04:36 [INFO] subsystem_hooks: ✅ Project matched: Video_tagging (user: 158301565, chat: 158301565)
+2025-11-26 01:04:36 [INFO] subsystem_hooks: 🎯 Creating trigger for project: Video_tagging
+2025-11-26 01:04:36 [INFO] subsystem_hooks:    Project dir: /mnt/e/Projects/Quantum/Video_tagging_db
+2025-11-26 01:04:36 [INFO] subsystem_hooks:    User: 158301565, Chat: 158301565
+2025-11-26 01:04:36 [INFO] subsystem_hooks:    Trigger dir: /mnt/e/Projects/Quantum/Video_tagging_db/workflow_inbox
+2025-11-26 01:04:36 [INFO] subsystem_hooks: 📋 Project mode loaded: development
+2025-11-26 01:04:36 [INFO] subsystem_hooks: 🔍 Extracting dialog context...
+2025-11-26 01:04:36 [INFO] subsystem_hooks:    transcript_path: /home/vano/.claude/projects/-mnt-e-Projects-Quantum-Video-tagging-db/14e8e706-4611-4028-b7db-fce58b14f3e9.jsonl
+2025-11-26 01:04:36 [INFO] subsystem_hooks:    session_id: 14e8e706-4611-4028-b7db-fce58b14f3e9
+2025-11-26 01:04:36 [INFO] subsystem_hooks:    tool_name: Bash
+2025-11-26 01:04:36 [INFO] subsystem_hooks: 📂 Finding actual transcript for session: 14e8e706-4611-4028-b7db-fce58b14f3e9
+2025-11-26 01:04:38 [INFO] subsystem_hooks: 📂 Using transcript file: /home/vano/.claude/projects/-mnt-e-Projects-Quantum-Video-tagging-db/14e8e706-4611-4028-b7db-fce58b14f3e9.jsonl
+2025-11-26 01:04:38 [INFO] subsystem_hooks: 📊 Read 695 lines from transcript
+2025-11-26 01:04:38 [INFO] subsystem_hooks: 📝 Найдено 72 сообщений диалога (из 8 смен ролей)
+2025-11-26 01:04:38 [INFO] subsystem_hooks: 🎯 Найдено 6 команд пользователя
+2025-11-26 01:04:38 [INFO] subsystem_hooks: ✅ Dialog context extracted: 35666 chars
+2025-11-26 01:04:38 [INFO] subsystem_hooks: ✅ Trigger created: tool_control_pending_1764108276.json
+2025-11-26 01:05:35 [INFO] subsystem_hooks: ✅ Project matched: Video_tagging (user: 158301565, chat: 158301565)
+2025-11-26 01:05:35 [INFO] subsystem_hooks: 🎯 Creating trigger for project: Video_tagging
+2025-11-26 01:05:35 [INFO] subsystem_hooks:    Project dir: /mnt/e/Projects/Quantum/Video_tagging_db
+2025-11-26 01:05:35 [INFO] subsystem_hooks:    User: 158301565, Chat: 158301565
+2025-11-26 01:05:35 [INFO] subsystem_hooks:    Trigger dir: /mnt/e/Projects/Quantum/Video_tagging_db/workflow_inbox
+2025-11-26 01:05:35 [INFO] subsystem_hooks: 📋 Project mode loaded: development
+2025-11-26 01:05:35 [INFO] subsystem_hooks: 🔍 Extracting dialog context...
+2025-11-26 01:05:35 [INFO] subsystem_hooks:    transcript_path: /home/vano/.claude/projects/-mnt-e-Projects-Quantum-Video-tagging-db/14e8e706-4611-4028-b7db-fce58b14f3e9.jsonl
+2025-11-26 01:05:35 [INFO] subsystem_hooks:    session_id: 14e8e706-4611-4028-b7db-fce58b14f3e9
+2025-11-26 01:05:35 [INFO] subsystem_hooks:    tool_name: Bash
+2025-11-26 01:05:35 [INFO] subsystem_hooks: 📂 Finding actual transcript for session: 14e8e706-4611-4028-b7db-fce58b14f3e9
+2025-11-26 01:05:37 [INFO] subsystem_hooks: 📂 Using transcript file: /home/vano/.claude/projects/-mnt-e-Projects-Quantum-Video-tagging-db/14e8e706-4611-4028-b7db-fce58b14f3e9.jsonl
+2025-11-26 01:05:37 [INFO] subsystem_hooks: 📊 Read 697 lines from transcript
+2025-11-26 01:05:37 [INFO] subsystem_hooks: 📝 Найдено 74 сообщений диалога (из 8 смен ролей)
+2025-11-26 01:05:37 [INFO] subsystem_hooks: 🎯 Найдено 6 команд пользователя
+2025-11-26 01:05:37 [INFO] subsystem_hooks: ✅ Dialog context extracted: 35842 chars
+2025-11-26 01:05:37 [INFO] subsystem_hooks: ✅ Trigger created: tool_control_pending_1764108335.json
+2025-11-26 01:17:05 [INFO] subsystem_hooks: ✅ Project matched: Video_tagging (user: 158301565, chat: 158301565)
+2025-11-26 01:17:05 [INFO] subsystem_hooks: 🎯 Creating trigger for project: Video_tagging
+2025-11-26 01:17:05 [INFO] subsystem_hooks:    Project dir: /mnt/e/Projects/Quantum/Video_tagging_db
+2025-11-26 01:17:05 [INFO] subsystem_hooks:    User: 158301565, Chat: 158301565
+2025-11-26 01:17:05 [INFO] subsystem_hooks:    Trigger dir: /mnt/e/Projects/Quantum/Video_tagging_db/workflow_inbox
+2025-11-26 01:17:05 [INFO] subsystem_hooks: 📋 Project mode loaded: development
+2025-11-26 01:17:05 [INFO] subsystem_hooks: 🔍 Extracting dialog context...
+2025-11-26 01:17:05 [INFO] subsystem_hooks:    transcript_path: /home/vano/.claude/projects/-mnt-e-Projects-Quantum-Video-tagging-db/14e8e706-4611-4028-b7db-fce58b14f3e9.jsonl
+2025-11-26 01:17:05 [INFO] subsystem_hooks:    session_id: 14e8e706-4611-4028-b7db-fce58b14f3e9
+2025-11-26 01:17:05 [INFO] subsystem_hooks:    tool_name: Edit
+2025-11-26 01:17:05 [INFO] subsystem_hooks: 📂 Finding actual transcript for session: 14e8e706-4611-4028-b7db-fce58b14f3e9
+2025-11-26 01:17:07 [INFO] subsystem_hooks: 📂 Using transcript file: /home/vano/.claude/projects/-mnt-e-Projects-Quantum-Video-tagging-db/14e8e706-4611-4028-b7db-fce58b14f3e9.jsonl
+2025-11-26 01:17:07 [INFO] subsystem_hooks: 📊 Read 720 lines from transcript
+2025-11-26 01:17:07 [INFO] subsystem_hooks: 📝 Найдено 62 сообщений диалога (из 8 смен ролей)
+2025-11-26 01:17:07 [INFO] subsystem_hooks: 🎯 Найдено 6 команд пользователя
+2025-11-26 01:17:07 [INFO] subsystem_hooks: ✅ Dialog context extracted: 20199 chars
+2025-11-26 01:17:07 [INFO] subsystem_hooks: ✅ Trigger created: tool_control_pending_1764109025.json
+2025-11-26 01:17:45 [INFO] subsystem_hooks: ✅ Project matched: Video_tagging (user: 158301565, chat: 158301565)
+2025-11-26 01:17:45 [INFO] subsystem_hooks: 🎯 Creating trigger for project: Video_tagging
+2025-11-26 01:17:45 [INFO] subsystem_hooks:    Project dir: /mnt/e/Projects/Quantum/Video_tagging_db
+2025-11-26 01:17:45 [INFO] subsystem_hooks:    User: 158301565, Chat: 158301565
+2025-11-26 01:17:45 [INFO] subsystem_hooks:    Trigger dir: /mnt/e/Projects/Quantum/Video_tagging_db/workflow_inbox
+2025-11-26 01:17:45 [INFO] subsystem_hooks: 📋 Project mode loaded: development
+2025-11-26 01:17:45 [INFO] subsystem_hooks: 🔍 Extracting dialog context...
+2025-11-26 01:17:45 [INFO] subsystem_hooks:    transcript_path: /home/vano/.claude/projects/-mnt-e-Projects-Quantum-Video-tagging-db/14e8e706-4611-4028-b7db-fce58b14f3e9.jsonl
+2025-11-26 01:17:45 [INFO] subsystem_hooks:    session_id: 14e8e706-4611-4028-b7db-fce58b14f3e9
+2025-11-26 01:17:45 [INFO] subsystem_hooks:    tool_name: Bash
+2025-11-26 01:17:45 [INFO] subsystem_hooks: 📂 Finding actual transcript for session: 14e8e706-4611-4028-b7db-fce58b14f3e9
+2025-11-26 01:17:47 [INFO] subsystem_hooks: 📂 Using transcript file: /home/vano/.claude/projects/-mnt-e-Projects-Quantum-Video-tagging-db/14e8e706-4611-4028-b7db-fce58b14f3e9.jsonl
+2025-11-26 01:17:47 [INFO] subsystem_hooks: 📊 Read 722 lines from transcript
+2025-11-26 01:17:47 [INFO] subsystem_hooks: 📝 Найдено 64 сообщений диалога (из 8 смен ролей)
+2025-11-26 01:17:47 [INFO] subsystem_hooks: 🎯 Найдено 6 команд пользователя
+2025-11-26 01:17:47 [INFO] subsystem_hooks: ✅ Dialog context extracted: 21117 chars
+2025-11-26 01:17:47 [INFO] subsystem_hooks: ✅ Trigger created: tool_control_pending_1764109065.json
+2025-11-26 01:18:23 [INFO] subsystem_hooks: ✅ Project matched: Video_tagging (user: 158301565, chat: 158301565)
+2025-11-26 01:18:23 [INFO] subsystem_hooks: 🎯 Creating trigger for project: Video_tagging
+2025-11-26 01:18:23 [INFO] subsystem_hooks:    Project dir: /mnt/e/Projects/Quantum/Video_tagging_db
+2025-11-26 01:18:23 [INFO] subsystem_hooks:    User: 158301565, Chat: 158301565
+2025-11-26 01:18:23 [INFO] subsystem_hooks:    Trigger dir: /mnt/e/Projects/Quantum/Video_tagging_db/workflow_inbox
+2025-11-26 01:18:23 [INFO] subsystem_hooks: 📋 Project mode loaded: development
+2025-11-26 01:18:23 [INFO] subsystem_hooks: 🔍 Extracting dialog context...
+2025-11-26 01:18:23 [INFO] subsystem_hooks:    transcript_path: /home/vano/.claude/projects/-mnt-e-Projects-Quantum-Video-tagging-db/14e8e706-4611-4028-b7db-fce58b14f3e9.jsonl
+2025-11-26 01:18:23 [INFO] subsystem_hooks:    session_id: 14e8e706-4611-4028-b7db-fce58b14f3e9
+2025-11-26 01:18:23 [INFO] subsystem_hooks:    tool_name: Bash
+2025-11-26 01:18:23 [INFO] subsystem_hooks: 📂 Finding actual transcript for session: 14e8e706-4611-4028-b7db-fce58b14f3e9
+2025-11-26 01:18:25 [INFO] subsystem_hooks: 📂 Using transcript file: /home/vano/.claude/projects/-mnt-e-Projects-Quantum-Video-tagging-db/14e8e706-4611-4028-b7db-fce58b14f3e9.jsonl
+2025-11-26 01:18:25 [INFO] subsystem_hooks: 📊 Read 724 lines from transcript
+2025-11-26 01:18:25 [INFO] subsystem_hooks: 📝 Найдено 66 сообщений диалога (из 8 смен ролей)
+2025-11-26 01:18:25 [INFO] subsystem_hooks: 🎯 Найдено 6 команд пользователя
+2025-11-26 01:18:25 [INFO] subsystem_hooks: ✅ Dialog context extracted: 21279 chars
+2025-11-26 01:18:25 [INFO] subsystem_hooks: ✅ Trigger created: tool_control_pending_1764109103.json
+2025-11-26 01:19:15 [INFO] subsystem_hooks: ✅ Project matched: Video_tagging (user: 158301565, chat: 158301565)
+2025-11-26 01:19:15 [INFO] subsystem_hooks: 🎯 Creating trigger for project: Video_tagging
+2025-11-26 01:19:15 [INFO] subsystem_hooks:    Project dir: /mnt/e/Projects/Quantum/Video_tagging_db
+2025-11-26 01:19:15 [INFO] subsystem_hooks:    User: 158301565, Chat: 158301565
+2025-11-26 01:19:15 [INFO] subsystem_hooks:    Trigger dir: /mnt/e/Projects/Quantum/Video_tagging_db/workflow_inbox
+2025-11-26 01:19:15 [INFO] subsystem_hooks: 📋 Project mode loaded: development
+2025-11-26 01:19:15 [INFO] subsystem_hooks: 🔍 Extracting dialog context...
+2025-11-26 01:19:15 [INFO] subsystem_hooks:    transcript_path: /home/vano/.claude/projects/-mnt-e-Projects-Quantum-Video-tagging-db/14e8e706-4611-4028-b7db-fce58b14f3e9.jsonl
+2025-11-26 01:19:15 [INFO] subsystem_hooks:    session_id: 14e8e706-4611-4028-b7db-fce58b14f3e9
+2025-11-26 01:19:15 [INFO] subsystem_hooks:    tool_name: Edit
+2025-11-26 01:19:15 [INFO] subsystem_hooks: 📂 Finding actual transcript for session: 14e8e706-4611-4028-b7db-fce58b14f3e9
+2025-11-26 01:19:17 [INFO] subsystem_hooks: 📂 Using transcript file: /home/vano/.claude/projects/-mnt-e-Projects-Quantum-Video-tagging-db/14e8e706-4611-4028-b7db-fce58b14f3e9.jsonl
+2025-11-26 01:19:17 [INFO] subsystem_hooks: 📊 Read 736 lines from transcript
+2025-11-26 01:19:17 [INFO] subsystem_hooks: 📝 Найдено 78 сообщений диалога (из 8 смен ролей)
+2025-11-26 01:19:17 [INFO] subsystem_hooks: 🎯 Найдено 6 команд пользователя
+2025-11-26 01:19:17 [INFO] subsystem_hooks: ✅ Dialog context extracted: 23220 chars
+2025-11-26 01:19:17 [INFO] subsystem_hooks: ✅ Trigger created: tool_control_pending_1764109155.json
+2025-11-26 01:19:50 [INFO] subsystem_hooks: ✅ Project matched: Video_tagging (user: 158301565, chat: 158301565)
+2025-11-26 01:19:50 [INFO] subsystem_hooks: 🎯 Creating trigger for project: Video_tagging
+2025-11-26 01:19:50 [INFO] subsystem_hooks:    Project dir: /mnt/e/Projects/Quantum/Video_tagging_db
+2025-11-26 01:19:50 [INFO] subsystem_hooks:    User: 158301565, Chat: 158301565
+2025-11-26 01:19:50 [INFO] subsystem_hooks:    Trigger dir: /mnt/e/Projects/Quantum/Video_tagging_db/workflow_inbox
+2025-11-26 01:19:50 [INFO] subsystem_hooks: 📋 Project mode loaded: development
+2025-11-26 01:19:50 [INFO] subsystem_hooks: 🔍 Extracting dialog context...
+2025-11-26 01:19:50 [INFO] subsystem_hooks:    transcript_path: /home/vano/.claude/projects/-mnt-e-Projects-Quantum-Video-tagging-db/14e8e706-4611-4028-b7db-fce58b14f3e9.jsonl
+2025-11-26 01:19:50 [INFO] subsystem_hooks:    session_id: 14e8e706-4611-4028-b7db-fce58b14f3e9
+2025-11-26 01:19:50 [INFO] subsystem_hooks:    tool_name: Bash
+2025-11-26 01:19:50 [INFO] subsystem_hooks: 📂 Finding actual transcript for session: 14e8e706-4611-4028-b7db-fce58b14f3e9
+2025-11-26 01:19:52 [INFO] subsystem_hooks: 📂 Using transcript file: /home/vano/.claude/projects/-mnt-e-Projects-Quantum-Video-tagging-db/14e8e706-4611-4028-b7db-fce58b14f3e9.jsonl
+2025-11-26 01:19:52 [INFO] subsystem_hooks: 📊 Read 738 lines from transcript
+2025-11-26 01:19:52 [INFO] subsystem_hooks: 📝 Найдено 80 сообщений диалога (из 8 смен ролей)
+2025-11-26 01:19:52 [INFO] subsystem_hooks: 🎯 Найдено 6 команд пользователя
+2025-11-26 01:19:52 [INFO] subsystem_hooks: ✅ Dialog context extracted: 23999 chars
+2025-11-26 01:19:52 [INFO] subsystem_hooks: ✅ Trigger created: tool_control_pending_1764109190.json
+2025-11-26 01:20:11 [INFO] subsystem_hooks: ✅ Project matched: Video_tagging (user: 158301565, chat: 158301565)
+2025-11-26 01:20:11 [INFO] subsystem_hooks: 🎯 Creating trigger for project: Video_tagging
+2025-11-26 01:20:11 [INFO] subsystem_hooks:    Project dir: /mnt/e/Projects/Quantum/Video_tagging_db
+2025-11-26 01:20:11 [INFO] subsystem_hooks:    User: 158301565, Chat: 158301565
+2025-11-26 01:20:11 [INFO] subsystem_hooks:    Trigger dir: /mnt/e/Projects/Quantum/Video_tagging_db/workflow_inbox
+2025-11-26 01:20:11 [INFO] subsystem_hooks: 📋 Project mode loaded: development
+2025-11-26 01:20:11 [INFO] subsystem_hooks: 🔍 Extracting dialog context...
+2025-11-26 01:20:11 [INFO] subsystem_hooks:    transcript_path: /home/vano/.claude/projects/-mnt-e-Projects-Quantum-Video-tagging-db/14e8e706-4611-4028-b7db-fce58b14f3e9.jsonl
+2025-11-26 01:20:11 [INFO] subsystem_hooks:    session_id: 14e8e706-4611-4028-b7db-fce58b14f3e9
+2025-11-26 01:20:11 [INFO] subsystem_hooks:    tool_name: Bash
+2025-11-26 01:20:11 [INFO] subsystem_hooks: 📂 Finding actual transcript for session: 14e8e706-4611-4028-b7db-fce58b14f3e9
+2025-11-26 01:20:13 [INFO] subsystem_hooks: 📂 Using transcript file: /home/vano/.claude/projects/-mnt-e-Projects-Quantum-Video-tagging-db/14e8e706-4611-4028-b7db-fce58b14f3e9.jsonl
+2025-11-26 01:20:13 [INFO] subsystem_hooks: 📊 Read 740 lines from transcript
+2025-11-26 01:20:13 [INFO] subsystem_hooks: 📝 Найдено 82 сообщений диалога (из 8 смен ролей)
+2025-11-26 01:20:13 [INFO] subsystem_hooks: 🎯 Найдено 6 команд пользователя
+2025-11-26 01:20:13 [INFO] subsystem_hooks: ✅ Dialog context extracted: 24168 chars
+2025-11-26 01:20:13 [INFO] subsystem_hooks: ✅ Trigger created: tool_control_pending_1764109211.json
+2025-11-27 04:13:39 [INFO] subsystem_hooks: ✅ Project matched: Video_tagging (user: 158301565, chat: 158301565)
+2025-11-27 04:13:39 [INFO] subsystem_hooks: 🎯 Creating trigger for project: Video_tagging
+2025-11-27 04:13:39 [INFO] subsystem_hooks:    Project dir: /mnt/e/Projects/Quantum/Video_tagging_db
+2025-11-27 04:13:39 [INFO] subsystem_hooks:    User: 158301565, Chat: 158301565
+2025-11-27 04:13:39 [INFO] subsystem_hooks:    Trigger dir: /mnt/e/Projects/Quantum/Video_tagging_db/workflow_inbox
+2025-11-27 04:13:39 [INFO] subsystem_hooks: 📋 Project mode loaded: development
+2025-11-27 04:13:39 [INFO] subsystem_hooks: 🔍 Extracting dialog context...
+2025-11-27 04:13:39 [INFO] subsystem_hooks:    transcript_path: /home/vano/.claude/projects/-mnt-e-Projects-Quantum-Video-tagging-db/14e8e706-4611-4028-b7db-fce58b14f3e9.jsonl
+2025-11-27 04:13:39 [INFO] subsystem_hooks:    session_id: 14e8e706-4611-4028-b7db-fce58b14f3e9
+2025-11-27 04:13:39 [INFO] subsystem_hooks:    tool_name: Bash
+2025-11-27 04:13:39 [INFO] subsystem_hooks: 📂 Finding actual transcript for session: 14e8e706-4611-4028-b7db-fce58b14f3e9
+2025-11-27 04:13:41 [INFO] subsystem_hooks: 📂 Using transcript file: /home/vano/.claude/projects/-mnt-e-Projects-Quantum-Video-tagging-db/14e8e706-4611-4028-b7db-fce58b14f3e9.jsonl
+2025-11-27 04:13:41 [INFO] subsystem_hooks: 📊 Read 750 lines from transcript
+2025-11-27 04:13:41 [INFO] subsystem_hooks: 📝 Найдено 38 сообщений диалога (из 8 смен ролей)
+2025-11-27 04:13:41 [INFO] subsystem_hooks: 🎯 Найдено 6 команд пользователя
+2025-11-27 04:13:41 [INFO] subsystem_hooks: ✅ Dialog context extracted: 11583 chars
+2025-11-27 04:13:41 [INFO] subsystem_hooks: ✅ Trigger created: tool_control_pending_1764206019.json
+2025-11-29 01:07:10 [INFO] subsystem_hooks: ✅ Project matched: Video_tagging (user: 158301565, chat: 158301565)
+2025-11-29 01:07:10 [INFO] subsystem_hooks: 🎯 Creating trigger for project: Video_tagging
+2025-11-29 01:07:10 [INFO] subsystem_hooks:    Project dir: /mnt/e/Projects/Quantum/Video_tagging_db
+2025-11-29 01:07:10 [INFO] subsystem_hooks:    User: 158301565, Chat: 158301565
+2025-11-29 01:07:10 [INFO] subsystem_hooks:    Trigger dir: /mnt/e/Projects/Quantum/Video_tagging_db/workflow_inbox
+2025-11-29 01:07:10 [INFO] subsystem_hooks: 📋 Project mode loaded: development
+2025-11-29 01:07:10 [INFO] subsystem_hooks: 🔍 Extracting dialog context...
+2025-11-29 01:07:10 [INFO] subsystem_hooks:    transcript_path: /home/vano/.claude/projects/-mnt-e-Projects-Quantum-Video-tagging-db/14e8e706-4611-4028-b7db-fce58b14f3e9.jsonl
+2025-11-29 01:07:10 [INFO] subsystem_hooks:    session_id: 14e8e706-4611-4028-b7db-fce58b14f3e9
+2025-11-29 01:07:10 [INFO] subsystem_hooks:    tool_name: Bash
+2025-11-29 01:07:10 [INFO] subsystem_hooks: 📂 Finding actual transcript for session: 14e8e706-4611-4028-b7db-fce58b14f3e9
+2025-11-29 01:07:12 [INFO] subsystem_hooks: 📂 Using transcript file: /home/vano/.claude/projects/-mnt-e-Projects-Quantum-Video-tagging-db/14e8e706-4611-4028-b7db-fce58b14f3e9.jsonl
+2025-11-29 01:07:12 [INFO] subsystem_hooks: 📊 Read 758 lines from transcript
+2025-11-29 01:07:12 [INFO] subsystem_hooks: 📝 Найдено 39 сообщений диалога (из 8 смен ролей)
+2025-11-29 01:07:12 [INFO] subsystem_hooks: 🎯 Найдено 6 команд пользователя
+2025-11-29 01:07:12 [INFO] subsystem_hooks: ✅ Dialog context extracted: 11142 chars
+2025-11-29 01:07:12 [INFO] subsystem_hooks: ✅ Trigger created: tool_control_pending_1764367630.json
+2025-11-29 03:34:48 [INFO] subsystem_hooks: ✅ Project matched: Video_tagging (user: 158301565, chat: 158301565)
+2025-11-29 03:34:48 [INFO] subsystem_hooks: 🎯 Creating trigger for project: Video_tagging
+2025-11-29 03:34:48 [INFO] subsystem_hooks:    Project dir: /mnt/e/Projects/Quantum/Video_tagging_db
+2025-11-29 03:34:48 [INFO] subsystem_hooks:    User: 158301565, Chat: 158301565
+2025-11-29 03:34:48 [INFO] subsystem_hooks:    Trigger dir: /mnt/e/Projects/Quantum/Video_tagging_db/workflow_inbox
+2025-11-29 03:34:48 [INFO] subsystem_hooks: 📋 Project mode loaded: analysis
+2025-11-29 03:34:48 [INFO] subsystem_hooks: 🔍 Extracting dialog context...
+2025-11-29 03:34:48 [INFO] subsystem_hooks:    transcript_path: /home/vano/.claude/projects/-mnt-e-Projects-Quantum-Video-tagging-db/14e8e706-4611-4028-b7db-fce58b14f3e9.jsonl
+2025-11-29 03:34:48 [INFO] subsystem_hooks:    session_id: 14e8e706-4611-4028-b7db-fce58b14f3e9
+2025-11-29 03:34:48 [INFO] subsystem_hooks:    tool_name: Bash
+2025-11-29 03:34:48 [INFO] subsystem_hooks: 📂 Finding actual transcript for session: 14e8e706-4611-4028-b7db-fce58b14f3e9
+2025-11-29 03:34:50 [INFO] subsystem_hooks: 📂 Using transcript file: /home/vano/.claude/projects/-mnt-e-Projects-Quantum-Video-tagging-db/14e8e706-4611-4028-b7db-fce58b14f3e9.jsonl
+2025-11-29 03:34:50 [INFO] subsystem_hooks: 📊 Read 1014 lines from transcript
+2025-11-29 03:34:50 [INFO] subsystem_hooks: 📝 Найдено 42 сообщений диалога (из 8 смен ролей)
+2025-11-29 03:34:50 [INFO] subsystem_hooks: 🎯 Найдено 6 команд пользователя
+2025-11-29 03:34:50 [INFO] subsystem_hooks: ✅ Dialog context extracted: 28329 chars
+2025-11-29 03:34:50 [INFO] subsystem_hooks: ✅ Trigger created: tool_control_pending_1764376488.json
+2025-11-29 03:35:17 [INFO] subsystem_hooks: ✅ Project matched: Video_tagging (user: 158301565, chat: 158301565)
+2025-11-29 03:35:17 [INFO] subsystem_hooks: 🎯 Creating trigger for project: Video_tagging
+2025-11-29 03:35:17 [INFO] subsystem_hooks:    Project dir: /mnt/e/Projects/Quantum/Video_tagging_db
+2025-11-29 03:35:17 [INFO] subsystem_hooks:    User: 158301565, Chat: 158301565
+2025-11-29 03:35:17 [INFO] subsystem_hooks:    Trigger dir: /mnt/e/Projects/Quantum/Video_tagging_db/workflow_inbox
+2025-11-29 03:35:17 [INFO] subsystem_hooks: 📋 Project mode loaded: analysis
+2025-11-29 03:35:17 [INFO] subsystem_hooks: 🔍 Extracting dialog context...
+2025-11-29 03:35:17 [INFO] subsystem_hooks:    transcript_path: /home/vano/.claude/projects/-mnt-e-Projects-Quantum-Video-tagging-db/14e8e706-4611-4028-b7db-fce58b14f3e9.jsonl
+2025-11-29 03:35:17 [INFO] subsystem_hooks:    session_id: 14e8e706-4611-4028-b7db-fce58b14f3e9
+2025-11-29 03:35:17 [INFO] subsystem_hooks:    tool_name: Bash
+2025-11-29 03:35:17 [INFO] subsystem_hooks: 📂 Finding actual transcript for session: 14e8e706-4611-4028-b7db-fce58b14f3e9
+2025-11-29 03:35:19 [INFO] subsystem_hooks: 📂 Using transcript file: /home/vano/.claude/projects/-mnt-e-Projects-Quantum-Video-tagging-db/14e8e706-4611-4028-b7db-fce58b14f3e9.jsonl
+2025-11-29 03:35:19 [INFO] subsystem_hooks: 📊 Read 1019 lines from transcript
+2025-11-29 03:35:19 [INFO] subsystem_hooks: 📝 Найдено 47 сообщений диалога (из 8 смен ролей)
+2025-11-29 03:35:19 [INFO] subsystem_hooks: 🎯 Найдено 6 команд пользователя
+2025-11-29 03:35:19 [INFO] subsystem_hooks: ✅ Dialog context extracted: 29372 chars
+2025-11-29 03:35:19 [INFO] subsystem_hooks: ✅ Trigger created: tool_control_pending_1764376517.json
+2025-11-29 04:20:12 [INFO] subsystem_hooks: ✅ Project matched: Video_tagging (user: 158301565, chat: 158301565)
+2025-11-29 04:20:12 [INFO] subsystem_hooks: 🎯 Creating trigger for project: Video_tagging
+2025-11-29 04:20:12 [INFO] subsystem_hooks:    Project dir: /mnt/e/Projects/Quantum/Video_tagging_db
+2025-11-29 04:20:12 [INFO] subsystem_hooks:    User: 158301565, Chat: 158301565
+2025-11-29 04:20:12 [INFO] subsystem_hooks:    Trigger dir: /mnt/e/Projects/Quantum/Video_tagging_db/workflow_inbox
+2025-11-29 04:20:12 [INFO] subsystem_hooks: 📋 Project mode loaded: planning
+2025-11-29 04:20:12 [INFO] subsystem_hooks: 🔍 Extracting dialog context...
+2025-11-29 04:20:12 [INFO] subsystem_hooks:    transcript_path: /home/vano/.claude/projects/-mnt-e-Projects-Quantum-Video-tagging-db/14e8e706-4611-4028-b7db-fce58b14f3e9.jsonl
+2025-11-29 04:20:12 [INFO] subsystem_hooks:    session_id: 14e8e706-4611-4028-b7db-fce58b14f3e9
+2025-11-29 04:20:12 [INFO] subsystem_hooks:    tool_name: Write
+2025-11-29 04:20:12 [INFO] subsystem_hooks: 📂 Finding actual transcript for session: 14e8e706-4611-4028-b7db-fce58b14f3e9
+2025-11-29 04:20:14 [INFO] subsystem_hooks: 📂 Using transcript file: /home/vano/.claude/projects/-mnt-e-Projects-Quantum-Video-tagging-db/14e8e706-4611-4028-b7db-fce58b14f3e9.jsonl
+2025-11-29 04:20:14 [INFO] subsystem_hooks: 📊 Read 1073 lines from transcript
+2025-11-29 04:20:14 [INFO] subsystem_hooks: 📝 Найдено 41 сообщений диалога (из 8 смен ролей)
+2025-11-29 04:20:14 [INFO] subsystem_hooks: 🎯 Найдено 6 команд пользователя
+2025-11-29 04:20:14 [INFO] subsystem_hooks: ✅ Dialog context extracted: 32431 chars
+2025-11-29 04:20:14 [INFO] subsystem_hooks: ✅ Trigger created: tool_control_pending_1764379212.json
+2025-11-29 04:20:41 [INFO] subsystem_hooks: ✅ Project matched: Video_tagging (user: 158301565, chat: 158301565)
+2025-11-29 04:20:41 [INFO] subsystem_hooks: 🎯 Creating trigger for project: Video_tagging
+2025-11-29 04:20:41 [INFO] subsystem_hooks:    Project dir: /mnt/e/Projects/Quantum/Video_tagging_db
+2025-11-29 04:20:41 [INFO] subsystem_hooks:    User: 158301565, Chat: 158301565
+2025-11-29 04:20:41 [INFO] subsystem_hooks:    Trigger dir: /mnt/e/Projects/Quantum/Video_tagging_db/workflow_inbox
+2025-11-29 04:20:41 [INFO] subsystem_hooks: 📋 Project mode loaded: planning
+2025-11-29 04:20:41 [INFO] subsystem_hooks: 🔍 Extracting dialog context...
+2025-11-29 04:20:41 [INFO] subsystem_hooks:    transcript_path: /home/vano/.claude/projects/-mnt-e-Projects-Quantum-Video-tagging-db/14e8e706-4611-4028-b7db-fce58b14f3e9.jsonl
+2025-11-29 04:20:41 [INFO] subsystem_hooks:    session_id: 14e8e706-4611-4028-b7db-fce58b14f3e9
+2025-11-29 04:20:41 [INFO] subsystem_hooks:    tool_name: Write
+2025-11-29 04:20:41 [INFO] subsystem_hooks: 📂 Finding actual transcript for session: 14e8e706-4611-4028-b7db-fce58b14f3e9
+2025-11-29 04:20:43 [INFO] subsystem_hooks: 📂 Using transcript file: /home/vano/.claude/projects/-mnt-e-Projects-Quantum-Video-tagging-db/14e8e706-4611-4028-b7db-fce58b14f3e9.jsonl
+2025-11-29 04:20:43 [INFO] subsystem_hooks: 📊 Read 1075 lines from transcript
+2025-11-29 04:20:43 [INFO] subsystem_hooks: 📝 Найдено 42 сообщений диалога (из 8 смен ролей)
+2025-11-29 04:20:43 [INFO] subsystem_hooks: 🎯 Найдено 6 команд пользователя
+2025-11-29 04:20:43 [INFO] subsystem_hooks: ✅ Dialog context extracted: 32576 chars
+2025-11-29 04:20:43 [INFO] subsystem_hooks: ✅ Trigger created: tool_control_pending_1764379241.json
+2025-11-29 14:41:00 [INFO] subsystem_hooks: ✅ Project matched: Video_tagging (user: 158301565, chat: 158301565)
+2025-11-29 14:41:00 [INFO] subsystem_hooks: 🎯 Creating trigger for project: Video_tagging
+2025-11-29 14:41:00 [INFO] subsystem_hooks:    Project dir: /mnt/e/Projects/Quantum/Video_tagging_db
+2025-11-29 14:41:00 [INFO] subsystem_hooks:    User: 158301565, Chat: 158301565
+2025-11-29 14:41:00 [INFO] subsystem_hooks:    Trigger dir: /mnt/e/Projects/Quantum/Video_tagging_db/workflow_inbox
+2025-11-29 14:41:00 [INFO] subsystem_hooks: 📋 Project mode loaded: planning
+2025-11-29 14:41:00 [INFO] subsystem_hooks: 🔍 Extracting dialog context...
+2025-11-29 14:41:00 [INFO] subsystem_hooks:    transcript_path: /home/vano/.claude/projects/-mnt-e-Projects-Quantum-Video-tagging-db/14e8e706-4611-4028-b7db-fce58b14f3e9.jsonl
+2025-11-29 14:41:00 [INFO] subsystem_hooks:    session_id: 14e8e706-4611-4028-b7db-fce58b14f3e9
+2025-11-29 14:41:00 [INFO] subsystem_hooks:    tool_name: Write
+2025-11-29 14:41:00 [INFO] subsystem_hooks: 📂 Finding actual transcript for session: 14e8e706-4611-4028-b7db-fce58b14f3e9
+2025-11-29 14:41:02 [INFO] subsystem_hooks: 📂 Using transcript file: /home/vano/.claude/projects/-mnt-e-Projects-Quantum-Video-tagging-db/14e8e706-4611-4028-b7db-fce58b14f3e9.jsonl
+2025-11-29 14:41:02 [INFO] subsystem_hooks: 📊 Read 1110 lines from transcript
+2025-11-29 14:41:02 [INFO] subsystem_hooks: 📝 Найдено 62 сообщений диалога (из 8 смен ролей)
+2025-11-29 14:41:02 [INFO] subsystem_hooks: 🎯 Найдено 6 команд пользователя
+2025-11-29 14:41:02 [INFO] subsystem_hooks: ✅ Dialog context extracted: 40623 chars
+2025-11-29 14:41:02 [INFO] subsystem_hooks: ✅ Trigger created: tool_control_pending_1764416460.json
+2025-11-29 14:41:36 [INFO] subsystem_hooks: ✅ Project matched: Video_tagging (user: 158301565, chat: 158301565)
+2025-11-29 14:41:36 [INFO] subsystem_hooks: 🎯 Creating trigger for project: Video_tagging
+2025-11-29 14:41:36 [INFO] subsystem_hooks:    Project dir: /mnt/e/Projects/Quantum/Video_tagging_db
+2025-11-29 14:41:36 [INFO] subsystem_hooks:    User: 158301565, Chat: 158301565
+2025-11-29 14:41:36 [INFO] subsystem_hooks:    Trigger dir: /mnt/e/Projects/Quantum/Video_tagging_db/workflow_inbox
+2025-11-29 14:41:36 [INFO] subsystem_hooks: 📋 Project mode loaded: planning
+2025-11-29 14:41:36 [INFO] subsystem_hooks: 🔍 Extracting dialog context...
+2025-11-29 14:41:36 [INFO] subsystem_hooks:    transcript_path: /home/vano/.claude/projects/-mnt-e-Projects-Quantum-Video-tagging-db/14e8e706-4611-4028-b7db-fce58b14f3e9.jsonl
+2025-11-29 14:41:36 [INFO] subsystem_hooks:    session_id: 14e8e706-4611-4028-b7db-fce58b14f3e9
+2025-11-29 14:41:36 [INFO] subsystem_hooks:    tool_name: Write
+2025-11-29 14:41:36 [INFO] subsystem_hooks: 📂 Finding actual transcript for session: 14e8e706-4611-4028-b7db-fce58b14f3e9
+2025-11-29 14:41:38 [INFO] subsystem_hooks: 📂 Using transcript file: /home/vano/.claude/projects/-mnt-e-Projects-Quantum-Video-tagging-db/14e8e706-4611-4028-b7db-fce58b14f3e9.jsonl
+2025-11-29 14:41:38 [INFO] subsystem_hooks: 📊 Read 1114 lines from transcript
+2025-11-29 14:41:38 [INFO] subsystem_hooks: 📝 Найдено 66 сообщений диалога (из 8 смен ролей)
+2025-11-29 14:41:38 [INFO] subsystem_hooks: 🎯 Найдено 6 команд пользователя
+2025-11-29 14:41:38 [INFO] subsystem_hooks: ✅ Dialog context extracted: 42803 chars
+2025-11-29 14:41:38 [INFO] subsystem_hooks: ✅ Trigger created: tool_control_pending_1764416496.json
+2025-11-29 16:03:42 [INFO] subsystem_hooks: ✅ Project matched: Video_tagging (user: 158301565, chat: 158301565)
+2025-11-29 16:03:42 [INFO] subsystem_hooks: 🎯 Creating trigger for project: Video_tagging
+2025-11-29 16:03:42 [INFO] subsystem_hooks:    Project dir: /mnt/e/Projects/Quantum/Video_tagging_db
+2025-11-29 16:03:42 [INFO] subsystem_hooks:    User: 158301565, Chat: 158301565
+2025-11-29 16:03:42 [INFO] subsystem_hooks:    Trigger dir: /mnt/e/Projects/Quantum/Video_tagging_db/workflow_inbox
+2025-11-29 16:03:42 [INFO] subsystem_hooks: 📋 Project mode loaded: planning
+2025-11-29 16:03:42 [INFO] subsystem_hooks: 🔍 Extracting dialog context...
+2025-11-29 16:03:42 [INFO] subsystem_hooks:    transcript_path: /home/vano/.claude/projects/-mnt-e-Projects-Quantum-Video-tagging-db/14e8e706-4611-4028-b7db-fce58b14f3e9.jsonl
+2025-11-29 16:03:42 [INFO] subsystem_hooks:    session_id: 14e8e706-4611-4028-b7db-fce58b14f3e9
+2025-11-29 16:03:42 [INFO] subsystem_hooks:    tool_name: Bash
+2025-11-29 16:03:42 [INFO] subsystem_hooks: 📂 Finding actual transcript for session: 14e8e706-4611-4028-b7db-fce58b14f3e9
+2025-11-29 16:03:44 [INFO] subsystem_hooks: 📂 Using transcript file: /home/vano/.claude/projects/-mnt-e-Projects-Quantum-Video-tagging-db/14e8e706-4611-4028-b7db-fce58b14f3e9.jsonl
+2025-11-29 16:03:44 [INFO] subsystem_hooks: 📊 Read 1154 lines from transcript
+2025-11-29 16:03:44 [INFO] subsystem_hooks: 📝 Найдено 17 сообщений диалога (из 8 смен ролей)
+2025-11-29 16:03:44 [INFO] subsystem_hooks: 🎯 Найдено 6 команд пользователя
+2025-11-29 16:03:44 [INFO] subsystem_hooks: ✅ Dialog context extracted: 4997 chars
+2025-11-29 16:03:44 [INFO] subsystem_hooks: ✅ Trigger created: tool_control_pending_1764421422.json
+2025-11-29 16:57:29 [INFO] subsystem_hooks: ✅ Project matched: Video_tagging (user: 158301565, chat: 158301565)
+2025-11-29 16:57:29 [INFO] subsystem_hooks: 🎯 Creating trigger for project: Video_tagging
+2025-11-29 16:57:29 [INFO] subsystem_hooks:    Project dir: /mnt/e/Projects/Quantum/Video_tagging_db
+2025-11-29 16:57:29 [INFO] subsystem_hooks:    User: 158301565, Chat: 158301565
+2025-11-29 16:57:29 [INFO] subsystem_hooks:    Trigger dir: /mnt/e/Projects/Quantum/Video_tagging_db/workflow_inbox
+2025-11-29 16:57:29 [INFO] subsystem_hooks: 📋 Project mode loaded: analysis
+2025-11-29 16:57:29 [INFO] subsystem_hooks: 🔍 Extracting dialog context...
+2025-11-29 16:57:29 [INFO] subsystem_hooks:    transcript_path: /home/vano/.claude/projects/-mnt-e-Projects-Quantum-Video-tagging-db/14e8e706-4611-4028-b7db-fce58b14f3e9.jsonl
+2025-11-29 16:57:29 [INFO] subsystem_hooks:    session_id: 14e8e706-4611-4028-b7db-fce58b14f3e9
+2025-11-29 16:57:29 [INFO] subsystem_hooks:    tool_name: Bash
+2025-11-29 16:57:29 [INFO] subsystem_hooks: 📂 Finding actual transcript for session: 14e8e706-4611-4028-b7db-fce58b14f3e9
+2025-11-29 16:57:31 [INFO] subsystem_hooks: 📂 Using transcript file: /home/vano/.claude/projects/-mnt-e-Projects-Quantum-Video-tagging-db/14e8e706-4611-4028-b7db-fce58b14f3e9.jsonl
+2025-11-29 16:57:31 [INFO] subsystem_hooks: 📊 Read 1357 lines from transcript
+2025-11-29 16:57:31 [INFO] subsystem_hooks: 📝 Найдено 196 сообщений диалога (из 8 смен ролей)
+2025-11-29 16:57:31 [INFO] subsystem_hooks: 🎯 Найдено 6 команд пользователя
+2025-11-29 16:57:31 [INFO] subsystem_hooks: ✅ Dialog context extracted: 104227 chars
+2025-11-29 16:57:31 [INFO] subsystem_hooks: ✅ Trigger created: tool_control_pending_1764424649.json
+2025-11-29 16:58:30 [INFO] subsystem_hooks: ✅ Project matched: Video_tagging (user: 158301565, chat: 158301565)
+2025-11-29 16:58:30 [INFO] subsystem_hooks: 🎯 Creating trigger for project: Video_tagging
+2025-11-29 16:58:30 [INFO] subsystem_hooks:    Project dir: /mnt/e/Projects/Quantum/Video_tagging_db
+2025-11-29 16:58:30 [INFO] subsystem_hooks:    User: 158301565, Chat: 158301565
+2025-11-29 16:58:30 [INFO] subsystem_hooks:    Trigger dir: /mnt/e/Projects/Quantum/Video_tagging_db/workflow_inbox
+2025-11-29 16:58:30 [INFO] subsystem_hooks: 📋 Project mode loaded: analysis
+2025-11-29 16:58:30 [INFO] subsystem_hooks: 🔍 Extracting dialog context...
+2025-11-29 16:58:30 [INFO] subsystem_hooks:    transcript_path: /home/vano/.claude/projects/-mnt-e-Projects-Quantum-Video-tagging-db/14e8e706-4611-4028-b7db-fce58b14f3e9.jsonl
+2025-11-29 16:58:30 [INFO] subsystem_hooks:    session_id: 14e8e706-4611-4028-b7db-fce58b14f3e9
+2025-11-29 16:58:30 [INFO] subsystem_hooks:    tool_name: Bash
+2025-11-29 16:58:30 [INFO] subsystem_hooks: 📂 Finding actual transcript for session: 14e8e706-4611-4028-b7db-fce58b14f3e9
+2025-11-29 16:58:32 [INFO] subsystem_hooks: 📂 Using transcript file: /home/vano/.claude/projects/-mnt-e-Projects-Quantum-Video-tagging-db/14e8e706-4611-4028-b7db-fce58b14f3e9.jsonl
+2025-11-29 16:58:32 [INFO] subsystem_hooks: 📊 Read 1363 lines from transcript
+2025-11-29 16:58:32 [INFO] subsystem_hooks: 📝 Найдено 202 сообщений диалога (из 8 смен ролей)
+2025-11-29 16:58:32 [INFO] subsystem_hooks: 🎯 Найдено 6 команд пользователя
+2025-11-29 16:58:32 [INFO] subsystem_hooks: ✅ Dialog context extracted: 108309 chars
+2025-11-29 16:58:32 [INFO] subsystem_hooks: ✅ Trigger created: tool_control_pending_1764424710.json
+2025-11-29 16:58:52 [INFO] subsystem_hooks: ✅ Project matched: Video_tagging (user: 158301565, chat: 158301565)
+2025-11-29 16:58:52 [INFO] subsystem_hooks: 🎯 Creating trigger for project: Video_tagging
+2025-11-29 16:58:52 [INFO] subsystem_hooks:    Project dir: /mnt/e/Projects/Quantum/Video_tagging_db
+2025-11-29 16:58:52 [INFO] subsystem_hooks:    User: 158301565, Chat: 158301565
+2025-11-29 16:58:52 [INFO] subsystem_hooks:    Trigger dir: /mnt/e/Projects/Quantum/Video_tagging_db/workflow_inbox
+2025-11-29 16:58:52 [INFO] subsystem_hooks: 📋 Project mode loaded: analysis
+2025-11-29 16:58:52 [INFO] subsystem_hooks: 🔍 Extracting dialog context...
+2025-11-29 16:58:52 [INFO] subsystem_hooks:    transcript_path: /home/vano/.claude/projects/-mnt-e-Projects-Quantum-Video-tagging-db/14e8e706-4611-4028-b7db-fce58b14f3e9.jsonl
+2025-11-29 16:58:52 [INFO] subsystem_hooks:    session_id: 14e8e706-4611-4028-b7db-fce58b14f3e9
+2025-11-29 16:58:52 [INFO] subsystem_hooks:    tool_name: Bash
+2025-11-29 16:58:52 [INFO] subsystem_hooks: 📂 Finding actual transcript for session: 14e8e706-4611-4028-b7db-fce58b14f3e9
+2025-11-29 16:58:54 [INFO] subsystem_hooks: 📂 Using transcript file: /home/vano/.claude/projects/-mnt-e-Projects-Quantum-Video-tagging-db/14e8e706-4611-4028-b7db-fce58b14f3e9.jsonl
+2025-11-29 16:58:54 [INFO] subsystem_hooks: 📊 Read 1369 lines from transcript
+2025-11-29 16:58:54 [INFO] subsystem_hooks: 📝 Найдено 208 сообщений диалога (из 8 смен ролей)
+2025-11-29 16:58:54 [INFO] subsystem_hooks: 🎯 Найдено 6 команд пользователя
+2025-11-29 16:58:54 [INFO] subsystem_hooks: ✅ Dialog context extracted: 108751 chars
+2025-11-29 16:58:54 [INFO] subsystem_hooks: ✅ Trigger created: tool_control_pending_1764424732.json
+2025-11-29 17:55:54 [INFO] subsystem_hooks: ✅ Project matched: Video_tagging (user: 158301565, chat: 158301565)
+2025-11-29 17:55:54 [INFO] subsystem_hooks: 🎯 Creating trigger for project: Video_tagging
+2025-11-29 17:55:54 [INFO] subsystem_hooks:    Project dir: /mnt/e/Projects/Quantum/Video_tagging_db
+2025-11-29 17:55:54 [INFO] subsystem_hooks:    User: 158301565, Chat: 158301565
+2025-11-29 17:55:54 [INFO] subsystem_hooks:    Trigger dir: /mnt/e/Projects/Quantum/Video_tagging_db/workflow_inbox
+2025-11-29 17:55:54 [INFO] subsystem_hooks: 📋 Project mode loaded: analysis
+2025-11-29 17:55:54 [INFO] subsystem_hooks: 🔍 Extracting dialog context...
+2025-11-29 17:55:54 [INFO] subsystem_hooks:    transcript_path: /home/vano/.claude/projects/-mnt-e-Projects-Quantum-Video-tagging-db/14e8e706-4611-4028-b7db-fce58b14f3e9.jsonl
+2025-11-29 17:55:54 [INFO] subsystem_hooks:    session_id: 14e8e706-4611-4028-b7db-fce58b14f3e9
+2025-11-29 17:55:54 [INFO] subsystem_hooks:    tool_name: Write
+2025-11-29 17:55:54 [INFO] subsystem_hooks: 📂 Finding actual transcript for session: 14e8e706-4611-4028-b7db-fce58b14f3e9
+2025-11-29 17:55:56 [INFO] subsystem_hooks: 📂 Using transcript file: /home/vano/.claude/projects/-mnt-e-Projects-Quantum-Video-tagging-db/14e8e706-4611-4028-b7db-fce58b14f3e9.jsonl
+2025-11-29 17:55:56 [INFO] subsystem_hooks: 📊 Read 1425 lines from transcript
+2025-11-29 17:55:56 [INFO] subsystem_hooks: 📝 Найдено 36 сообщений диалога (из 8 смен ролей)
+2025-11-29 17:55:56 [INFO] subsystem_hooks: 🎯 Найдено 6 команд пользователя
+2025-11-29 17:55:56 [INFO] subsystem_hooks: ✅ Dialog context extracted: 20457 chars
+2025-11-29 17:55:56 [INFO] subsystem_hooks: ✅ Trigger created: tool_control_pending_1764428154.json

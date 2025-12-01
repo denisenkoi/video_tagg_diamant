@@ -1,0 +1,27 @@
+{
+  "vllm_settings": {
+    "api_base": "http://127.0.0.1:11434",
+    "model_name": "Qwen/Qwen3-32B-AWQ",
+    "api_type": "openai_compatible",
+    "temperature": 0.6,
+    "max_tokens": 6000,
+    "presence_penalty": 1.5,
+    "top_p": 0.95,
+    "top_k": 20,
+    "min_p": 0,
+    "timeout": null
+  },
+  "frame_processing": {
+    "interval_seconds": 2,
+    "frames_per_request": 1,
+    "max_resolution": 720,
+    "max_video_minutes": 5
+  },
+  "retry_settings": {
+    "max_retries": 3,
+    "retry_delay": 1.0
+  },
+  "prompts": {
+    "simple_analysis": "Опиши что происходит на этом кадре видео на русском языке. Будь кратким и конкретным."
+  }
+}

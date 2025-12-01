@@ -1,0 +1,10 @@
+{
+  "_comment": "Project mode configuration - controls security audit level",
+  "_available_modes": "See AUTO/project_mode.json for mode definitions",
+  "_usage": "Use Flutter UI Settings or API to change mode",
+  "mode": "unrestricted",
+  "changed_at": "2025-11-29T14:59:22Z",
+  "changed_by": "flutter_ui",
+  "description": "Беспредел - ВСЕ операции разрешены без аудитора. Полная автономия агента. Использовать с осторожностью!",
+  "perpetual": true
+}

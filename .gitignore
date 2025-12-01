@@ -1,0 +1,16 @@
+/agent_sessions
+/run_logs
+/debug_prompts
+/flutter_chats
+/history
+/video
+/voice_messages
+/tags
+/tasks
+/task_confirmations
+/task_queue
+/workflow_inbox
+/workflow_logs
+/__pycache__
+/.idea
+/session_archives

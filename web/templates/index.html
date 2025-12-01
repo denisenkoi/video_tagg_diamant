@@ -1,0 +1,110 @@
+{% extends "base.html" %}
+
+{% block title %}Поиск - Video Tagging{% endblock %}
+
+{% block content %}
+<div class="max-w-4xl mx-auto">
+    <h1 class="text-2xl font-bold mb-6 text-cyan-400">Поиск по видео</h1>
+
+    <!-- Search form -->
+    <div class="card p-6 mb-6">
+        <form id="search-form" class="flex gap-4">
+            <input type="text"
+                   id="search-input"
+                   class="input-field flex-1"
+                   placeholder="Введите запрос на русском или английском..."
+                   autofocus>
+            <button type="submit" class="btn-primary">Найти</button>
+        </form>
+    </div>
+
+    <!-- Results -->
+    <div id="results-container" class="hidden">
+        <div class="flex justify-between items-center mb-4">
+            <span id="results-count" class="text-slate-400"></span>
+        </div>
+
+        <div id="results-list" class="space-y-4">
+            <!-- Results will be inserted here -->
+        </div>
+    </div>
+
+    <!-- Empty state -->
+    <div id="empty-state" class="text-center py-12 text-slate-400">
+        <p class="text-lg mb-2">Введите запрос для поиска</p>
+        <p class="text-sm">Например: "человек говорит", "машина едет", "ночная сцена"</p>
+    </div>
+
+    <!-- Loading -->
+    <div id="loading" class="hidden text-center py-12">
+        <div class="inline-block animate-spin rounded-full h-8 w-8 border-4 border-cyan-400 border-t-transparent"></div>
+        <p class="mt-4 text-slate-400">Поиск...</p>
+    </div>
+</div>
+{% endblock %}
+
+{% block scripts %}
+<script>
+const form = document.getElementById('search-form');
+const input = document.getElementById('search-input');
+const resultsContainer = document.getElementById('results-container');
+const resultsList = document.getElementById('results-list');
+const resultsCount = document.getElementById('results-count');
+const emptyState = document.getElementById('empty-state');
+const loading = document.getElementById('loading');
+
+form.addEventListener('submit', async (e) => {
+    e.preventDefault();
+    const query = input.value.trim();
+    if (!query) return;
+
+    // Show loading
+    emptyState.classList.add('hidden');
+    resultsContainer.classList.add('hidden');
+    loading.classList.remove('hidden');
+
+    try {
+        const response = await fetch(`/api/search?q=${encodeURIComponent(query)}&limit=20`);
+        const data = await response.json();
+
+        // Hide loading
+        loading.classList.add('hidden');
+
+        if (data.results.length === 0) {
+            emptyState.innerHTML = '<p class="text-lg">Ничего не найдено</p>';
+            emptyState.classList.remove('hidden');
+            return;
+        }
+
+        // Show results
+        resultsCount.textContent = `Найдено: ${data.count}`;
+        resultsList.innerHTML = data.results.map(r => `
+            <div class="card p-4 hover:bg-slate-700 transition cursor-pointer"
+                 onclick="window.location.href='/player/${r.video_name}?t=${r.start_time}'">
+                <div class="flex justify-between items-start mb-2">
+                    <span class="text-cyan-400 font-medium">${r.video_name}</span>
+                    <span class="text-sm text-slate-400">${formatTime(r.start_time)} - ${formatTime(r.end_time)}</span>
+                </div>
+                <p class="text-slate-300 mb-2">${r.description || 'Нет описания'}</p>
+                <div class="flex justify-between items-center">
+                    <span class="text-sm text-slate-500">${r.keywords || ''}</span>
+                    <span class="text-sm text-cyan-400">${(r.relevance * 100).toFixed(0)}% релевантность</span>
+                </div>
+            </div>
+        `).join('');
+
+        resultsContainer.classList.remove('hidden');
+    } catch (error) {
+        loading.classList.add('hidden');
+        emptyState.innerHTML = '<p class="text-red-400">Ошибка поиска</p>';
+        emptyState.classList.remove('hidden');
+    }
+});
+
+function formatTime(seconds) {
+    const m = Math.floor(seconds / 60);
+    const s = Math.floor(seconds % 60);
+    return `${m}:${s.toString().padStart(2, '0')}`;
+}
+</script>
+{% endblock %}

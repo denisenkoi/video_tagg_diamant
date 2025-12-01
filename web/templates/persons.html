@@ -1,0 +1,150 @@
+{% extends "base.html" %}
+
+{% block title %}Персоны - Video Tagging{% endblock %}
+
+{% block content %}
+<div class="max-w-6xl mx-auto">
+    <h1 class="text-2xl font-bold mb-6 text-cyan-400">Галерея персон</h1>
+
+    <!-- Filters -->
+    <div class="card p-4 mb-6">
+        <div class="flex flex-wrap gap-4 items-center">
+            <div>
+                <label class="block text-sm text-slate-400 mb-1">Видео</label>
+                <select id="video-select" class="input-field">
+                    {% for v in videos %}
+                    <option value="{{ v }}" {% if v == selected_video %}selected{% endif %}>{{ v }}</option>
+                    {% endfor %}
+                </select>
+            </div>
+            <div>
+                <label class="block text-sm text-slate-400 mb-1">Кластеризация</label>
+                <select id="clustering-select" class="input-field">
+                    <option value="none">Без кластеризации (все лица)</option>
+                    <option value="onthefly">On-the-fly (при обработке)</option>
+                    <option value="postclustering">Post-clustering (Agglomerative)</option>
+                </select>
+            </div>
+            <div class="flex-1"></div>
+            <div id="stats" class="text-slate-400 text-sm"></div>
+        </div>
+    </div>
+
+    <!-- Persons grid -->
+    <div id="persons-grid" class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-4">
+        <!-- Persons will be inserted here -->
+    </div>
+
+    <!-- Loading -->
+    <div id="loading" class="hidden text-center py-12">
+        <div class="inline-block animate-spin rounded-full h-8 w-8 border-4 border-cyan-400 border-t-transparent"></div>
+    </div>
+
+    <!-- Empty state -->
+    <div id="empty-state" class="hidden text-center py-12 text-slate-400">
+        <p>Нет данных о персонах для этого видео</p>
+    </div>
+</div>
+{% endblock %}
+
+{% block scripts %}
+<script>
+const videoSelect = document.getElementById('video-select');
+const clusteringSelect = document.getElementById('clustering-select');
+const personsGrid = document.getElementById('persons-grid');
+const statsEl = document.getElementById('stats');
+const loading = document.getElementById('loading');
+const emptyState = document.getElementById('empty-state');
+
+async function loadPersons() {
+    const video = videoSelect.value;
+    const clustering = clusteringSelect.value;
+
+    personsGrid.innerHTML = '';
+    emptyState.classList.add('hidden');
+    loading.classList.remove('hidden');
+
+    try {
+        // Different API for "none" (all faces) vs clustered
+        if (clustering === 'none') {
+            const response = await fetch(`/api/faces?video=${video}&limit=500`);
+            const data = await response.json();
+
+            loading.classList.add('hidden');
+
+            if (data.faces.length === 0) {
+                emptyState.classList.remove('hidden');
+                statsEl.textContent = '';
+                return;
+            }
+
+            statsEl.textContent = `${data.total} лиц (показано ${data.count})`;
+
+            // Grid of individual faces
+            personsGrid.innerHTML = data.faces.map(f => `
+                <a href="/player/${video}?t=${f.timestamp}"
+                   class="card p-2 hover:bg-slate-700 transition block"
+                   title="${f.gender || '?'}, ${f.age || '?'} лет, score: ${f.det_score || '?'}">
+                    <img src="/api/thumbnail/${f.id}"
+                         class="w-full aspect-square object-cover rounded mb-1"
+                         alt="Face"
+                         loading="lazy">
+                    <div class="text-xs text-center text-slate-400">${formatTime(f.timestamp)}</div>
+                </a>
+            `).join('');
+        } else {
+            const response = await fetch(`/api/persons?video=${video}&clustering=${clustering}`);
+            const data = await response.json();
+
+            loading.classList.add('hidden');
+
+            if (data.persons.length === 0) {
+                emptyState.classList.remove('hidden');
+                statsEl.textContent = '';
+                return;
+            }
+
+            statsEl.textContent = `${data.count} персон, ${clustering === 'onthefly' ? 'on-the-fly' : 'post-clustering'}`;
+
+            personsGrid.innerHTML = data.persons.map(p => `
+                <a href="/person/${p.cluster_id}?video=${video}&clustering=${clustering}"
+                   class="card p-4 hover:bg-slate-700 transition block">
+                    <div class="flex flex-wrap gap-1 mb-3 justify-center">
+                        ${p.detection_ids.slice(0, 4).map(id => `
+                            <img src="/api/thumbnail/${id}"
+                                 class="face-thumb"
+                                 alt="Face"
+                                 loading="lazy">
+                        `).join('')}
+                    </div>
+                    <div class="text-center">
+                        <div class="font-medium text-cyan-400">${p.cluster_id}</div>
+                        <div class="text-sm text-slate-400">${p.detection_count} кадров</div>
+                        <div class="text-xs text-slate-500 mt-1">
+                            ${p.gender || '?'}, ~${p.avg_age || '?'} лет
+                        </div>
+                    </div>
+                </a>
+            `).join('');
+        }
+
+    } catch (error) {
+        loading.classList.add('hidden');
+        emptyState.innerHTML = '<p class="text-red-400">Ошибка загрузки</p>';
+        emptyState.classList.remove('hidden');
+    }
+}
+
+function formatTime(seconds) {
+    const m = Math.floor(seconds / 60);
+    const s = Math.floor(seconds % 60);
+    return `${m}:${s.toString().padStart(2, '0')}`;
+}
+
+videoSelect.addEventListener('change', loadPersons);
+clusteringSelect.addEventListener('change', loadPersons);
+
+// Initial load
+loadPersons();
+</script>
+{% endblock %}

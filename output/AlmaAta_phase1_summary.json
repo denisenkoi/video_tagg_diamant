@@ -1,0 +1,295 @@
+{
+  "video_path": "video/AlmaAta.mp4",
+  "video_name": "AlmaAta",
+  "total_segments": 32,
+  "segments_info": [
+    {
+      "index": 0,
+      "start": 0.0,
+      "end": 50.0,
+      "duration": 50.0,
+      "frame_count": 6,
+      "has_transcript": true,
+      "transcript_preview": "Музыка Этот самолет вылетел из Москвы 4 часа назад."
+    },
+    {
+      "index": 1,
+      "start": 35.0,
+      "end": 85.0,
+      "duration": 50.0,
+      "frame_count": 6,
+      "has_transcript": true,
+      "transcript_preview": "Этот самолет вылетел из Москвы 4 часа назад. Он пролетел свыше 3000 километров. Расстояние равное от"
+    },
+    {
+      "index": 2,
+      "start": 70.0,
+      "end": 120.0,
+      "duration": 50.0,
+      "frame_count": 6,
+      "has_transcript": true,
+      "transcript_preview": "Вернувшись на три часа назад, пассажиры оказались у самых гор Алатау. Субтитры создавал DimaTorzok"
+    },
+    {
+      "index": 3,
+      "start": 105.0,
+      "end": 155.0,
+      "duration": 50.0,
+      "frame_count": 6,
+      "has_transcript": true,
+      "transcript_preview": "Субтитры создавал DimaTorzok Добро пожаловать в Казахстан!"
+    },
+    {
+      "index": 4,
+      "start": 140.0,
+      "end": 190.0,
+      "duration": 50.0,
+      "frame_count": 6,
+      "has_transcript": true,
+      "transcript_preview": "Субтитры создавал DimaTorzok Добро пожаловать в Казахстан!"
+    },
+    {
+      "index": 5,
+      "start": 175.0,
+      "end": 225.0,
+      "duration": 50.0,
+      "frame_count": 6,
+      "has_transcript": true,
+      "transcript_preview": "На высоте 800 метров над уровнем моря. Это на крайнем юго-востоке страны, на пути из Средней Азии в "
+    },
+    {
+      "index": 6,
+      "start": 210.0,
+      "end": 260.0,
+      "duration": 50.0,
+      "frame_count": 6,
+      "has_transcript": true,
+      "transcript_preview": "все еще оставался заштатным уездным городком с населением в 30 тысяч человек. Сейчас Алма-Ата столич"
+    },
+    {
+      "index": 7,
+      "start": 245.0,
+      "end": 295.0,
+      "duration": 50.0,
+      "frame_count": 6,
+      "has_transcript": true,
+      "transcript_preview": "Как по занимаемой территории второе место, так и по экономике. Дом правительства республики. В 50-х "
+    },
+    {
+      "index": 8,
+      "start": 280.0,
+      "end": 330.0,
+      "duration": 50.0,
+      "frame_count": 6,
+      "has_transcript": true,
+      "transcript_preview": "Алма-Ата расположена в сейсмической зоне. Все эти здания построены с таким расчетом, что могут проти"
+    },
+    {
+      "index": 9,
+      "start": 315.0,
+      "end": 365.0,
+      "duration": 50.0,
+      "frame_count": 6,
+      "has_transcript": true,
+      "transcript_preview": "В Алма-Ате 14 высших учебных заведений. Свыше 100 тысяч студентов. В три с лишним раза больше, чем н"
+    },
+    {
+      "index": 10,
+      "start": 350.0,
+      "end": 400.0,
+      "duration": 50.0,
+      "frame_count": 6,
+      "has_transcript": true,
+      "transcript_preview": "Единственная школа — мужская гимназия. Чокан Валиханов — талантливый казахский ученый прошлого века."
+    },
+    {
+      "index": 11,
+      "start": 385.0,
+      "end": 435.0,
+      "duration": 50.0,
+      "frame_count": 6,
+      "has_transcript": true,
+      "transcript_preview": "институтах работают 200 докторов наук полторы тысячи кандидатов до революции 95 процентов казахов бы"
+    },
+    {
+      "index": 12,
+      "start": 420.0,
+      "end": 470.0,
+      "duration": 50.0,
+      "frame_count": 6,
+      "has_transcript": true,
+      "transcript_preview": "Этот мемориал — память о Второй мировой войне, о бойцах Панфиловской дивизии, которая формировалась "
+    },
+    {
+      "index": 13,
+      "start": 455.0,
+      "end": 505.0,
+      "duration": 50.0,
+      "frame_count": 6,
+      "has_transcript": true,
+      "transcript_preview": "Это сель, грязекаменный поток. Он рождается высоко в горах, там где тают летники, в очень жаркую пог"
+    },
+    {
+      "index": 14,
+      "start": 490.0,
+      "end": 540.0,
+      "duration": 50.0,
+      "frame_count": 6,
+      "has_transcript": true,
+      "transcript_preview": "С помощью этого направленного взрыва одним махом было перегорожено ущелье и сооружена высотная плоти"
+    },
+    {
+      "index": 15,
+      "start": 525.0,
+      "end": 575.0,
+      "duration": 50.0,
+      "frame_count": 6,
+      "has_transcript": true,
+      "transcript_preview": "конькобежцев. Медео Медео — любимое место отдыха алма-атинцев. Медео — любимое место отдыха алма-ати"
+    },
+    {
+      "index": 16,
+      "start": 560.0,
+      "end": 610.0,
+      "duration": 50.0,
+      "frame_count": 6,
+      "has_transcript": true,
+      "transcript_preview": "Субтитры создавал DimaTorzok Добавил субтитры DimaTorzok"
+    },
+    {
+      "index": 17,
+      "start": 595.0,
+      "end": 645.0,
+      "duration": 50.0,
+      "frame_count": 6,
+      "has_transcript": true,
+      "transcript_preview": "Субтитры создавал DimaTorzok Добро пожаловать в Казахстан!"
+    },
+    {
+      "index": 18,
+      "start": 630.0,
+      "end": 680.0,
+      "duration": 50.0,
+      "frame_count": 6,
+      "has_transcript": true,
+      "transcript_preview": "Субтитры создавал DimaTorzok Добро пожаловать в Казахстан!"
+    },
+    {
+      "index": 19,
+      "start": 665.0,
+      "end": 715.0,
+      "duration": 50.0,
+      "frame_count": 6,
+      "has_transcript": true,
+      "transcript_preview": "Субтитры создавал DimaTorzok Субтитры создавал DimaTorzok"
+    },
+    {
+      "index": 20,
+      "start": 700.0,
+      "end": 750.0,
+      "duration": 50.0,
+      "frame_count": 6,
+      "has_transcript": true,
+      "transcript_preview": "советского союза по населению 910 тысяч человек кроме казахов здесь живут русские украинцы уйгуры та"
+    },
+    {
+      "index": 21,
+      "start": 735.0,
+      "end": 785.0,
+      "duration": 50.0,
+      "frame_count": 6,
+      "has_transcript": true,
+      "transcript_preview": "Субтитры создавал DimaTorzok Добро пожаловать в Алма-Ате!"
+    },
+    {
+      "index": 22,
+      "start": 770.0,
+      "end": 820.0,
+      "duration": 50.0,
+      "frame_count": 6,
+      "has_transcript": true,
+      "transcript_preview": "50 лет назад в Алма-Ате не было ни одного промышленного предприятия. Сегодня в 80 странах мира хорош"
+    },
+    {
+      "index": 23,
+      "start": 805.0,
+      "end": 855.0,
+      "duration": 50.0,
+      "frame_count": 6,
+      "has_transcript": true,
+      "transcript_preview": "А станки алма-атинского завода тяжелого машиностроения покупают высокоразвитые капиталистические стр"
+    },
+    {
+      "index": 24,
+      "start": 840.0,
+      "end": 890.0,
+      "duration": 50.0,
+      "frame_count": 6,
+      "has_transcript": true,
+      "transcript_preview": "Субтитры создавал DimaTorzok Субтитры создавал DimaTorzok"
+    },
+    {
+      "index": 25,
+      "start": 875.0,
+      "end": 925.0,
+      "duration": 50.0,
+      "frame_count": 6,
+      "has_transcript": true,
+      "transcript_preview": "Государственный музей искусств Казахской ССР. Здесь, как и в других музеях города, хранятся лучшие т"
+    },
+    {
+      "index": 26,
+      "start": 910.0,
+      "end": 960.0,
+      "duration": 50.0,
+      "frame_count": 6,
+      "has_transcript": true,
+      "transcript_preview": "Казахстан Который отправляет на родину моему отцу, исчезает в казахской степи. Этого не может быть! "
+    },
+    {
+      "index": 27,
+      "start": 945.0,
+      "end": 995.0,
+      "duration": 50.0,
+      "frame_count": 6,
+      "has_transcript": true,
+      "transcript_preview": "В Алма-Ате сейчас восемь театров. Субтитры создавал DimaTorzok"
+    },
+    {
+      "index": 28,
+      "start": 980.0,
+      "end": 1030.0,
+      "duration": 50.0,
+      "frame_count": 6,
+      "has_transcript": true,
+      "transcript_preview": "Песня на рябь Песня на рябь"
+    },
+    {
+      "index": 29,
+      "start": 1015.0,
+      "end": 1065.0,
+      "duration": 50.0,
+      "frame_count": 6,
+      "has_transcript": true,
+      "transcript_preview": "Субтитры создавал DimaTorzok Субтитры создавал DimaTorzok"
+    },
+    {
+      "index": 30,
+      "start": 1050.0,
+      "end": 1100.0,
+      "duration": 50.0,
+      "frame_count": 6,
+      "has_transcript": true,
+      "transcript_preview": "Субтитры создавал DimaTorzok Добро пожаловать в Казахстан!"
+    },
+    {
+      "index": 31,
+      "start": 1085.0,
+      "end": 1101.92,
+      "duration": 16.920000000000073,
+      "frame_count": 6,
+      "has_transcript": true,
+      "transcript_preview": "Продолжение следует..."
+    }
+  ]
+}

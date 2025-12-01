@@ -1,0 +1,102 @@
+{% extends "base.html" %}
+
+{% block title %}{{ cluster_id }} - Video Tagging{% endblock %}
+
+{% block content %}
+<div class="max-w-6xl mx-auto">
+    <div class="flex items-center gap-4 mb-6">
+        <a href="/persons?video={{ video }}" class="text-slate-400 hover:text-white">&larr; Назад</a>
+        <h1 class="text-2xl font-bold text-cyan-400">{{ cluster_id }}</h1>
+        <span class="text-slate-400">{{ video }} | {{ clustering }}</span>
+    </div>
+
+    <!-- Stats -->
+    <div class="card p-4 mb-6">
+        <div id="person-stats" class="flex gap-8 text-slate-300">
+            <!-- Stats will be inserted here -->
+        </div>
+    </div>
+
+    <!-- Timeline -->
+    <h2 class="text-lg font-medium mb-4 text-slate-300">Появления на видео</h2>
+
+    <div id="detections-grid" class="grid grid-cols-3 md:grid-cols-4 lg:grid-cols-6 xl:grid-cols-8 gap-3">
+        <!-- Detections will be inserted here -->
+    </div>
+
+    <!-- Loading -->
+    <div id="loading" class="hidden text-center py-12">
+        <div class="inline-block animate-spin rounded-full h-8 w-8 border-4 border-cyan-400 border-t-transparent"></div>
+    </div>
+</div>
+{% endblock %}
+
+{% block scripts %}
+<script>
+const clusterId = '{{ cluster_id }}';
+const video = '{{ video }}';
+const clustering = '{{ clustering }}';
+
+const statsEl = document.getElementById('person-stats');
+const detectionsGrid = document.getElementById('detections-grid');
+const loading = document.getElementById('loading');
+
+async function loadDetections() {
+    loading.classList.remove('hidden');
+
+    try {
+        const response = await fetch(`/api/persons/${clusterId}/detections?video=${video}&clustering=${clustering}`);
+        const data = await response.json();
+
+        loading.classList.add('hidden');
+
+        // Stats
+        const ages = data.detections.map(d => d.age).filter(a => a);
+        const avgAge = ages.length ? Math.round(ages.reduce((a, b) => a + b, 0) / ages.length) : '?';
+        const genders = data.detections.map(d => d.gender).filter(g => g);
+        const commonGender = genders.length ? mode(genders) : '?';
+        const emotions = data.detections.map(d => d.emotion).filter(e => e);
+        const commonEmotion = emotions.length ? mode(emotions) : '?';
+
+        statsEl.innerHTML = `
+            <div><span class="text-slate-400">Кадров:</span> ${data.count}</div>
+            <div><span class="text-slate-400">Пол:</span> ${commonGender}</div>
+            <div><span class="text-slate-400">Возраст:</span> ~${avgAge}</div>
+            <div><span class="text-slate-400">Эмоция:</span> ${commonEmotion}</div>
+            <div><span class="text-slate-400">Время:</span> ${formatTime(data.detections[0]?.timestamp || 0)} - ${formatTime(data.detections[data.detections.length-1]?.timestamp || 0)}</div>
+        `;
+
+        // Detections grid
+        detectionsGrid.innerHTML = data.detections.map(d => `
+            <a href="/player/${video}?t=${d.timestamp}"
+               class="block hover:opacity-80 transition"
+               title="${formatTime(d.timestamp)} | ${d.emotion || ''} | ${d.age || '?'} лет">
+                <img src="/api/thumbnail/${d.id}"
+                     class="w-full aspect-square object-cover rounded"
+                     alt="Face"
+                     loading="lazy">
+                <div class="text-xs text-center text-slate-400 mt-1">${formatTime(d.timestamp)}</div>
+            </a>
+        `).join('');
+
+    } catch (error) {
+        loading.classList.add('hidden');
+        detectionsGrid.innerHTML = '<p class="text-red-400 col-span-full text-center">Ошибка загрузки</p>';
+    }
+}
+
+function formatTime(seconds) {
+    const m = Math.floor(seconds / 60);
+    const s = Math.floor(seconds % 60);
+    return `${m}:${s.toString().padStart(2, '0')}`;
+}
+
+function mode(arr) {
+    const counts = {};
+    arr.forEach(v => counts[v] = (counts[v] || 0) + 1);
+    return Object.entries(counts).sort((a, b) => b[1] - a[1])[0]?.[0];
+}
+
+loadDetections();
+</script>
+{% endblock %}

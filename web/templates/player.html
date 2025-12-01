@@ -1,0 +1,80 @@
+{% extends "base.html" %}
+
+{% block title %}{{ video_name }} - Video Tagging{% endblock %}
+
+{% block content %}
+<div class="max-w-5xl mx-auto">
+    <div class="flex items-center gap-4 mb-6">
+        <a href="javascript:history.back()" class="text-slate-400 hover:text-white">&larr; Назад</a>
+        <h1 class="text-2xl font-bold text-cyan-400">{{ video_name }}</h1>
+    </div>
+
+    <!-- Video player -->
+    <div class="card p-4 mb-6">
+        <video id="video-player"
+               class="w-full rounded"
+               controls
+               preload="metadata">
+            <source src="/api/video/{{ video_name }}/stream" type="video/mp4">
+            Ваш браузер не поддерживает видео.
+        </video>
+    </div>
+
+    <!-- Video info -->
+    {% if video_info %}
+    <div class="card p-4">
+        <div class="grid grid-cols-2 md:grid-cols-4 gap-4 text-sm">
+            <div>
+                <span class="text-slate-400">Длительность:</span>
+                <span id="duration">{{ "%.1f"|format(video_info.video_duration or 0) }}с</span>
+            </div>
+            <div>
+                <span class="text-slate-400">Разрешение:</span>
+                <span>{{ video_info.width or '?' }}x{{ video_info.height or '?' }}</span>
+            </div>
+            <div>
+                <span class="text-slate-400">FPS:</span>
+                <span>{{ video_info.fps or '?' }}</span>
+            </div>
+            <div>
+                <span class="text-slate-400">Текущее время:</span>
+                <span id="current-time">0:00</span>
+            </div>
+        </div>
+    </div>
+    {% endif %}
+</div>
+{% endblock %}
+
+{% block scripts %}
+<script>
+const video = document.getElementById('video-player');
+const currentTimeEl = document.getElementById('current-time');
+const startTime = {{ start_time }};
+
+// Set start time
+video.addEventListener('loadedmetadata', () => {
+    if (startTime > 0) {
+        video.currentTime = startTime;
+    }
+});
+
+// Update current time display
+video.addEventListener('timeupdate', () => {
+    const t = video.currentTime;
+    const m = Math.floor(t / 60);
+    const s = Math.floor(t % 60);
+    currentTimeEl.textContent = `${m}:${s.toString().padStart(2, '0')}`;
+});
+
+// Handle URL hash for time navigation
+if (window.location.hash) {
+    const t = parseFloat(window.location.hash.slice(1));
+    if (!isNaN(t)) {
+        video.addEventListener('loadedmetadata', () => {
+            video.currentTime = t;
+        }, { once: true });
+    }
+}
+</script>
+{% endblock %}
