@@ -30,3 +30,4 @@
 # === DOCS RUNTIME ===
 /docs/worksheet.md
 /output
+/.env

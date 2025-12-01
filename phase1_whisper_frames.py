@@ -1,22 +1,37 @@
 """
 Phase 1: Whisper Transcription + Frame Extraction
 Независимый модуль для подготовки данных
+
+Supports two Whisper modes (via .env):
+- service: faster-whisper API (fast, low GPU)
+- local: local large-v3 model (quality, high GPU)
 """
 
+import os
 import cv2
-import whisper
 import torch
 import numpy as np
 import json
 import pickle
+import requests
 from pathlib import Path
-from typing import List, Dict, Any, Tuple
+from typing import List, Dict, Any, Tuple, Optional
 from tqdm import tqdm
 from datetime import datetime
+from dotenv import load_dotenv
 from config_manager import set_video_path
 from audio_extractor import extract_audio_segment, check_ffmpeg_available, cleanup_temp_files
 from db_manager import ChromaDBManager
 from db_manager_postgres import PostgresDBManager
+
+# Load environment variables
+load_dotenv()
+
+# Whisper configuration from .env
+WHISPER_MODE = os.getenv("WHISPER_MODE", "local")
+WHISPER_SERVICE_URL = os.getenv("WHISPER_SERVICE_URL", "http://172.19.210.59:8087/transcribe")
+WHISPER_TIMEOUT = int(os.getenv("WHISPER_TIMEOUT", "180"))
+WHISPER_LOCAL_MODEL = os.getenv("WHISPER_LOCAL_MODEL", "large-v3")
 
 
 class Phase1WhisperFrames:
@@ -36,19 +51,31 @@ class Phase1WhisperFrames:
         print(f"  Frames per segment: {self.frames_per_segment}")
     
     def initialize_whisper(self):
-        """Initialize Whisper model"""
-        print("Initializing Whisper...")
-        
+        """Initialize Whisper model (only for local mode)"""
+        print(f"Initializing Whisper (mode: {WHISPER_MODE})...")
+
         # Check ffmpeg availability
         if not check_ffmpeg_available():
             raise RuntimeError("ffmpeg not found - required for audio extraction")
         print("✓ ffmpeg available")
-        
-        # Initialize Whisper
-        print("Loading Whisper large-v3...")
-        device = "cuda" if torch.cuda.is_available() else "cpu"
-        self.whisper_model = whisper.load_model("large-v3", device=device)
-        print(f"✓ Whisper loaded on {device}")
+
+        if WHISPER_MODE == "service":
+            # Service mode - just verify API is reachable
+            print(f"Using Whisper service: {WHISPER_SERVICE_URL}")
+            try:
+                # Quick health check (will fail gracefully if service is down)
+                response = requests.get(WHISPER_SERVICE_URL.replace("/transcribe", "/health"), timeout=5)
+                print(f"✓ Whisper service reachable")
+            except Exception as e:
+                print(f"⚠️ Whisper service health check failed: {e}")
+                print(f"  Will attempt transcription anyway...")
+        else:
+            # Local mode - load model
+            import whisper
+            print(f"Loading Whisper {WHISPER_LOCAL_MODEL}...")
+            device = "cuda" if torch.cuda.is_available() else "cpu"
+            self.whisper_model = whisper.load_model(WHISPER_LOCAL_MODEL, device=device)
+            print(f"✓ Whisper loaded on {device}")
     
     def get_video_info(self, video_path: str) -> Tuple[float, int, int, float]:
         """Get video information"""
@@ -129,29 +156,80 @@ class Phase1WhisperFrames:
         return frames
     
     def transcribe_segment(self, video_path: str, start_time: float, duration: float, language: str = None) -> str:
-        """Transcribe audio segment using Whisper"""
+        """Transcribe audio segment using Whisper (service or local mode)"""
         temp_audio = f"temp_segment_{start_time:.1f}_{duration:.1f}.wav"
 
         # Extract audio segment
         if not extract_audio_segment(video_path, start_time, duration, temp_audio):
             return ""
 
+        # Get absolute path for the temp audio file
+        temp_audio_path = str(Path(temp_audio).absolute())
+
+        if WHISPER_MODE == "service":
+            # Service mode - call faster-whisper API
+            result_text = self._transcribe_via_service(temp_audio_path, language)
+        else:
+            # Local mode - use loaded model
+            result_text = self._transcribe_local(temp_audio, language)
+
+        # Clean up temp file
+        Path(temp_audio).unlink(missing_ok=True)
+
+        return result_text
+
+    def _transcribe_via_service(self, audio_path: str, language: str = None) -> str:
+        """Transcribe via faster-whisper HTTP API"""
+        payload = {"audio_path": audio_path}
+        if language:
+            payload["language"] = language
+
+        try:
+            response = requests.post(
+                WHISPER_SERVICE_URL,
+                json=payload,
+                timeout=WHISPER_TIMEOUT
+            )
+            result = response.json()
+
+            if result.get("success"):
+                transcription = result.get("transcription", "")
+                transcribe_time = result.get("transcribe_time", 0)
+                print(f"    [service] Transcribed in {transcribe_time:.2f}s")
+                return transcription
+            else:
+                error = result.get("error", "Unknown error")
+                print(f"    [service] ERROR: {error}")
+                return ""
+
+        except requests.exceptions.Timeout:
+            print(f"    [service] ERROR: Timeout ({WHISPER_TIMEOUT}s)")
+            return ""
+        except Exception as e:
+            print(f"    [service] ERROR: {e}")
+            return ""
+
+    def _transcribe_local(self, audio_path: str, language: str = None) -> str:
+        """Transcribe using local Whisper model"""
+        import whisper
+
+        if self.whisper_model is None:
+            print("    [local] ERROR: Whisper model not initialized")
+            return ""
+
         # Transcribe with Whisper
         if language:
-            result = self.whisper_model.transcribe(temp_audio, language=language)
+            result = self.whisper_model.transcribe(audio_path, language=language)
         else:
-            result = self.whisper_model.transcribe(temp_audio)
-        
+            result = self.whisper_model.transcribe(audio_path)
+
         # Extract text from segments
         text_parts = []
         for segment in result.get('segments', []):
             text = segment.get('text', '').strip()
             if text:
                 text_parts.append(text)
-        
-        # Clean up temp file
-        Path(temp_audio).unlink(missing_ok=True)
-        
+
         return ' '.join(text_parts)
     
     def process_video_phase1(self, video_path: str, language: str = None) -> None:
@@ -353,11 +431,19 @@ def delete_output_files(video_name: str, output_dir: str = "output"):
 
 def main():
     """Main function for Phase 1"""
+    import argparse
+
+    parser = argparse.ArgumentParser(description='Phase 1: Whisper + Frames')
+    parser.add_argument('--config', type=str, default='videos_config.json',
+                        help='Path to videos config JSON')
+    args = parser.parse_args()
+
     print("=== Phase 1: Whisper Transcription + Frame Extraction ===")
+    print(f"Whisper mode: {WHISPER_MODE}")
 
     # Load videos configuration
-    videos_config = load_videos_config("videos_config.json")
-    print(f"\n📋 Loaded {len(videos_config)} videos from config")
+    videos_config = load_videos_config(args.config)
+    print(f"\n📋 Loaded {len(videos_config)} videos from {args.config}")
 
     # Initialize PostgresDBManager for force operations
     pg_db = None
